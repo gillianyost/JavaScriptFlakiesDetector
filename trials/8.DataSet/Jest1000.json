@@ -1,0 +1,903 @@
+[
+  {
+    'react-scripts': {
+      downloads: 3126910,
+      forks: 23446,
+      stars: 95002,
+      watchers: 1926,
+      url: 'github.com/facebook/create-react-app'
+    }
+  },
+  {
+    '@vue/cli-plugin-unit-jest': {
+      downloads: 427834,
+      forks: 6038,
+      stars: 29231,
+      watchers: 660,
+      url: 'github.com/vuejs/vue-cli'
+    }
+  },
+  {
+    '@vant/cli': {
+      downloads: 383,
+      forks: 9247,
+      stars: 19603,
+      watchers: 371,
+      url: 'github.com/youzan/vant'
+    }
+  },
+  {
+    '@backstage/cli': {
+      downloads: 21738,
+      forks: 2447,
+      stars: 16394,
+      watchers: 192,
+      url: 'github.com/backstage/backstage'
+    }
+  },
+  {
+    'bit-bin': {
+      downloads: 1724,
+      forks: 753,
+      stars: 15174,
+      watchers: 178,
+      url: 'github.com/teambit/bit'
+    }
+  },
+  {
+    '@teambit/jest': {
+      downloads: 1584,
+      forks: 753,
+      stars: 15174,
+      watchers: 178,
+      url: 'github.com/teambit/bit'
+    }
+  },
+  {
+    '@umijs/test': {
+      downloads: 20142,
+      forks: 2118,
+      stars: 12319,
+      watchers: 265,
+      url: 'github.com/umijs/umi'
+    }
+  },
+  {
+    'umi-test': {
+      downloads: 4687,
+      forks: 2118,
+      stars: 12319,
+      watchers: 265,
+      url: 'github.com/umijs/umi'
+    }
+  },
+  {
+    razzle: {
+      downloads: 26620,
+      forks: 855,
+      stars: 10734,
+      watchers: 123,
+      url: 'github.com/jaredpalmer/razzle'
+    }
+  },
+  {
+    tsdx: {
+      downloads: 56009,
+      forks: 443,
+      stars: 9676,
+      watchers: 47,
+      url: 'github.com/formium/tsdx'
+    }
+  },
+  {
+    '@wordpress/scripts': {
+      downloads: 23401,
+      forks: 2805,
+      stars: 7788,
+      watchers: 336,
+      url: 'github.com/WordPress/gutenberg'
+    }
+  },
+  {
+    '@microsoft/gulp-core-build': {
+      downloads: 12840,
+      forks: 445,
+      stars: 4009,
+      watchers: 47,
+      url: 'github.com/microsoft/rushstack'
+    }
+  },
+  {
+    '@modern-js/testing': {
+      downloads: 348,
+      forks: 159,
+      stars: 2603,
+      watchers: 46,
+      url: 'github.com/modern-js-dev/modern.js'
+    }
+  },
+  {
+    '@shopify/slate-sync': {
+      downloads: 782,
+      forks: 342,
+      stars: 1286,
+      watchers: 341,
+      url: 'github.com/Shopify/slate'
+    }
+  },
+  {
+    'custom-react-scripts': {
+      downloads: 234,
+      forks: 102,
+      stars: 997,
+      watchers: 28,
+      url: 'github.com/kitze/custom-react-scripts'
+    }
+  },
+  {
+    'kcd-scripts': {
+      downloads: 2805,
+      forks: 194,
+      stars: 836,
+      watchers: 14,
+      url: 'github.com/kentcdodds/kcd-scripts'
+    }
+  },
+  {
+    'jest-cucumber': {
+      downloads: 50132,
+      forks: 93,
+      stars: 516,
+      watchers: 16,
+      url: 'github.com/bencompton/jest-cucumber'
+    }
+  },
+  {
+    'angular-playground': {
+      downloads: 2274,
+      forks: 63,
+      stars: 452,
+      watchers: 13,
+      url: 'github.com/SoCreate/angular-playground'
+    }
+  },
+  {
+    '@acsanyi-test/openapi-validator-core': {
+      downloads: 6,
+      forks: 63,
+      stars: 304,
+      watchers: 21,
+      url: 'github.com/IBM/openapi-validator'
+    }
+  },
+  {
+    '@glennsl/bs-jest': {
+      downloads: 3182,
+      forks: 53,
+      stars: 274,
+      watchers: 8,
+      url: 'github.com/glennsl/bs-jest'
+    }
+  },
+  {
+    'markup-it': {
+      downloads: 311,
+      forks: 44,
+      stars: 261,
+      watchers: 8,
+      url: 'github.com/GitbookIO/markup-it'
+    }
+  },
+  {
+    pri: {
+      downloads: 906,
+      forks: 37,
+      stars: 222,
+      watchers: 10,
+      url: 'github.com/prijs/pri'
+    }
+  },
+  {
+    'jest-mock-axios': {
+      downloads: 89745,
+      forks: 32,
+      stars: 213,
+      watchers: 4,
+      url: 'github.com/knee-cola/jest-mock-axios'
+    }
+  },
+  {
+    'rc-tools': {
+      downloads: 296,
+      forks: 51,
+      stars: 207,
+      watchers: 8,
+      url: 'github.com/react-component/rc-tools'
+    }
+  },
+  {
+    'lwc-services': {
+      downloads: 496,
+      forks: 94,
+      stars: 181,
+      watchers: 15,
+      url: 'github.com/muenzpraeger/create-lwc-app'
+    }
+  },
+  {
+    'storybook-chromatic': {
+      downloads: 16985,
+      forks: 33,
+      stars: 125,
+      watchers: 12,
+      url: 'github.com/chromaui/chromatic-cli'
+    }
+  },
+  {
+    'serverless-jest-plugin': {
+      downloads: 10686,
+      forks: 37,
+      stars: 119,
+      watchers: 19,
+      url: 'github.com/nordcloud/serverless-jest-plugin'
+    }
+  },
+  {
+    '@airbnb/config-jest': {
+      downloads: 199,
+      forks: 11,
+      stars: 112,
+      watchers: 9,
+      url: 'github.com/airbnb/nimbus'
+    }
+  },
+  {
+    testmybot: {
+      downloads: 39,
+      forks: 32,
+      stars: 108,
+      watchers: 15,
+      url: 'github.com/codeforequity-at/testmybot'
+    }
+  },
+  {
+    '@react-workspaces/react-scripts': {
+      downloads: 2126,
+      forks: 35,
+      stars: 91,
+      watchers: 8,
+      url: 'github.com/react-workspaces/create-react-app'
+    }
+  },
+  {
+    'rax-scripts': {
+      downloads: 133,
+      forks: 56,
+      stars: 90,
+      watchers: 15,
+      url: 'github.com/raxjs/rax-scripts'
+    }
+  },
+  {
+    zem: {
+      downloads: 1782,
+      forks: 8,
+      stars: 77,
+      watchers: 19,
+      url: 'github.com/zeplin/zem'
+    }
+  },
+  {
+    'eth-saddle': {
+      downloads: 190,
+      forks: 20,
+      stars: 73,
+      watchers: 14,
+      url: 'github.com/compound-finance/saddle'
+    }
+  },
+  {
+    '@wingsuit-designsystem/core': {
+      downloads: 395,
+      forks: 9,
+      stars: 63,
+      watchers: 4,
+      url: 'github.com/wingsuit-designsystem/wingsuit'
+    }
+  },
+  {
+    'flex-plugin-scripts': {
+      downloads: 4054,
+      forks: 36,
+      stars: 62,
+      watchers: 21,
+      url: 'github.com/twilio/flex-plugin-builder'
+    }
+  },
+  {
+    'flex-plugin-test': {
+      downloads: 3178,
+      forks: 36,
+      stars: 62,
+      watchers: 21,
+      url: 'github.com/twilio/flex-plugin-builder'
+    }
+  },
+  {
+    enqueuer: {
+      downloads: 136,
+      forks: 3,
+      stars: 61,
+      watchers: 9,
+      url: 'github.com/enqueuer-land/enqueuer'
+    }
+  },
+  {
+    'sequelize-redis': {
+      downloads: 318,
+      forks: 8,
+      stars: 48,
+      watchers: 1,
+      url: 'github.com/idangozlan/sequelize-redis'
+    }
+  },
+  {
+    'react-scripts-ts': {
+      downloads: 9301,
+      forks: 17,
+      stars: 41,
+      watchers: 4,
+      url: 'github.com/wmonk/create-react-app'
+    }
+  },
+  {
+    '@daostack/subgraph-experimental': {
+      downloads: 1,
+      forks: 28,
+      stars: 39,
+      watchers: 11,
+      url: 'github.com/daostack/subgraph'
+    }
+  },
+  {
+    'react-scripts-rewired': {
+      downloads: 207,
+      forks: 13,
+      stars: 38,
+      watchers: 2,
+      url: 'github.com/marcopeg/create-react-app'
+    }
+  },
+  {
+    'sequelize-typescript-generator': {
+      downloads: 767,
+      forks: 12,
+      stars: 37,
+      watchers: 2,
+      url: 'github.com/spinlud/sequelize-typescript-generator'
+    }
+  },
+  {
+    cantara: {
+      downloads: 387,
+      forks: 4,
+      stars: 37,
+      watchers: 4,
+      url: 'github.com/CantaraJS/cantara'
+    }
+  },
+  {
+    '@polkadot/dev': {
+      downloads: 6524,
+      forks: 12,
+      stars: 34,
+      watchers: 3,
+      url: 'github.com/polkadot-js/dev'
+    }
+  },
+  {
+    'gatsby-remark-embedded-codesandbox': {
+      downloads: 165,
+      forks: 6,
+      stars: 30,
+      watchers: 2,
+      url: 'github.com/elboman/gatsby-remark-embedded-codesandbox'
+    }
+  },
+  {
+    '@mara/x': {
+      downloads: 201,
+      forks: 3,
+      stars: 25,
+      watchers: 6,
+      url: 'github.com/SinaMFE/mara'
+    }
+  },
+  {
+    '@kdh/client': {
+      downloads: 8,
+      forks: 25,
+      stars: 21,
+      watchers: 6,
+      url: 'github.com/os-js/osjs-client'
+    }
+  },
+  {
+    'bin-utils': {
+      downloads: 55,
+      forks: 2,
+      stars: 12,
+      watchers: 2,
+      url: 'github.com/noderaider/modular'
+    }
+  },
+  {
+    incrementalquintree: {
+      downloads: 49,
+      forks: 5,
+      stars: 12,
+      watchers: 2,
+      url: 'github.com/appliedzkp/incrementalquintree'
+    }
+  },
+  {
+    'backpack-react-scripts': {
+      downloads: 112,
+      forks: 23,
+      stars: 11,
+      watchers: 10,
+      url: 'github.com/Skyscanner/backpack-react-scripts'
+    }
+  },
+  {
+    '@sitevision/sitevision-scripts': {
+      downloads: 132,
+      forks: 8,
+      stars: 11,
+      watchers: 9,
+      url: 'github.com/sitevision/sitevision-apps'
+    }
+  },
+  {
+    '@skyscanner/backpack-react-scripts': {
+      downloads: 182,
+      forks: 23,
+      stars: 11,
+      watchers: 10,
+      url: 'github.com/Skyscanner/backpack-react-scripts'
+    }
+  },
+  {
+    'esnext-scripts': {
+      downloads: 160,
+      forks: 3,
+      stars: 10,
+      watchers: 2,
+      url: 'github.com/jimzhan/esnext-scripts'
+    }
+  },
+  {
+    '@carbon/cli-plugin-jest': {
+      downloads: 14,
+      forks: 5,
+      stars: 9,
+      watchers: 8,
+      url: 'github.com/carbon-design-system/toolkit'
+    }
+  },
+  {
+    mastarm: {
+      downloads: 169,
+      forks: 6,
+      stars: 8,
+      watchers: 4,
+      url: 'github.com/conveyal/mastarm'
+    }
+  },
+  {
+    'raw-transaction-hex-decoder': {
+      downloads: 101,
+      forks: 12,
+      stars: 8,
+      watchers: 0,
+      url: 'github.com/antoncoding/raw-transaction-hex-decoder'
+    }
+  },
+  {
+    'react-web-component-react-scripts': {
+      downloads: 15,
+      forks: 5,
+      stars: 8,
+      watchers: 8,
+      url: 'github.com/weltn24/create-react-web-component'
+    }
+  },
+  {
+    '@contrast/test-bench-utils': {
+      downloads: 30,
+      forks: 3,
+      stars: 7,
+      watchers: 13,
+      url: 'github.com/Contrast-Security-OSS/NodeTestBenches'
+    }
+  },
+  {
+    'crypto-crawler': {
+      downloads: 142,
+      forks: 3,
+      stars: 7,
+      watchers: 1,
+      url: 'github.com/soulmachine/crypto-crawler'
+    }
+  },
+  {
+    'jest-allure-reporter': {
+      downloads: 290,
+      forks: 2,
+      stars: 7,
+      watchers: 2,
+      url: 'github.com/gusarin/jest-allure-reporter'
+    }
+  },
+  {
+    'conflux-web': {
+      downloads: 105,
+      forks: 7,
+      stars: 6,
+      watchers: 4,
+      url: 'github.com/Conflux-Chain/ConfluxWeb'
+    }
+  },
+  {
+    'storage-manager-js': {
+      downloads: 862,
+      forks: 2,
+      stars: 6,
+      watchers: 1,
+      url: 'github.com/g4rcez/storage-manager-js'
+    }
+  },
+  {
+    'valida-js': {
+      downloads: 81,
+      forks: 1,
+      stars: 6,
+      watchers: 1,
+      url: 'github.com/highercomve/valida-js'
+    }
+  },
+  {
+    'ast-to-literal': {
+      downloads: 3029,
+      forks: 1,
+      stars: 4,
+      watchers: 1,
+      url: 'github.com/hypervillain/ast-to-literal'
+    }
+  },
+  {
+    '@xbacked-dao/xbacked-sdk': {
+      downloads: 174,
+      forks: 1,
+      stars: 4,
+      watchers: 1,
+      url: 'github.com/xBacked-DAO/xbacked-sdk'
+    }
+  },
+  {
+    foo: {
+      downloads: 789,
+      forks: 3,
+      stars: 3,
+      watchers: 2,
+      url: 'github.com/jasonLaster/foo'
+    }
+  },
+  {
+    'js-word-count-for-haiku': {
+      downloads: 10,
+      forks: 0,
+      stars: 3,
+      watchers: 1,
+      url: 'github.com/sadnessOjisan/js-word-count-for-haiku'
+    }
+  },
+  {
+    'nova-react-bridge': {
+      downloads: 62,
+      forks: 2,
+      stars: 3,
+      watchers: 2,
+      url: 'github.com/ara-framework/nova-react-bridge'
+    }
+  },
+  {
+    '@wx-fc/jest-config': {
+      downloads: 4,
+      forks: 0,
+      stars: 3,
+      watchers: 2,
+      url: 'github.com/wx-chevalier/m-fe-configs'
+    }
+  },
+  {
+    '@enmove/with-jest': {
+      downloads: 6,
+      forks: 0,
+      stars: 3,
+      watchers: 1,
+      url: 'github.com/murakuma/enmove'
+    }
+  },
+  {
+    'akiya-react-component-scripts': {
+      downloads: 19,
+      forks: 1,
+      stars: 2,
+      watchers: 2,
+      url: 'github.com/purepennons/akiya-react-scripts'
+    }
+  },
+  {
+    'nlp-with-actions': {
+      downloads: 37,
+      forks: 0,
+      stars: 2,
+      watchers: 2,
+      url: 'github.com/michael-spengler/nlp-with-actions'
+    }
+  },
+  {
+    '@djforth/jest-matchers-core': {
+      downloads: 147,
+      forks: 0,
+      stars: 1,
+      watchers: 1,
+      url: 'github.com/djforth/jest-matchers'
+    }
+  },
+  {
+    '@djforth/jest-matchers': {
+      downloads: 83,
+      forks: 0,
+      stars: 1,
+      watchers: 1,
+      url: 'github.com/djforth/jest-matchers'
+    }
+  },
+  {
+    '@obsidiansystems/hw-app-avalanche': {
+      downloads: 636,
+      forks: 4,
+      stars: 1,
+      watchers: 17,
+      url: 'github.com/obsidiansystems/hw-app-avalanche'
+    }
+  },
+  {
+    '@spwashi/spw': {
+      downloads: 22,
+      forks: 0,
+      stars: 1,
+      watchers: 2,
+      url: 'github.com/spwashi/spw-js'
+    }
+  },
+  {
+    'kambi-widget-core-library': {
+      downloads: 117,
+      forks: 0,
+      stars: 1,
+      watchers: 8,
+      url: 'github.com/kambi-sportsbook-widgets/widget-core-library'
+    }
+  },
+  {
+    'sanji-common-devs-ui': {
+      downloads: 67,
+      forks: 0,
+      stars: 0,
+      watchers: 4,
+      url: 'github.com/Sanji-IO/sanji-common-devs-ui'
+    }
+  },
+  {
+    '@bingsjs/op-tools': {
+      downloads: 3,
+      forks: 0,
+      stars: 0,
+      watchers: 1,
+      url: 'github.com/bingtimren/op-tools'
+    }
+  },
+  {
+    '@alib/build-scripts': {
+      downloads: 784,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  {
+    'help-my-strings': {
+      downloads: 46,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'github.com/CD2/HelpMyStrings'
+    }
+  },
+  {
+    '@aica/js-db': {
+      downloads: 9,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'github.com/jasonamavisca/JS-DB'
+    }
+  },
+  {
+    '@alexandria-ui/tokens': {
+      downloads: 159,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  {
+    'depot-test': {
+      downloads: 16,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'github.com/pengfeiWang/tree'
+    }
+  },
+  {
+    'css-modules': {
+      downloads: 801,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  {
+    '@ampersandhq/magepack-sdk': {
+      downloads: 69,
+      forks: 0,
+      stars: 0,
+      watchers: 7,
+      url: 'github.com/AmpersandHQ/magepack-sdk'
+    }
+  },
+  {
+    '@midwest-design/common': {
+      downloads: 90,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'github.com/splitinfinities/midwest'
+    }
+  },
+  {
+    '@ulangi/wiktionary-core': {
+      downloads: 31,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  {
+    'ice-scripts': {
+      downloads: 281,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  {
+    '@sprucelabs/test': {
+      downloads: 17598,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  {
+    '@seolhun/localize-components-utils': {
+      downloads: 10,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  {
+    '@codification/cutwater-build-core': {
+      downloads: 208,
+      forks: 0,
+      stars: 0,
+      watchers: 2,
+      url: 'github.com/CodificationOrg/cutwater'
+    }
+  },
+  {
+    '@alicloud/console-toolkit-plugin-unit-jest': {
+      downloads: 42,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  {
+    '@bootcamp-project/jest-config': {
+      downloads: 64,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  {
+    dragact: {
+      downloads: 88,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  {
+    'lzb-tooltip': {
+      downloads: 12,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'github.com/lvzhenbang/tooltip'
+    }
+  },
+  {
+    'ws-react-modal-dialog': {
+      downloads: 66,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  {
+    '@jorsek/ezd-client': {
+      downloads: 98,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  {
+    '@liquidapps/dapp-client': {
+      downloads: 485,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  {
+    'yoshi-flow-legacy': {
+      downloads: 174,
+      forks: 0,
+      stars: 0,
+      watchers: 0,
+      url: 'undefined'
+    }
+  },
+  ... 100 more items
+]

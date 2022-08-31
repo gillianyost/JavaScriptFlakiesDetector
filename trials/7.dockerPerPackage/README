@@ -1,0 +1,9 @@
+How to run flakyDetector.py:
+./iterateNpmModules.sh npm-module-list.txt
+
+If you need to interrupt the script, you need to run these before starting again:
+sudo docker stop flakyDetector
+sudo docker rm flakyDetector
+
+How to compile RandomSequencer (must be compiled if changed before running flakyDetector):
+Follow steps from trial 1.

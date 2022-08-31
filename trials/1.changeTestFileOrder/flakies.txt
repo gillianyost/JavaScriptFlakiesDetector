@@ -1,0 +1,7 @@
+test : ResourceConsumer.test.js : consumes resource
+test : ResourceConsumer.test.js : consumes resource
+test : ResourceConsumer.test.js : consumes resource
+test : ResourceConsumer.test.js : consumes resource
+test : ResourceConsumer.test.js : consumes resource
+test : ResourceConsumer.test.js : consumes resource
+test : ResourceConsumer.test.js : consumes resource

@@ -1,0 +1,3 @@
+This is a custom test sequencer similar to the one from changeTestFileOrder that randomizes the order of
+test suites for Jest. This randomization applies to both the sequential and parallel running of tests.
+Works when used on change Test File Order example, still need to implement bash script to run on npm modules

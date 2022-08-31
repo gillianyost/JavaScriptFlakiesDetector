@@ -1,0 +1,6 @@
+generator-gulp-angular
+https://github.com/Swiip/generator-gulp-angular
+pourover
+https://github.com/nytimes/pourover
+vue-validator
+https://github.com/kazupon/vue-validator

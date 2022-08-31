@@ -1,0 +1,9 @@
+How to run flakyDetector.sh:
+1. sudo docker run --rm -it -v $(pwd):/home/project node:lts-fermium /bin/bash
+2. apt-get update
+3. apt-get install jq -y
+4. cd /home/project
+5. npm install -g jest @jest/test-sequencer
+6. export NODE_PATH=$(npm root --quiet -g)
+7. export CI=true
+8. ./iterateNpmModules.sh npm-module-list.txt

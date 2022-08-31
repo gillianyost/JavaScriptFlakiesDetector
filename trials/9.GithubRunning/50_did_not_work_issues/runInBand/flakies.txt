@@ -1,0 +1,8 @@
+@serverless-stack/resources : test/NextjsSite.test.ts : attachPermissions
+@serverless-stack/resources : test/ReactStaticSite.test.ts : constructor: default indexPage
+@serverless-stack/resources : test/ReactStaticSite.test.ts : constructor: default errorPage redirect to indexPage
+@serverless-stack/resources : test/ReactStaticSite.test.ts : constructor: default buildCommand
+@serverless-stack/resources : test/ReactStaticSite.test.ts : constructor: default buildCommand override
+@serverless-stack/resources : test/ReactStaticSite.test.ts : constructor: default fileOptions for cache control
+@serverless-stack/resources : test/ReactStaticSite.test.ts : constructor: default replaceValues
+@serverless-stack/resources : test/ReactStaticSite.test.ts : constructor: default replaceValues override
