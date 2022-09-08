@@ -3,8 +3,7 @@ FROM node:lts-fermium
 
 RUN
 apt-get update && apt-get -y install stress-ng
+useradd flakie
 npm install -g jest @jest/test-sequencer
 export NODE_PATH=$(npm root --quiet -g)
 export CI=true
-
-

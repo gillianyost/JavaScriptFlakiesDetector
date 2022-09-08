@@ -1,2 +1,0 @@
-cavy
-https://github.com/pixielabs/cavy
