@@ -22,13 +22,13 @@ while (counter < int(sys.argv[2])):
     if (counter > 0):
         for testResult in data['testResults']:
             for assertionResult in testResult['assertionResults']:
-                if(testSuites[testResult['name'].split('package/')[1]][assertionResult['title']] != assertionResult["status"]):
+                if (testSuites[testResult['name'].split('package/')[1]][assertionResult['title']] != assertionResult["status"]):
                     flakyDetected = True
                     if testResult['name'].split('package/')[1] not in flakiesAll:
                         flakiesAll.append(testResult['name'].split('/package')[1])
                         numFlakyTests = numFlakyTests + 1
-                    with open('../flakies.txt', 'a') as flakies:
-                        flakies.write(sys.argv[1]+" : "+testResult['name'].split('package/')[1]+" : "+assertionResult['title']+"\n")
+                        with open('../flakies.txt', 'a') as flakies:
+                            flakies.write(sys.argv[1]+" : "+testResult['name'].split('package/')[1]+" : "+assertionResult['title']+"\n")
     testSuites = {}
     for testResult in data['testResults']:
         testSuites[testResult['name'].split('package/')[1]] = {}

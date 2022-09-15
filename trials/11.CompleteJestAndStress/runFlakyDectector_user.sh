@@ -6,9 +6,9 @@ commitNum=$3
 option=$4
 count=$5
 testType=$6
-su -c "git clone $link ./package" flakie # Run as user
+git clone $link ./package # Run as user
 cd package
-su -c "git checkout $commitNum" flakie
+git checkout $commitNum
 npm install
 npm run build
 # testType="jest"
@@ -17,10 +17,10 @@ testCommand="$testType$sequencer"
 flaktTestCommand="$testType$flakySeq"
 if [ "$option" == "--stress" ]
 then
-  stress-ng --cpu 2 --matrix 1 --mq 3 &
+  stress-ng --cpu 12 --matrix 9 --mq 5 &
   pid_stress=$!
 fi
-su -c "python ./flakyDetector.py $package $count "$testCommand" "$flaktTestCommand"" flakie
+python ./flakyDetector.py $package $count "$testCommand" "$flaktTestCommand"
 # move files into mount area
 if [ "$option" == "--stress" ]
 then
