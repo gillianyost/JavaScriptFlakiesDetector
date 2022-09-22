@@ -9,35 +9,8 @@ count=$5
 testType=$6
 
 cp -v ./home/projects/flakyDetector.py ./home/flakie
-# cd home/flakie
-# echo "Working"
-# mkdir -v package
-# echo "Directory Made"
-# cd ..
-# cd ..
-# cp ./home/projects/flakyDetector.py ./home/flakie
-echo "COPY MOVED UPDATED"
-
 # USER
-# sudo -u flakie ./home/projects/userRun.sh "$package" "$link" "$commitNum"
-su - flakie
-alias jest='jest --json --outputFile=testReport.txt'
-echo "$whoami"
-git clone $link ./package # Run as user
-cd package
-git checkout $commitNum
-npm install
-npm run build
-cd ..
-testCommand="$testType$sequencer"
-flaktTestCommand="$testType$flakySeq"
-python ./flakyDetector.py $package $count "$testCommand" "$flaktTestCommand"
-# echo "Sucessful Run of Non-Stress Flaky Detector"
-# stress-ng --cpu 6 --matrix 7 --mq 5 &
-# pid_stress=$!
-# python ./flakyDetector.py $package $count "$testCommand" "$flaktTestCommand"
-# kill -9 "$pid_stress"
-# echo "Sucessful Run of Stress Flaky Detector"
+su -c "./home/projects/userRun.sh "$package" "$link" "$commitNum"" flakie
 # testCommand="$testType$sequencer"
 # flaktTestCommand="$testType$flakySeq"
 # ROOT
@@ -48,9 +21,12 @@ then
 fi
 
 # USER
-
-su -c 'python ../home/projects/flakyDetector.py $package $count "$testCommand" "$flaktTestCommand"' flakie
-
+cd ./home/flakie
+echo $count
+# testType="jest --json --outputFile=testReport.txt"
+su -c "python ./flakyDetector.py "$package" "$count" "$testType"" flakie
+cd ..
+cd ..
 # ROOT
 # move files into mount area
 if [ "$option" == "--stress" ]
@@ -58,9 +34,13 @@ then
   kill -9 "$pid_stress"
 fi
 sub=`echo "$package" | tr / _`
+out="_flakies.txt"
 output="$sub$append"
-
-# cp ./home/flakie/"$output" ./home/projects
+flaky_out="$sub$out"
+currdate=$(date +'%Y_%m_%d')
+mkdir -p ./home/projects/"$currdate"
+cp ./home/flakie/"$output" ./home/projects/"$currdate"/
+cp ./home/flakie/"$flaky_out" ./home/projects/"$currdate"/
 # Flaky Tests Text file
 
 # Move results into the mounted area

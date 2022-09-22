@@ -4,7 +4,7 @@ import sys
 import json
 
 os.chdir("package")
-print(os.getcwd)
+# print(os.getcwd)
 counter = 0
 flakyDetected=False
 numPreviousFailedTests=-1
@@ -15,8 +15,14 @@ ODflaky = []
 NODflaky = []
 flakiesAll = []
 
+print("In PYTHON")
+os.system("echo jest")
+flaky_file = "../" + sys.argv[1] + '_flakies.txt'
+flaky_file = flaky_file.replace("/", "_")
+# os.system("alias jest='jest --json --outputFile=testReport.txt'")
 while (counter < int(sys.argv[2])):
-    os.system(sys.argv[3])
+    # os.system(sys.argv[3])
+    os.system("jest --json --outputFile=testReport.txt")
     with open('testReport.txt') as f:
         data = json.load(f)
     if (counter > 0):
@@ -27,7 +33,7 @@ while (counter < int(sys.argv[2])):
                     if testResult['name'].split('package/')[1] not in flakiesAll:
                         flakiesAll.append(testResult['name'].split('/package')[1])
                         numFlakyTests = numFlakyTests + 1
-                        with open('../flakies.txt', 'a') as flakies:
+                        with open(flaky_file, 'a') as flakies:
                             flakies.write(sys.argv[1]+" : "+testResult['name'].split('package/')[1]+" : "+assertionResult['title']+"\n")
     testSuites = {}
     for testResult in data['testResults']:
@@ -38,7 +44,8 @@ while (counter < int(sys.argv[2])):
     counter = counter + 1
 
 numNODFlakyTests = numFlakyTests - numODFlakyTests
-os.system(sys.argv[3])
+# os.system(sys.argv[3])
+os.system("jest --json --outputFile=testReport.txt")
 numFailedTestSuites = data['numFailedTestSuites']
 numFailedTests = data['numFailedTests']
 numPassedTestSuites = data['numPassedTestSuites']
@@ -60,6 +67,7 @@ row = "{},{},{},{},{},{},{},{},{},{},{},{},{}\n".format(
     sys.argv[1],numFlakyTests,numODFlakyTests,numNODFlakyTests,numFailedTestSuites,numFailedTests,numPassedTestSuites,numPassedTests,numPendingTestSuites,numPendingTests,numRuntimeErrorTestSuites,numTotalTestSuites,numTotalTests)
 output_file = sys.argv[1] + '_data.csv'
 output_file = output_file.replace("/", "_")
+print(output_file)
 with open(output_file,'a') as fd:
     fd.write(row)
 
