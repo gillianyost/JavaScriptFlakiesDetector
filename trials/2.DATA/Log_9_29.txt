@@ -1,0 +1,604 @@
+Thu Sep 29 12:10:54 CDT 2022
+UXPin/adele
+jest
+25f9dcbc657b66ff5b52ca0878efb3eff2ddd86fe03a3260c5e39b2763b48643
+'/home/projects/flakyDetector.py' -> '/home/flakie/flakyDetector.py'
+Cloning into './package'...
+Note: checking out '8f93337'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 8f93337... Updates broken external links (#129)
+
+> ttf2woff2@2.0.3 install /home/flakie/package/node_modules/ttf2woff2
+> (node-gyp rebuild > builderror.log) || (exit 0)
+
+../csrc/addon.cc: In function 'Nan::NAN_METHOD_RETURN_TYPE convert(Nan::NAN_METHOD_ARGS_TYPE)':
+../csrc/addon.cc:10:49: error: no matching function for call to 'v8::Value::ToObject()'
+   Local<Object> inputBuffer = info[0]->ToObject();
+                                                 ^
+In file included from /home/flakie/.cache/node-gyp/14.18.1/include/node/node.h:67:0,
+                 from ../../nan/nan.h:56,
+                 from ../csrc/addon.cc:1:
+/home/flakie/.cache/node-gyp/14.18.1/include/node/v8.h:2822:44: note: candidate: v8::MaybeLocal<v8::Object> v8::Value::ToObject(v8::Local<v8::Context>) const
+   V8_WARN_UNUSED_RESULT MaybeLocal<Object> ToObject(
+                                            ^~~~~~~~
+/home/flakie/.cache/node-gyp/14.18.1/include/node/v8.h:2822:44: note:   candidate expects 1 argument, 0 provided
+make: *** [Release/obj.target/addon/csrc/addon.o] Error 1
+gyp ERR! build error 
+gyp ERR! stack Error: `make` failed with exit code: 2
+gyp ERR! stack     at ChildProcess.onExit (/usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:194:23)
+gyp ERR! stack     at ChildProcess.emit (events.js:400:28)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:282:12)
+gyp ERR! System Linux 5.10.16.3-microsoft-standard-WSL2
+gyp ERR! command "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+gyp ERR! cwd /home/flakie/package/node_modules/ttf2woff2
+gyp ERR! node -v v14.18.1
+gyp ERR! node-gyp -v v5.1.0
+gyp ERR! not ok 
+
+> core-js@2.6.11 postinstall /home/flakie/package/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> core-js-pure@3.6.5 postinstall /home/flakie/package/node_modules/core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> cwebp-bin@5.1.0 postinstall /home/flakie/package/node_modules/cwebp-bin
+> node lib/install.js
+
+  ⚠ Command failed: /home/flakie/package/node_modules/cwebp-bin/vendor/cwebp -version
+/home/flakie/package/node_modules/cwebp-bin/vendor/cwebp: error while loading shared libraries: libGL.so.1: cannot open shared object file: No such file or directory
+
+
+  ⚠ cwebp pre-build test failed
+  ℹ compiling from source
+  ✔ cwebp built successfully
+
+> gifsicle@4.0.1 postinstall /home/flakie/package/node_modules/gifsicle
+> node lib/install.js
+
+  ✔ gifsicle pre-build test passed successfully
+
+> mozjpeg@6.0.1 postinstall /home/flakie/package/node_modules/mozjpeg
+> node lib/install.js
+
+  ✔ mozjpeg pre-build test passed successfully
+
+> optipng-bin@6.0.0 postinstall /home/flakie/package/node_modules/optipng-bin
+> node lib/install.js
+
+  ✔ optipng pre-build test passed successfully
+
+> pngquant-bin@5.0.2 postinstall /home/flakie/package/node_modules/pngquant-bin
+> node lib/install.js
+
+  ✔ pngquant pre-build test passed successfully
+
+> adele@1.0.0 postinstall /home/flakie/package
+> npm run data-build && npm run build:production && npm run build:server
+
+
+> adele@1.0.0 data-build /home/flakie/package
+> node tools/data-builder.js
+
+
+> adele@1.0.0 build:production /home/flakie/package
+> webpack -p --env.production
+
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+The prop value with an expression type of SequenceExpression could not be resolved. Please file issue to get this fixed immediately.
+Hash: b92172576345f4dcb515
+Version: webpack 4.44.0
+Time: 12580ms
+Built at: 09/29/2022 5:12:46 PM
+                               Asset       Size  Chunks                    Chunk Names
+337c99d381099f641300b263fd81ac81.png   2.63 KiB          [emitted]         
+516e2a58f6f2ac8c1db9757e0361d78d.png  684 bytes          [emitted]         
+abbc80dfaea5dbe344d63423c2ee0f23.png   7.77 KiB          [emitted]         
+                           bundle.js    612 KiB       0  [emitted]  [big]  main
+edf6f4c2c36cf510c7eec0ee952dc087.png   1.11 KiB          [emitted]         
+                         favicon.ico   1.12 KiB          [emitted]         
+                          index.html   2.16 KiB          [emitted]         
+                          robots.txt   25 bytes          [emitted]         
+                   twitter_image.jpg     82 KiB          [emitted]         
+Entrypoint main [big] = bundle.js
+ [9] (webpack)/buildin/global.js 472 bytes {0} [built]
+[12] ./node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js + 1 modules 4.41 KiB {0} [built]
+     |    2 modules
+[14] ./src/data/data.json 352 KiB {0} [built]
+[22] multi ./src/index.js 28 bytes {0} [built]
+[33] (webpack)/buildin/module.js 497 bytes {0} [built]
+[34] ./src/index.js + 81 modules 240 KiB {0} [built]
+     | ./src/index.js 370 bytes [built]
+     | ./src/containers/appContainer/app-container.jsx 8.09 KiB [built]
+     | ./src/containers/tableContainer/table-container.jsx 32.4 KiB [built]
+     | ./src/containers/headerContainer/header-container.jsx 658 bytes [built]
+     | ./src/containers/infoContainer/info-container.jsx 441 bytes [built]
+     | ./src/containers/appContainer/app-container.styles.jsx 2.54 KiB [built]
+     | ./src/containers/detailsPage/details-page.jsx 8.16 KiB [built]
+     | ./src/assets/powerful-prototyping.png 80 bytes [built]
+     | ./src/assets/icon-board.png 80 bytes [built]
+     | ./src/containers/appContainer/scroll-to-top.jsx 279 bytes [built]
+     | ./src/style_tokens/tokens.js 5.55 KiB [built]
+     | ./src/services/data.js 2.92 KiB [built]
+     | ./src/containers/tableContainer/table-container.styles.jsx 1.95 KiB [built]
+     | ./src/containers/headerContainer/header-container.styles.jsx 808 bytes [built]
+     | ./src/containers/infoContainer/info-container.styles.jsx 788 bytes [built]
+     |     + 67 hidden modules
+    + 29 hidden modules
+
+WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  bundle.js (612 KiB)
+
+WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (612 KiB)
+      bundle.js
+
+
+WARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+Child HtmlWebpackCompiler:
+     1 asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [0] ./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html 2.53 KiB {0} [built]
+
+> adele@1.0.0 build:server /home/flakie/package
+> NODE_ENV=production webpack --config webpack.server.config.js -p --env.production
+
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+The prop value with an expression type of SequenceExpression could not be resolved. Please file issue to get this fixed immediately.
+Hash: ba72b4981330da03411b
+Version: webpack 4.44.0
+Time: 19127ms
+Built at: 09/29/2022 5:13:06 PM
+                               Asset       Size  Chunks                   Chunk Names
+337c99d381099f641300b263fd81ac81.png   2.63 KiB          [emitted]        
+516e2a58f6f2ac8c1db9757e0361d78d.png  684 bytes          [emitted]        
+abbc80dfaea5dbe344d63423c2ee0f23.png   7.77 KiB          [emitted]        
+edf6f4c2c36cf510c7eec0ee952dc087.png   1.11 KiB          [emitted]        
+                           server.js   1.08 MiB       0  [emitted]        main
+                       server.js.map   2.05 MiB       0  [emitted] [dev]  main
+Entrypoint main = server.js server.js.map
+  [2] external "fs" 42 bytes {0} [built]
+  [4] external "path" 42 bytes {0} [built]
+  [5] external "stream" 42 bytes {0} [built]
+  [6] external "util" 42 bytes {0} [built]
+  [8] external "net" 42 bytes {0} [built]
+ [10] external "buffer" 42 bytes {0} [built]
+ [13] external "tty" 42 bytes {0} [built]
+ [28] external "http" 42 bytes {0} [built]
+ [39] (webpack)/buildin/module.js 497 bytes {0} [built]
+ [41] external "events" 42 bytes {0} [built]
+ [47] external "zlib" 42 bytes {0} [built]
+ [54] external "url" 42 bytes {0} [built]
+ [73] ./src/data/data.json 352 KiB {0} [built]
+ [76] multi ./src/server.js 28 bytes {0} [built]
+[168] ./src/server.js + 89 modules 367 KiB {0} [built] [1 warning]
+      | ./src/server.js 2.52 KiB [built] [1 warning]
+      | ./src/containers/appContainer/app-container.jsx 8.09 KiB [built]
+      | ./src/containers/tableContainer/table-container.jsx 32.4 KiB [built]
+      | ./src/containers/headerContainer/header-container.jsx 658 bytes [built]
+      | ./src/containers/infoContainer/info-container.jsx 441 bytes [built]
+      | ./src/containers/appContainer/app-container.styles.jsx 2.54 KiB [built]
+      | ./src/containers/detailsPage/details-page.jsx 8.16 KiB [built]
+      | ./src/assets/powerful-prototyping.png 80 bytes [built]
+      | ./src/assets/icon-board.png 80 bytes [built]
+      | ./src/containers/appContainer/scroll-to-top.jsx 279 bytes [built]
+      | ./src/style_tokens/tokens.js 5.55 KiB [built]
+      | ./src/services/data.js 2.92 KiB [built]
+      | ./src/containers/tableContainer/table-container.styles.jsx 1.95 KiB [built]
+      | ./src/containers/headerContainer/header-container.styles.jsx 808 bytes [built]
+      | ./src/containers/infoContainer/info-container.styles.jsx 788 bytes [built]
+      |     + 75 hidden modules
+    + 154 hidden modules
+
+WARNING in ./node_modules/express/lib/view.js 81:13-25
+Critical dependency: the request of a dependency is an expression
+ @ ./node_modules/express/lib/application.js
+ @ ./node_modules/express/lib/express.js
+ @ ./node_modules/express/index.js
+ @ ./src/server.js
+ @ multi ./src/server.js
+
+WARNING in ./src/server.js
+Module Warning (from ./node_modules/eslint-loader/dist/cjs.js):
+
+/home/flakie/package/src/server.js
+  103:3  warning  Unexpected console statement  no-console
+
+✖ 1 problem (0 errors, 1 warning)
+
+ @ multi ./src/server.js main[0]
+npm WARN adele@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/webpack-dev-server/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/watchpack-chokidar2/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/jest-environment-enzyme/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+added 2098 packages from 854 contributors and audited 2106 packages in 127.59s
+
+122 packages are looking for funding
+  run `npm fund` for details
+
+found 266 vulnerabilities (5 low, 88 moderate, 149 high, 24 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+npm ERR! missing script: build
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/flakie/.npm/_logs/2022-09-29T17_13_11_939Z-debug.log
+Error: Could not find a config file based on provided values:
+path: "/home/flakie"
+cwd: "/home/flakie"
+Config paths must be specified by either a direct path to a config
+file, or a path to a directory. If directory is given, Jest will try to
+traverse directory tree up, until it finds one of those files in exact order: "jest.config.js" or "jest.config.ts" or "jest.config.mjs" or "jest.config.cjs" or "jest.config.json".
+    at resolveConfigPathByTraversing (/usr/local/lib/node_modules/jest/node_modules/jest-config/build/resolveConfigPath.js:189:11)
+    at resolveConfigPathByTraversing (/usr/local/lib/node_modules/jest/node_modules/jest-config/build/resolveConfigPath.js:192:10)
+    at resolveConfigPathByTraversing (/usr/local/lib/node_modules/jest/node_modules/jest-config/build/resolveConfigPath.js:192:10)
+    at resolveConfigPath (/usr/local/lib/node_modules/jest/node_modules/jest-config/build/resolveConfigPath.js:153:10)
+    at readConfig (/usr/local/lib/node_modules/jest/node_modules/jest-config/build/index.js:211:49)
+    at readConfigs (/usr/local/lib/node_modules/jest/node_modules/jest-config/build/index.js:404:32)
+    at runCLI (/usr/local/lib/node_modules/jest/node_modules/@jest/core/build/cli/index.js:183:29)
+    at Object.run (/usr/local/lib/node_modules/jest/node_modules/jest-cli/build/cli/index.js:155:62)
+In PYTHON
+jest
+jest --json --outputFile=testReport.txt
+Traceback (most recent call last):
+  File "./flakyDetector.py", line 36, in <module>
+    with open('testReport.txt') as f:
+IOError: [Errno 2] No such file or directory: 'testReport.txt'
+cp: cannot stat '/home/flakie/UXPin_adele_data.csv': No such file or directory
+cp: cannot stat '/home/flakie/UXPin_adele_flakies.txt': No such file or directory
+flakyDetector
+flakyDetector
+Container Removed
+Airtable/airtable
+jest@--env@node@--coverage@--no-cache
+188fab0cbf51bb8baaec1295d4d748136f96db8bfb64994b59ec7c88849fc8c9
+'/home/projects/flakyDetector.py' -> '/home/flakie/flakyDetector.py'
+Cloning into './package'...
+warning: redirecting to https://github.com/Airtable/airtable.js/
+Note: checking out '97cc08e'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 97cc08e... Merge pull request #324 from ThomasWang-at/patch-1
+npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but package-lock.json was generated for lockfileVersion@2. I'll try to do my best with it!
+
+> husky@3.1.0 install /home/flakie/package/node_modules/husky
+> node husky install
+
+husky > Setting up git hooks
+ENOENT: no such file or directory, mkdir 'node_modules/husky/.git/hooks'
+husky > Failed to install
+
+> husky@3.1.0 postinstall /home/flakie/package/node_modules/husky
+> opencollective-postinstall || exit 0
+
+[96m[1mThank you for using husky![96m[1m
+[0m[96mIf you rely on this package, please consider supporting our open collective:[22m[39m
+> [94mhttps://opencollective.com/husky/donate[0m
+
+
+> airtable@0.11.4 prepare /home/flakie/package
+> rm -rf lib/* && rm -f build/airtable.browser.js && tsc && cp lib/airtable.js lib/tmp_airtable.js && grunt browserify && rm lib/tmp_airtable.js
+
+Running "browserify:umd" (browserify) task
+>> Bundle ./lib/airtable.umd.js created.
+
+Running "browserify:browser" (browserify) task
+>> Bundle ./build/airtable.browser.js created.
+
+Done.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+added 986 packages from 620 contributors and audited 991 packages in 53.79s
+
+35 packages are looking for funding
+  run `npm fund` for details
+
+found 91 vulnerabilities (7 moderate, 65 high, 19 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+npm ERR! missing script: build
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/flakie/.npm/_logs/2022-09-29T17_14_16_158Z-debug.log
+Error: Could not find a config file based on provided values:
+path: "/home/flakie"
+cwd: "/home/flakie"
+Config paths must be specified by either a direct path to a config
+file, or a path to a directory. If directory is given, Jest will try to
+traverse directory tree up, until it finds one of those files in exact order: "jest.config.js" or "jest.config.ts" or "jest.config.mjs" or "jest.config.cjs" or "jest.config.json".
+    at resolveConfigPathByTraversing (/usr/local/lib/node_modules/jest/node_modules/jest-config/build/resolveConfigPath.js:189:11)
+    at resolveConfigPathByTraversing (/usr/local/lib/node_modules/jest/node_modules/jest-config/build/resolveConfigPath.js:192:10)
+    at resolveConfigPathByTraversing (/usr/local/lib/node_modules/jest/node_modules/jest-config/build/resolveConfigPath.js:192:10)
+    at resolveConfigPath (/usr/local/lib/node_modules/jest/node_modules/jest-config/build/resolveConfigPath.js:153:10)
+    at readConfig (/usr/local/lib/node_modules/jest/node_modules/jest-config/build/index.js:211:49)
+    at readConfigs (/usr/local/lib/node_modules/jest/node_modules/jest-config/build/index.js:404:32)
+    at runCLI (/usr/local/lib/node_modules/jest/node_modules/@jest/core/build/cli/index.js:183:29)
+    at Object.run (/usr/local/lib/node_modules/jest/node_modules/jest-cli/build/cli/index.js:155:62)
+In PYTHON
+jest@--env@node@--coverage@--no-cache
+jest --json --outputFile=testReport.txt --env node --coverage --no-cache
+Traceback (most recent call last):
+  File "./flakyDetector.py", line 36, in <module>
+    with open('testReport.txt') as f:
+IOError: [Errno 2] No such file or directory: 'testReport.txt'
+cp: cannot stat '/home/flakie/Airtable_airtable_data.csv': No such file or directory
+cp: cannot stat '/home/flakie/Airtable_airtable_flakies.txt': No such file or directory
+flakyDetector
+flakyDetector
+Container Removed
+algolia/algoliasearch-client-javascript
+jest@--env@node@--coverage@--no-cache
+8d8d454c824c49e6c8aca0ae98a35a080cace8ed382ef678a017aa39bffbe1dd
+'/home/projects/flakyDetector.py' -> '/home/flakie/flakyDetector.py'
+Cloning into './package'...
+warning: redirecting to https://github.com/algolia/algoliasearch-client-javascript/
+Note: checking out 'b906cbf0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at b906cbf0... chore: release v4.14.2 (#1420)
+npm WARN deprecated rollup-plugin-babel@4.4.0: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-babel.
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated axios@0.19.2: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+npm WARN deprecated iltorb@2.4.5: The zlib module provides APIs for brotli compression/decompression starting with Node.js v10.16.0, please use it over iltorb
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated @evocateur/pacote@9.6.5: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated read-package-tree@5.3.1: The functionality that this package provided is now in @npmcli/arborist
+npm WARN deprecated @evocateur/libnpmaccess@3.1.2: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated @evocateur/npm-registry-fetch@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated sane@4.1.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+npm WARN deprecated @evocateur/libnpmpublish@1.2.2: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated node-fetch-npm@2.0.4: This module is not used anymore, npm uses minipass-fetch for its fetch implementation now
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated mkdirp-promise@5.0.1: This package is broken and no longer maintained. 'mkdirp' itself supports promises now, please switch to that.
+
+> iltorb@2.4.5 install /home/flakie/package/node_modules/iltorb
+> node ./scripts/install.js || node-gyp rebuild
+
+info looking for cached prebuild @ /home/flakie/.npm/_prebuilds/c57c4d-iltorb-v2.4.5-node-v83-linux-x64.tar.gz
+http request GET https://github.com/nstepien/iltorb/releases/download/v2.4.5/iltorb-v2.4.5-node-v83-linux-x64.tar.gz
+http 404 https://github.com/nstepien/iltorb/releases/download/v2.4.5/iltorb-v2.4.5-node-v83-linux-x64.tar.gz
+WARN install No prebuilt binaries found (target=14.18.1 runtime=node arch=x64 libc= platform=linux)
+make: Entering directory '/home/flakie/package/node_modules/iltorb/build'
+  CC(target) Release/obj.target/iltorb/brotli/c/common/dictionary.o
+  CC(target) Release/obj.target/iltorb/brotli/c/common/transform.o
+  CC(target) Release/obj.target/iltorb/brotli/c/dec/bit_reader.o
+  CC(target) Release/obj.target/iltorb/brotli/c/dec/decode.o
+  CC(target) Release/obj.target/iltorb/brotli/c/dec/huffman.o
+  CC(target) Release/obj.target/iltorb/brotli/c/dec/state.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/backward_references.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/backward_references_hq.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/bit_cost.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/block_splitter.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/brotli_bit_stream.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/cluster.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/compress_fragment.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/compress_fragment_two_pass.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/dictionary_hash.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/encode.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/encoder_dict.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/entropy_encode.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/histogram.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/literal_cost.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/memory.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/metablock.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/static_dict.o
+  CC(target) Release/obj.target/iltorb/brotli/c/enc/utf8_util.o
+  CXX(target) Release/obj.target/iltorb/src/common/allocator.o
+  CXX(target) Release/obj.target/iltorb/src/common/stream_coder.o
+  CXX(target) Release/obj.target/iltorb/src/dec/stream_decode.o
+  CXX(target) Release/obj.target/iltorb/src/dec/stream_decode_worker.o
+  CXX(target) Release/obj.target/iltorb/src/enc/stream_encode.o
+  CXX(target) Release/obj.target/iltorb/src/enc/stream_encode_worker.o
+  CXX(target) Release/obj.target/iltorb/src/iltorb.o
+  SOLINK_MODULE(target) Release/obj.target/iltorb.node
+  COPY Release/iltorb.node
+  COPY ../build/bindings/iltorb.node
+  TOUCH Release/obj.target/action_after_build.stamp
+make: Leaving directory '/home/flakie/package/node_modules/iltorb/build'
+
+> husky@4.2.3 install /home/flakie/package/node_modules/husky
+> node husky install
+
+husky > Setting up git hooks
+Husky requires Git >=2.13.0. Got v2.11.0.
+husky > Failed to install
+
+> sauce-connect-launcher@1.3.2 postinstall /home/flakie/package/node_modules/sauce-connect-launcher
+> node scripts/install.js || nodejs scripts/install.js
+
+
+> husky@4.2.3 postinstall /home/flakie/package/node_modules/husky
+> opencollective-postinstall || exit 0
+
+[96m[1mThank you for using husky![96m[1m
+[0m[96mIf you rely on this package, please consider supporting our open collective:[22m[39m
+> [94mhttps://opencollective.com/husky/donate[0m
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules/chokidar/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.2 (node_modules/@wdio/cli/node_modules/chokidar/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^2.1.2 (node_modules/jest-haste-map/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN @octokit/plugin-request-log@1.0.4 requires a peer of @octokit/core@>=3 but none is installed. You must install peer dependencies yourself.
+
+added 2163 packages from 780 contributors and audited 2171 packages in 105.129s
+
+120 packages are looking for funding
+  run `npm fund` for details
+
+found 38 vulnerabilities (1 low, 16 moderate, 19 high, 2 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+> @4.14.2 build /home/flakie/package
+> node --max-old-space-size=4096 scripts/build.js
+
+
+/home/flakie/package/packages/client-account/src/index.ts → packages/client-account/dist/client-account.cjs.js...
+
+/home/flakie/package/packages/requester-browser-xhr/src/index.ts → packages/requester-browser-xhr/dist/requester-browser-xhr.cjs.js...
+
+/home/flakie/package/packages/algoliasearch/src/builds/node.ts → packages/algoliasearch/dist/algoliasearch.cjs.js...
+
+/home/flakie/package/packages/client-analytics/src/index.ts → packages/client-analytics/dist/client-analytics.cjs.js...
+
+/home/flakie/package/packages/transporter/src/index.ts → packages/transporter/dist/transporter.cjs.js...
+
+/home/flakie/package/packages/logger-console/src/index.ts → packages/logger-console/dist/logger-console.cjs.js...
+
+/home/flakie/package/packages/cache-in-memory/src/index.ts → packages/cache-in-memory/dist/cache-in-memory.cjs.js...
+
+/home/flakie/package/packages/client-search/src/index.ts → packages/client-search/dist/client-search.cjs.js...
+
+/home/flakie/package/packages/requester-common/src/index.ts → packages/requester-common/dist/requester-common.cjs.js...
+
+/home/flakie/package/packages/cache-common/src/index.ts → packages/cache-common/dist/cache-common.cjs.js...
+
+/home/flakie/package/packages/logger-common/src/index.ts → packages/logger-common/dist/logger-common.cjs.js...
+
+/home/flakie/package/packages/client-personalization/src/index.ts → packages/client-personalization/dist/client-personalization.cjs.js...
+
+/home/flakie/package/packages/requester-fetch/src/index.ts → packages/requester-fetch/dist/requester-fetch.cjs.js...
+
+/home/flakie/package/packages/client-common/src/index.ts → packages/client-common/dist/client-common.cjs.js...
+
+/home/flakie/package/packages/cache-browser-local-storage/src/index.ts → packages/cache-browser-local-storage/dist/cache-browser-local-storage.cjs.js...
+
+/home/flakie/package/packages/client-recommendation/src/index.ts → packages/client-recommendation/dist/client-recommendation.cjs.js...
+
+/home/flakie/package/packages/requester-node-http/src/index.ts → packages/requester-node-http/dist/requester-node-http.cjs.js...
+
+/home/flakie/package/packages/recommend/src/builds/browser.ts → packages/recommend/dist/recommend.esm.browser.js...
+(node:795) UnhandledPromiseRejectionWarning: Error: Command failed: rollup -c --environment TARGET:client-common
+    at makeError (/home/flakie/package/node_modules/execa/index.js:174:9)
+    at /home/flakie/package/node_modules/execa/index.js:278:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async build (/home/flakie/package/scripts/build.js:25:3)
+    at async Promise.all (index 6)
+    at async run (/home/flakie/package/scripts/build.js:18:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:795) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:795) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                          │
+│   Destination: /home/flakie/package/packages/logger-console/dist/logger-console.cjs.js   │
+│   Bundle Size:  821 B                                                                    │
+│   Gzipped Size:  247 B                                                                   │
+│                                                                                          │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+created packages/logger-console/dist/logger-console.cjs.js in 8m 55.3s
+
+/home/flakie/package/packages/logger-console/src/index.ts → packages/logger-console/dist/logger-console.esm.js...
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                          │
+│   Destination: /home/flakie/package/packages/logger-console/dist/logger-console.esm.js   │
+│   Bundle Size:  698 B                                                                    │
+│   Gzipped Size:  187 B                                                                   │
+│                                                                                          │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+created packages/logger-console/dist/logger-console.esm.js in 4m 48.5s
+
+Rolling up type definitions for logger-console...
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                                                    │
+│   Destination: /home/flakie/package/packages/cache-browser-local-storage/dist/cache-browser-local-storage.cjs.js   │
+│   Bundle Size:  2.11 KB                                                                                            │
+│   Gzipped Size:  409 B                                                                                             │
+│                                                                                                                    │
+└────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                    │
+│   Destination: /home/flakie/package/packages/transporter/dist/transporter.cjs.js   │
+│   Bundle Size:  18.59 KB                                                           │
+│   Gzipped Size:  2.32 KB                                                           │
+│                                                                                    │
+└────────────────────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                            │
+│   Destination: /home/flakie/package/packages/cache-in-memory/dist/cache-in-memory.cjs.js   │
+│   Bundle Size:  1.33 KB                                                                    │
+│   Gzipped Size:  318 B                                                                     │
+│                                                                                            │
+└────────────────────────────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                        │
+│   Destination: /home/flakie/package/packages/logger-common/dist/logger-common.cjs.js   │
+│   Bundle Size:  543 B                                                                  │
+│   Gzipped Size:  200 B                                                                 │
+│                                                                                        │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                        │
+│   Destination: /home/flakie/package/packages/algoliasearch/dist/algoliasearch.cjs.js   │
+│   Bundle Size:  7.9 KB                                                                 │
+│   Gzipped Size:  1.24 KB                                                               │
+│                                                                                        │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                                    │
+│   Destination: /home/flakie/package/packages/requester-node-http/dist/requester-node-http.cjs.js   │
+│   Bundle Size:  3.87 KB                                                                            │
+│   Gzipped Size:  680 B                                                                             │
+│                                                                                                    │
+└────────────────────────────────────────────────────────────────────────────────────────────────────┘
+created packages/cache-in-memory/dist/cache-in-memory.cjs.js in 20m 12.6s
+
+/home/flakie/package/packages/cache-in-memory/src/index.ts → packages/cache-in-memory/dist/cache-in-memory.esm.js...
+created packages/transporter/dist/transporter.cjs.js in 20m 16s
+
+/home/flakie/package/packages/transporter/src/index.ts → packages/transporter/dist/transporter.esm.js...

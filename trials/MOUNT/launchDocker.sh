@@ -1,15 +1,16 @@
+date '+%d.%b.%Y %T'
 while IFS="," read -r package link commitNum date testCommand
 do
   echo "$package"
+  sub=`echo "$package" | tr / _`
+  append="_logOutput.txt"
+  log_file = "$sub$append"
   docker run -dit --name flakyDetector -v $(pwd):/home/projects node:lts-fermium-flakie
-
-      # docker run -dit --rm -v $(pwd):/home/projects node:lts-fermium-flakie -c "./home/projects/runFlakyDectector.sh "$package" "$link" "$commitNum" --no_stress $2 "$testCommand""
-  # docker exec flakyDetector /bin/bash -c 'cd /home/projects; npm install -g jest @jest/test-sequencer; export NODE_PATH=$(npm root --quiet -g); export CI=true;'
-  docker exec flakyDetector /bin/bash -c "./home/projects/runFlakyDectector.sh $package $link $commitNum --no_stress $2 $testCommand"
-  # echo "Sucessful Run of Non-Stress Flaky Detector"
-  # docker exec -w /home/projects flakyDetector /bin/bash -c "./runFlakyDectector.sh $package $link $commitNum --stress $2 $testCommand"
-  # echo "Sucessful Run of Stress Flaky Detector"
+  docker exec flakyDetector /bin/bash -c "/home/projects/runFlakyDectector.sh $package $link $commitNum --no_stress $2 \"$testCommand\""
   docker stop flakyDetector
   docker rm flakyDetector
+  # currdate=$(date +'%Y_%m_%d')
+  # mv "$log_file" ./"$currdate"/"$sub"
   echo "Container Removed"
 done < $1
+date '+%d.%b.%Y %T'

@@ -1,0 +1,1 @@
+amzn/style-dictionary,http://github.com/amzn/style-dictionary,28787be,Sun Sep  4 20:14:14 CDT 2022,npm run test-types && npm run lint && jest --runInBand --silent --coverage

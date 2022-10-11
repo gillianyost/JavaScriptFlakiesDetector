@@ -1,0 +1,4 @@
+arqex/react-datetime : test/snapshots.spec.js : set to false
+arqex/react-datetime : test/snapshots.spec.js : set to false
+arqex/react-datetime : test/snapshots.spec.js : set to false
+arqex/react-datetime : test/snapshots.spec.js : set to false

@@ -1,5 +1,3 @@
-sequencer=' --json --outputFile=testReport.txt'
-flakySeq=' --json --outputFile=flakytestReport.txt'
 append='_data.csv'
 package=$1
 link=$2
@@ -8,11 +6,9 @@ option=$4
 count=$5
 testType=$6
 
-cp -v ./home/projects/flakyDetector.py ./home/flakie
+cp -v /home/projects/flakyDetector.py /home/flakie
 # USER
 su -c "./home/projects/userRun.sh "$package" "$link" "$commitNum"" flakie
-# testCommand="$testType$sequencer"
-# flaktTestCommand="$testType$flakySeq"
 # ROOT
 if [ "$option" == "--stress" ]
 then
@@ -21,10 +17,9 @@ then
 fi
 
 # USER
-cd ./home/flakie
-echo $count
-# testType="jest --json --outputFile=testReport.txt"
-su -c "python ./flakyDetector.py "$package" "$count" "$testType"" flakie
+# echo "Running"
+cd /home/flakie
+su -c "python ./flakyDetector.py "$package" "$count" \"$testType\"" flakie
 cd ..
 cd ..
 # ROOT
@@ -38,9 +33,11 @@ out="_flakies.txt"
 output="$sub$append"
 flaky_out="$sub$out"
 currdate=$(date +'%Y_%m_%d')
-mkdir -p ./home/projects/"$currdate"
-cp ./home/flakie/"$output" ./home/projects/"$currdate"/
-cp ./home/flakie/"$flaky_out" ./home/projects/"$currdate"/
+mkdir -p /home/projects/"$currdate"/"$sub"/testReports
+cp /home/flakie/"$output" /home/projects/"$currdate"/"$sub"
+cp /home/flakie/"$flaky_out" /home/projects/"$currdate"/"$sub"
+echo "Moving Test Results"
+cp /home/flakie/package/"testReport"* /home/projects/"$currdate"/"$sub"/testReports
 # Flaky Tests Text file
 
 # Move results into the mounted area
