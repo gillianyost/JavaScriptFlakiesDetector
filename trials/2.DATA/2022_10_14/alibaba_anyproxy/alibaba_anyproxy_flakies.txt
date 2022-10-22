@@ -1,0 +1,1 @@
+alibaba/anyproxy : /home/flakie/package/test/lib/ruleLoader.spec.js : should successfully cache a remote file : NEW: passed : FIRST RUN: failed

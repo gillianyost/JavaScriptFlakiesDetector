@@ -7,6 +7,7 @@ count=$5
 testType=$6
 
 cp -v /home/projects/flakyDetector.py /home/flakie
+
 # USER
 su -c "./home/projects/userRun.sh "$package" "$link" "$commitNum"" flakie
 # ROOT
@@ -19,7 +20,9 @@ fi
 # USER
 # echo "Running"
 cd /home/flakie
+echo "$testType" >> command.txt
 su -c "python ./flakyDetector.py "$package" "$count" \"$testType\"" flakie
+rm command.txt
 cd ..
 cd ..
 # ROOT

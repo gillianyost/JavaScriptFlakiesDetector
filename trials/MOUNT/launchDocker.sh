@@ -2,9 +2,9 @@ date '+%d.%b.%Y %T'
 while IFS="," read -r package link commitNum date testCommand
 do
   echo "$package"
-  sub=`echo "$package" | tr / _`
-  append="_logOutput.txt"
-  log_file = "$sub$append"
+  # sub=`echo "$package" | tr / _`
+  # append="_logOutput.txt"
+  # log_file = "$sub$append"
   docker run -dit --name flakyDetector -v $(pwd):/home/projects node:lts-fermium-flakie
   docker exec flakyDetector /bin/bash -c "/home/projects/runFlakyDectector.sh $package $link $commitNum --no_stress $2 \"$testCommand\""
   docker stop flakyDetector
