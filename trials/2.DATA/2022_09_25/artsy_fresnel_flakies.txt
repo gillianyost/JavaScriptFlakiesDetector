@@ -1,4 +1,0 @@
-artsy/fresnel : src/__test__/Media.test.tsx : does not warn about Media components that do not match and are empty
-artsy/fresnel : src/__test__/Media.test.tsx : does not warn about Media components that do not match and are empty
-artsy/fresnel : src/__test__/Media.test.tsx : does not warn about Media components that do not match and are empty
-artsy/fresnel : src/__test__/Media.test.tsx : does not warn about Media components that do not match and are empty

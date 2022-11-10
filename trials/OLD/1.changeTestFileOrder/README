@@ -1,9 +1,0 @@
-Dependencies: 
-  node, 
-  npm, 
-  npx (npm install -g npx), 
-  jest(npm install -g jest)
-
-1. npm install
-2. npx babel src/CustomSequencer.js -o src/CustomSequencerCompiled.js
-3. jest --runInBand --testSequencer=./src/CustomSequencerCompiled.js

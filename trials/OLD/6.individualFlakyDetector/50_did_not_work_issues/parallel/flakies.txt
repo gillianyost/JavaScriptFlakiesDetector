@@ -1,1 +1,0 @@
-@serverless-stack/resources : test/NextjsSite.test.ts : attachPermissions

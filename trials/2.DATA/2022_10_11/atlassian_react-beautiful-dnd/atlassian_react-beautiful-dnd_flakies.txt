@@ -1,1 +1,0 @@
-atlassian/react-beautiful-dnd : should have every prettier target following the file name convention : NEW: failed : FIRST RUN: passed

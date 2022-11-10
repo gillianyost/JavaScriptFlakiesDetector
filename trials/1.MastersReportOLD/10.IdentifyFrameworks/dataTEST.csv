@@ -1,3 +1,0 @@
-generator-gulp-angular,1659476105,1659476113,58e5a66,0,0,1,0,istanbul cover _mocha -- test/node test/template && mocha test/inception/test-inception.js -ig protractor --no-insight
-pourover,1659476114,1659476116,262bd99,0,0,0,0,istanbul cover _mocha -- test/node test/template && mocha test/inception/test-inception.js -ig protractor --no-insight
-vue-validator,1659476116,1659476130,a88304a,0,1,1,1,npm run lint && npm run flow && npm run test:cover

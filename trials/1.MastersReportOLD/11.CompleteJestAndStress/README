@@ -1,4 +1,0 @@
-JavaScript flaky test detector using stress-ng
-
-To run script create docker image using dockerSetUp file
-Run launchDocker.sh with [cvs file of projects] [Number of Runs]

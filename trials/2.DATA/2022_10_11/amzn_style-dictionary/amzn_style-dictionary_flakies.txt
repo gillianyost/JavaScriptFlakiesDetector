@@ -1,8 +1,0 @@
-amzn/style-dictionary : buildAllPlatforms should work with json config : NEW: passed : FIRST RUN: failed
-amzn/style-dictionary : buildAllPlatforms should work with js config : NEW: passed : FIRST RUN: failed
-amzn/style-dictionary : cleanAllPlatforms should work : NEW: failed : FIRST RUN: passed
-amzn/style-dictionary : cliBuildWithJsConfig should work with json config : NEW: failed : FIRST RUN: passed
-amzn/style-dictionary : cliBuildWithJsConfig should work with javascript config : NEW: failed : FIRST RUN: passed
-amzn/style-dictionary : buildPlatform should build web platform files : NEW: failed : FIRST RUN: passed
-amzn/style-dictionary : buildPlatform should build less platform files : NEW: failed : FIRST RUN: passed
-amzn/style-dictionary : buildFiles should work without buildPath : NEW: failed : FIRST RUN: passed

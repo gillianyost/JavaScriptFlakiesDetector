@@ -1,2 +1,0 @@
-recompose
-http://github.com/acdlite/recompose

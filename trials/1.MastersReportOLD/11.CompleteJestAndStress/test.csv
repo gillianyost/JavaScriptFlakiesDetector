@@ -1,5 +1,0 @@
-antvis/AVA,http://github.com/antvis/AVA,9d224fb2,Sun Sep  4 20:02:42 CDT 2022,jest
-pixielabs/cavy,https://github.com/pixielabs/cavy,bd82093,Sun Sep  4 20:06:21 CDT 2022,jest
-aws-actions/configure-aws-credentials,https://github.com/aws-actions/configure-aws-credentials,67fbcbb,Sun Sep  4 20:06:24 CDT 2022,npm run lint && jest --coverage --verbose
-CVarisco/create-component-app,https://github.com/CVarisco/create-component-app,67ae259,Sun Sep  4 20:06:37 CDT 2022,jest
-ds300/derivablejs,https://github.com/ds300/derivablejs,f334daa,Sun Sep  4 20:06:44 CDT 2022,npm run build && jest --coverage && npm run lint

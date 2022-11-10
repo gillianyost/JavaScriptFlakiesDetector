@@ -1,7 +1,0 @@
-@serverless-stack/resources : test/Function.test.ts : fromDefinition-lambdaFunction
-@serverless-stack/resources : test/ReactStaticSite.test.ts : constructor: default errorPage redirect to indexPage
-@serverless-stack/resources : test/ReactStaticSite.test.ts : constructor: default buildCommand override
-@serverless-stack/resources : test/Function.test.ts : layers: imported from another stack
-serverless-jest-plugin : __tests__/utils.test.js : tests default createTestFolder
-serverless-jest-plugin : __tests__/integration-options.test.js : should run tests successfully
-serverless-jest-plugin : __tests__/integration-options.test.js : should run tests successfully
