@@ -7,13 +7,15 @@ count=$5
 testType=$6
 
 cp -v /home/projects/flakyDetector.py /home/flakie
+cp -v /home/projects/RandomSequencerCompiled.js /home/flakie
+cp -v /home/projects/test.json /home/flakie
 
 # USER
 su -c "./home/projects/userRun.sh "$package" "$link" "$commitNum"" flakie
 # ROOT
 if [ "$option" == "--stress" ]
 then
-  stress-ng --cpu 12 --matrix 9 --mq 5 &
+  stress-ng --class network, cpu, io, filesystem, scheduler --all 1 &
   pid_stress=$!
 fi
 
@@ -21,7 +23,9 @@ fi
 # echo "Running"
 cd /home/flakie
 echo "$testType" >> command.txt
-su -c "python ./flakyDetector.py "$package" "$count" \"$testType\"" flakie
+python --version
+echo su -c "python ./flakyDetector.py "$package" "$count"" flakie
+su -c "python ./flakyDetector.py "$package" "$count"" flakie
 rm command.txt
 cd ..
 cd ..

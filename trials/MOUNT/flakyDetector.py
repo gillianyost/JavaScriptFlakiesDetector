@@ -2,6 +2,7 @@
 import os
 import sys
 import json
+import subprocess
 from unittest import TestResult
 
 command = ""
@@ -26,7 +27,10 @@ flaky_file = sys.argv[1] + '_flakies.txt'
 flaky_file = flaky_file.replace("/", "_")
 flaky_file = "../" + flaky_file
 testResultsFull_Old = {}
-command = command.replace("jest", "jest --json --outputFile=testReport.json")
+# command = command.replace("jest", "jest --json --outputFile=testReport.json --testSequencer=../RandomSequencerCompiled.js")
+# command = command.replace("jest", "jest --json --outputFile=testReport.json")
+command = "jest --json --outputFile=testReport.json --testSequencer=../RandomSequencerCompiled.js --version"
+# command = "jest --json --outputFile=testReport.json"
 print("TEST COMMAND: " + command)
 
 #   Example of how testResultsFull_Old will look
@@ -49,7 +53,8 @@ print("TEST COMMAND: " + command)
 
 while (counter < int(sys.argv[2])):
     # os.system(sys.argv[3])
-    os.system(command)
+    # os.system("jest --version")
+    subprocess.call(["jest", "--version"], shell=True)
     with open('testReport.json') as f:
         data = json.load(f)
     if (counter > 0):
