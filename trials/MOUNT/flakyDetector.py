@@ -21,6 +21,7 @@ testSuites = {}
 ODflaky = []
 NODflaky = []
 flakiesAll = []
+update = int(sys.argv[3])
 
 print("In PYTHON")
 flaky_file = sys.argv[1] + '_flakies.txt'
@@ -28,8 +29,8 @@ flaky_file = flaky_file.replace("/", "_")
 flaky_file = "../" + flaky_file
 testResultsFull_Old = {}
 # command = command.replace("jest", "jest --json --outputFile=testReport.json --testSequencer=../RandomSequencerCompiled.js")
-# command = command.replace("jest", "jest --json --outputFile=testReport.json")
-command = "jest --json --outputFile=testReport.json --testSequencer=../RandomSequencerCompiled.js --version"
+command = command.replace("jest", "jest --json --outputFile=testReport.json")
+# command = "jest --json --outputFile=testReport.json --testSequencer=../RandomSequencerCompiled.js --version"
 # command = "jest --json --outputFile=testReport.json"
 print("TEST COMMAND: " + command)
 
@@ -51,10 +52,28 @@ print("TEST COMMAND: " + command)
 # "FileSuite2": {"status":failed, "assertionResults": {"test1":passed,"test2":failed,"test3":passed}}}
 
 
+# os.system("jest --version")
+# subprocess.call(['jest', '--version'])
+# print("PATH")
+# print(os.environ['PATH'])
+# subprocess.call(['echo', '$PATH'], shell=True)
+
+# proc = subprocess.Popen(['jest', '--version'], stderr=subprocess.PIPE)
+# output = proc.stderr.read()
+# output = subprocess.check_output('jest --version', shell=True)
+# print("OUTPUT" + output)
+# sourceFile = open('/home/flakie/fileout.txt', 'a')
+# sourceFile.write(sys.argv[1] + " " + output)
+# sourceFile.close()
+
 while (counter < int(sys.argv[2])):
     # os.system(sys.argv[3])
-    # os.system("jest --version")
-    subprocess.call(["jest", "--version"], shell=True)
+    if update == 0:
+        os.system("jest --json --outputFile=testReport.json")
+    else:
+        os.system("jest --json --outputFile=testReport.json --testSequencer=../RandomSequencerCompiled.js")
+    # subprocess.call(["jest", "--version"], shell=True)
+    # subprocess.call(['jest', '--json', '--outputFile=testReport.json'])
     with open('testReport.json') as f:
         data = json.load(f)
     if (counter > 0):

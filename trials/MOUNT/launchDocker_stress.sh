@@ -1,8 +1,19 @@
-while IFS="," read -r package link commitNum date
+date '+%d.%b.%Y %T'
+docker build . -t flakie_test_image
+for i in 1 2 3 4 5 6
 do
-  sudo docker run -dit --name flakyDetector -v $(pwd):/home/projects node:lts-fermium-stress
-  sudo docker exec flakyDetector /bin/bash -c 'cd /home/projects; npm install -g jest @jest/test-sequencer; export NODE_PATH=$(npm root --quiet -g); export CI=true;'
-  sudo docker exec -w /home/projects flakyDetector /bin/bash -c "./runFlakyDectector.sh $package $link $commitNum --stress $2"
-  sudo docker stop flakyDetector
-  sudo docker rm flakyDetector
-done < $1
+  while IFS="," read -r package link commitNum date testCommand update
+  do
+    echo "$package"
+    echo UPDATE VAR
+    echo "$update"
+    docker run -dit --name flakyDetector -v $(pwd):/home/projects flakie_test_image:latest
+    echo I
+    echo $i
+    docker exec flakyDetector /bin/bash -x -c "/home/projects/runFlakyDectector_stressData.sh $package $link $commitNum --stress $2 \"$testCommand\" $update $i"
+    docker stop flakyDetector
+    docker rm flakyDetector
+    echo "Container Removed"
+  done < $1
+done
+date '+%d.%b.%Y %T'
