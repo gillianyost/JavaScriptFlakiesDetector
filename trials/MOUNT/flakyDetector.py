@@ -5,13 +5,16 @@ import json
 import subprocess
 from unittest import TestResult
 
-command = ""
-with open('command.txt', 'r') as file:
-    command = file.read().rstrip()
+## -------- Command from csv File ---------
+# command = ""
+# with open('command.txt', 'r') as file:
+#     command = file.read().rstrip()
+# command = command.replace("jest", "jest --json --outputFile=testReport.json --testSequencer=../RandomSequencerCompiled.js")
+# command = command.replace("jest", "jest --json --outputFile=testReport.json")
+# print("TEST COMMAND: " + command)
+# -----------------------------------------
 
-# print(command)
-os.chdir("package")
-# print(os.getcwd)
+os.chdir("package") # May need to update to not use os
 counter = 0
 flakyDetected=False
 numPreviousFailedTests=-1
@@ -28,11 +31,7 @@ flaky_file = sys.argv[1] + '_flakies.txt'
 flaky_file = flaky_file.replace("/", "_")
 flaky_file = "../" + flaky_file
 testResultsFull_Old = {}
-# command = command.replace("jest", "jest --json --outputFile=testReport.json --testSequencer=../RandomSequencerCompiled.js")
-command = command.replace("jest", "jest --json --outputFile=testReport.json")
-# command = "jest --json --outputFile=testReport.json --testSequencer=../RandomSequencerCompiled.js --version"
-# command = "jest --json --outputFile=testReport.json"
-print("TEST COMMAND: " + command)
+
 
 #   Example of how testResultsFull_Old will look
 # 	suite named FileSuite1
@@ -51,30 +50,13 @@ print("TEST COMMAND: " + command)
 # {"FileSuite1": {"status":passed, "assertionResults": {"test1":passed,"test2":passed,"test3":passed}},
 # "FileSuite2": {"status":failed, "assertionResults": {"test1":passed,"test2":failed,"test3":passed}}}
 
-
-# os.system("jest --version")
-# subprocess.call(['jest', '--version'])
-# print("PATH")
-# print(os.environ['PATH'])
-# subprocess.call(['echo', '$PATH'], shell=True)
-
-# proc = subprocess.Popen(['jest', '--version'], stderr=subprocess.PIPE)
-# output = proc.stderr.read()
-# output = subprocess.check_output('jest --version', shell=True)
-# print("OUTPUT" + output)
-# sourceFile = open('/home/flakie/fileout.txt', 'a')
-# sourceFile.write(sys.argv[1] + " " + output)
-# sourceFile.close()
-
 while (counter < int(sys.argv[2])):
-    # os.system(sys.argv[3])
+    # os.system(sys.argv[3]) # Uses inputted command, not working would use command variable instead. May need to update to not use os
     if update == 0:
-        os.system("jest --json --outputFile=testReport.json")
+        os.system("jest --json --outputFile=../testReport.json") # May need to update to not use os
     else:
-        os.system("jest --json --outputFile=testReport.json --testSequencer=../RandomSequencerCompiled.js")
-    # subprocess.call(["jest", "--version"], shell=True)
-    # subprocess.call(['jest', '--json', '--outputFile=testReport.json'])
-    with open('testReport.json') as f:
+        os.system("jest --json --outputFile=../testReport.json --testSequencer=../RandomSequencerCompiled.js") # May need to update to not use os
+    with open('../testReport.json') as f:
         data = json.load(f)
     if (counter > 0):
         for testSuite_Current in data['testResults']:
@@ -82,17 +64,10 @@ while (counter < int(sys.argv[2])):
             if testSuite_Current['status'] != OLD_testsuite['status']:
                 for testResult in testSuite_Current['assertionResults']:
                     OLD_testResult = OLD_testsuite["assertionResults"]
-                    # if testResult['status'] != OLD_testResult[testResult['fullName']]:
                     if testResult['status'] != OLD_testResult[testResult['title']]:
                         flakyDetected = True
                         print("Flakie: " + testResult['fullName'])
                         print("Flakie: " + testSuite_Current['name'] + testResult['title'])
-                        # if testResult['fullName'] not in flakiesAll:
-                        #     flakiesAll.append(testResult['fullName'])
-                        #     numFlakyTests = numFlakyTests + 1
-                        #     with open(flaky_file, 'a') as flakies:
-                        #         print("Writing to " + flaky_file)
-                        #         flakies.write(sys.argv[1]+" : "+testSuite_Current['name']+" : "+testResult['fullName']+" : NEW: "+testResult['status']+ " : FIRST RUN: " + OLD_testResult[testResult['fullName']] + "\n")
                         fullName = testSuite_Current['name'] + " " + testResult['title']
                         if fullName not in flakiesAll:
                             flakiesAll.append(fullName)
@@ -100,26 +75,22 @@ while (counter < int(sys.argv[2])):
                             with open(flaky_file, 'a') as flakies:
                                 print("Writing to " + flaky_file)
                                 flakies.write(sys.argv[1]+" : "+testSuite_Current['name']+" : "+testResult['title']+" : NEW: "+testResult['status']+ " : FIRST RUN: " + OLD_testResult[testResult['title']] + "\n")
-    # testResultsFull_Old = {}
     if (counter == 0):
         for testSuite_Old in data['testResults']:
             suite = {}
             results = {}
-            # suite['suiteName'] = testSuite_Old['name']
             suite['status'] = testSuite_Old['status']
             for testResult in testSuite_Old['assertionResults']:
-                # results['fullName'] = testResult['fullName']
-                # results[testResult['fullName']] = testResult['status']
                 results[testResult['title']] = testResult['status']
             suite["assertionResults"] = results
             testResultsFull_Old[testSuite_Old['name']] = suite
     print("Renaming Test Reults")
-    os.rename('testReport.json', 'testReport' + str(counter) + '.json')
+    os.rename('../testReport.json', '../testReport' + str(counter) + '.json')
     counter = counter + 1
 
 numNODFlakyTests = numFlakyTests - numODFlakyTests
-# os.system(sys.argv[3])
-# os.system("jest --json --outputFile=testReport.json")
+# os.system(sys.argv[3]) # Uses command input May need to update to not use os
+# os.system("jest --json --outputFile=testReport.json") # May need to update to not use os
 numFailedTestSuites = data['numFailedTestSuites']
 numFailedTests = data['numFailedTests']
 numPassedTestSuites = data['numPassedTestSuites']

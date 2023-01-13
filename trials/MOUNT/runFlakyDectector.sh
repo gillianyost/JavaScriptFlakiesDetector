@@ -19,23 +19,14 @@ su -c "./home/projects/userRun.sh "$package" "$link" "$commitNum" $update" flaki
 # comment back in
 if [ "$option" == "--stress" ]
 then
-  stress-ng --class network, cpu, io, filesystem, scheduler --all 1 &
+  stress-ng --class network, cpu, io, filesystem --all 1 &
   pid_stress=$!
 fi
 
-USER
+# USER
 echo "Running"
 cd /home/flakie
 echo "$testType" >> command.txt
-# python --version
-# echo "JEST VERSION ROOT"
-# jest --version
-# echo "JEST VERSION USER"
-# su -c "jest --version" flakie
-# su -c "echo $PATH" flakie
-# echo su -c "python ./flakyDetector.py "$package" "$count"" flakie
-echo UPDATE VAR
-echo $update
 su -c "python ./flakyDetector.py "$package" "$count" "$update"" flakie
 
 rm command.txt
@@ -55,13 +46,10 @@ currdate=$(date +'%Y_%m_%d')
 mkdir -p /home/projects/"$currdate"/"$sub"/testReports
 cp /home/flakie/"$output" /home/projects/"$currdate"/"$sub"
 cp /home/flakie/"$flaky_out" /home/projects/"$currdate"/"$sub"
-echo "Moving Test Results"
-cp /home/flakie/package/"testReport"* /home/projects/"$currdate"/"$sub"/testReports
-
-
-cp /home/flakie/fileout.txt /home/projects
-# Flaky Tests Text file
 
 # Move results into the mounted area
+echo "Moving Test Results"
+cp /home/flakie/"testReport"* /home/projects/"$currdate"/"$sub"/testReports
 
-# rm -rf package # Not needed
+# Jest Version Output
+# cp /home/flakie/fileout.txt /home/projects

@@ -1,4 +1,5 @@
 UXPin/adele,https://github.com/UXPin/adele,8f93337,Sun Sep  4 20:01:37 CDT 2022,jest,1
+Airtable/airtable,http://github.com/Airtable/airtable.js,97cc08e,Sun Sep  4 20:01:42 CDT 2022,jest --env node --coverage --no-cache,1
 algolia/algoliasearch-client-javascript,http://github.com/algolia/algoliasearch-client-javascript,b906cbf0,Sun Sep  4 20:01:45 CDT 2022,jest --env node --coverage --no-cache,1
 alibaba/anyproxy,http://github.com/alibaba/anyproxy,b93f948,Sun Sep  4 20:02:05 CDT 2022,npx jest,1
 apify/apify-js,http://github.com/apify/apify-js,c70fdd66,Sun Sep  4 20:02:09 CDT 2022,jest --silent,1
