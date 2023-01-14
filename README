@@ -15,7 +15,7 @@ Please allow ample disk space as the Docker Image is 1 GB as well as running on 
 
 The file Name is a csv file with the following information: github name, github link, commit number, date of commit, test command, 1 if jest is 24.7 or later 0 if earlier. Each line is a single JavaScript project. The JavaScript project must use npm and have an updated package.json file as it auto downloads all dependencies.
 
-pixielabs/cavy,https://github.com/pixielabs/cavy,bd82093,Sun Sep  4 20:06:21 CDT 2022,jest,1
+Ex: pixielabs/cavy,https://github.com/pixielabs/cavy,bd82093,Sun Sep  4 20:06:21 CDT 2022,jest,1
 
 
 To Collect Stress-ng data: TODO
