@@ -51,5 +51,7 @@ cp /home/flakie/"$flaky_out" /home/projects/"$currdate"/"$sub"
 echo "Moving Test Results"
 cp /home/flakie/"testReport"* /home/projects/"$currdate"/"$sub"/testReports
 
+chmod -R 777 /home/projects/"$currdate"
+
 # Jest Version Output
 # cp /home/flakie/fileout.txt /home/projects
