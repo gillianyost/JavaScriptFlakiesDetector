@@ -1,4 +1,5 @@
 append='_data.csv'
+addon='_test.json'
 package=$1
 link=$2
 commitNum=$3
@@ -12,6 +13,7 @@ cp -v /home/projects/RandomSequencerCompiled.js /home/flakie
 cp -v /home/projects/test.json /home/flakie
 cp -v /home/projects/fileout.txt /home/flakie/
 chmod 777 /home/flakie/fileout.txt
+chmod 777 /home/flakie/test.json
 
 # USER
 su -c "./home/projects/userRun.sh "$package" "$link" "$commitNum" $update" flakie
@@ -49,9 +51,14 @@ cp /home/flakie/"$flaky_out" /home/projects/"$currdate"/"$sub"
 
 # Move results into the mounted area
 echo "Moving Test Results"
-cp /home/flakie/"testReport"* /home/projects/"$currdate"/"$sub"/testReports
+cp -v /home/flakie/"testReport"* /home/projects/"$currdate"/"$sub"/testReports
+cp -v /home/flakie/test.json /home/flakie/"$sub$addon"
+
+cp -v /home/flakie/"$sub$addon" /home/projects/"$currdate"/"$sub"
 
 chmod -R 777 /home/projects/"$currdate"
+
+# chmod 777 /home/projects/"$currdate"/"$sub"/"$sub$addon"
 
 # Jest Version Output
 # cp /home/flakie/fileout.txt /home/projects

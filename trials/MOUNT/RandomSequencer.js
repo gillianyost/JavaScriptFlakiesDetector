@@ -8,13 +8,14 @@ class CustomSequencer extends TestSequencer {
     tests.sort((testA, testB) => (testA.path > testB.path ? 1 : -1));
     const lastTest = testData[testData.length - 1];
     let generator;
+    console.log(JSON.stringify(testData))
     if (lastTest.flakyTestDetected) {
       console.log("Seed: ", lastTest.seed.toString())
       generator = seedrandom(lastTest.seed.toString());
       const newTest = {seed:lastTest.seed};
       testData.push(newTest);
       const newData = JSON.stringify(testData);
-      fs.writeFile('test.json', newData, (err) => {});
+      fs.writeFile('../test.json', newData, (err) => {});
     } else {
       const newSeed = Math.random();
       console.log("Seed: ", newSeed)
@@ -22,7 +23,7 @@ class CustomSequencer extends TestSequencer {
       const newTest = {seed:newSeed};
       testData.push(newTest);
       const newData = JSON.stringify(testData);
-      fs.writeFile('test.json', newData, (err) => {});
+      fs.writeFile('../test.json', newData, (err) => {});
     }
     for (var i = tests.length - 1; i > 0; i--) {
       const value = generator()

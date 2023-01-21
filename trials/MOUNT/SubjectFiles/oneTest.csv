@@ -1,1 +1,2 @@
+pixielabs/cavy,https://github.com/pixielabs/cavy,bd82093,Sun Sep  4 20:06:21 CDT 2022,jest,1
 amzn/style-dictionary,http://github.com/amzn/style-dictionary,28787be,Sun Sep  4 20:14:14 CDT 2022,npm run test-types && npm run lint && jest --runInBand --silent --coverage,1

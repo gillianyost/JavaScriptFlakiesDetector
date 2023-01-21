@@ -87,7 +87,6 @@ while (counter < int(sys.argv[2])):
     print("Renaming Test Reults")
     os.rename('../testReport.json', '../testReport' + str(counter) + '.json')
     counter = counter + 1
-
 numNODFlakyTests = numFlakyTests - numODFlakyTests
 # os.system(sys.argv[3]) # Uses command input May need to update to not use os
 # os.system("jest --json --outputFile=testReport.json") # May need to update to not use os
