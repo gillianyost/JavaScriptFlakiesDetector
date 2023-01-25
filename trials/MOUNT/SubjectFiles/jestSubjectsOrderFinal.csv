@@ -1,10 +1,10 @@
 ds300/react-native-typescript-transformer,https://github.com/ds300/react-native-typescript-transformer,369a457,Sun Sep  4 20:13:09 CDT 2022,jest,0
 akiran/react-slick,http://github.com/akiran/react-slick,b9302d6,Sun Sep  4 20:13:25 CDT 2022,npm run lint && jest,1
 actions/javascript-action,http://github.com/actions/javascript-action,c06df86,Sun Sep  4 20:07:14 CDT 2022,jest,1
-kozhevnikov/proxymise,https://github.com/kozhevnikov/proxymise,d23e0a3,Sun Sep  4 20:11:47 CDT 2022,jest --verbose,1
+kozhevnikov/proxymise,https://github.com/kozhevnikov/proxymise,d23e0a3,Sun Sep  4 20:11:47 CDT 2022,jest --verbose,0
 pixielabs/cavy,https://github.com/pixielabs/cavy,bd82093,Sun Sep  4 20:06:21 CDT 2022,jest,1
 ReactTraining/react-stdio,https://github.com/ReactTraining/react-stdio,6948925,Sun Sep  4 20:13:31 CDT 2022,jest,0
-zeke/semantic-pull-requests,https://github.com/zeke/semantic-pull-requests,f4916f4,Sun Sep  4 20:13:44 CDT 2022,jest test/* && npm run lint,1
+zeke/semantic-pull-requests,https://github.com/zeke/semantic-pull-requests,f4916f4,Sun Sep  4 20:13:44 CDT 2022,jest test/* && npm run lint,0
 leebyron/react-loops,https://github.com/leebyron/react-loops,18ee1a1,Sun Sep  4 20:13:03 CDT 2022,"prettier --write *.{js,ts,flow} && jest --coverage --coverageReporters=text",1
 clarus/redux-ship,https://github.com/clarus/redux-ship,2364ace,Sun Sep  4 20:13:38 CDT 2022,jest,0
 aws-actions/configure-aws-credentials,https://github.com/aws-actions/configure-aws-credentials,67fbcbb,Sun Sep  4 20:06:24 CDT 2022,npm run lint && jest --coverage --verbose,1
@@ -23,7 +23,7 @@ threepointone/glam,https://github.com/threepointone/glam,9fdabd4,Sun Sep  4 20:0
 ReactPrimer/ReactPrimer,https://github.com/ReactPrimer/ReactPrimer,2a0b835,Sun Sep  4 20:13:11 CDT 2022,jest,0
 akxcv/vuera,http://github.com/akxcv/vuera,3ea31d3,Sun Sep  4 20:15:01 CDT 2022,cross-env BABEL_ENV=test jest,0
 Airtable/airtable,http://github.com/Airtable/airtable.js,97cc08e,Sun Sep  4 20:01:42 CDT 2022,jest --env node --coverage --no-cache,1
-sindu12jun/table-dragger,https://github.com/sindu12jun/table-dragger,1dcbed9,Sun Sep  4 20:14:29 CDT 2022,jest --watch,1
+sindu12jun/table-dragger,https://github.com/sindu12jun/table-dragger,1dcbed9,Sun Sep  4 20:14:29 CDT 2022,jest --watch,0
 anthonyjgrove/react-google-login,http://github.com/anthonyjgrove/react-google-login,7db5b96,Sun Sep  4 20:12:54 CDT 2022,jest,1
 antoine92190/vue-advanced-chat,http://github.com/antoine92190/vue-advanced-chat,a26747e,Sun Sep  4 20:14:45 CDT 2022,tsc && NG=1.7 jest && NG=1.6 jest && NG=1.5 jest && NG=1.4 jest && NG=1.3 jest && NG=1.2 jest,1
 alexreardon/tiny-invariant,http://github.com/alexreardon/tiny-invariant,31cf8fb,Sun Sep  4 20:14:31 CDT 2022,yarn jest,1
