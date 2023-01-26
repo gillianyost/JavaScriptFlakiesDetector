@@ -1,6 +1,6 @@
-pixielabs/cavy,https://github.com/pixielabs/cavy,bd82093,Sun Sep  4 20:06:21 CDT 2022,jest,1
-antoine92190/vue-advanced-chat,http://github.com/antoine92190/vue-advanced-chat,a26747e,Sun Sep  4 20:14:45 CDT 2022,tsc && NG=1.7 jest && NG=1.6 jest && NG=1.5 jest && NG=1.4 jest && NG=1.3 jest && NG=1.2 jest,1
-antvis/AVA,http://github.com/antvis/AVA,9d224fb2,Sun Sep  4 20:02:42 CDT 2022,jest,1
-kozhevnikov/proxymise,https://github.com/kozhevnikov/proxymise,d23e0a3,Sun Sep  4 20:11:47 CDT 2022,jest --verbose,0
-leebyron/react-loops,https://github.com/leebyron/react-loops,18ee1a1,Sun Sep  4 20:13:03 CDT 2022,"prettier --write *.{js,ts,flow} && jest --coverage --coverageReporters=text",1
-rcaferati/react-native-really-awesome-button,https://github.com/rcaferati/react-native-really-awesome-button,b8c856d,Sun Sep  4 20:13:04 CDT 2022,jest,1
+rcaferati/react-native-really-awesome-button,https://github.com/rcaferati/react-native-really-awesome-button,b8c856d,Sun Sep  4 20:13:04 CDT 2022,0,jest
+antvis/AVA,http://github.com/antvis/AVA,9d224fb2,Sun Sep  4 20:02:42 CDT 2022,1,jest
+kozhevnikov/proxymise,https://github.com/kozhevnikov/proxymise,d23e0a3,Sun Sep  4 20:11:47 CDT 2022,0,jest --verbose
+leebyron/react-loops,https://github.com/leebyron/react-loops,18ee1a1,Sun Sep  4 20:13:03 CDT 2022,1,"prettier --write *.{js,ts,flow} && jest --coverage --coverageReporters=text"
+sindu12jun/table-dragger,https://github.com/sindu12jun/table-dragger,1dcbed9,Sun Sep  4 20:14:29 CDT 2022,0,jest --watch
+zeke/semantic-pull-requests,https://github.com/zeke/semantic-pull-requests,f4916f4,Sun Sep  4 20:13:44 CDT 2022,0,jest test/* && npm run lint

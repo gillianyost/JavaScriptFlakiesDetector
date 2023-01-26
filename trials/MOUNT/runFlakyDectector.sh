@@ -5,8 +5,11 @@ link=$2
 commitNum=$3
 option=$4
 count=$5
-testType=$6
-update=$7
+testType=$7
+update=$6
+
+echo Test Type "$testType"
+echo UPDATE $update
 
 cp -v /home/projects/flakyDetector.py /home/flakie
 cp -v /home/projects/RandomSequencerCompiled.js /home/flakie

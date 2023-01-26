@@ -55,7 +55,7 @@ while (counter < int(sys.argv[2])):
     if update == 0:
         os.system("jest --json --outputFile=../testReport.json") # May need to update to not use os
     else:
-        os.system("jest --json --outputFile=../testReport.json --testSequencer=../RandomSequencerCompiled.js") # May need to update to not use os
+        os.system("jest --json --outputFile=../testReport.json --testSequencer=/home/flakie/RandomSequencerCompiled.js") # May need to update to not use os
     with open('../testReport.json') as f:
         data = json.load(f)
     if (counter > 0):
