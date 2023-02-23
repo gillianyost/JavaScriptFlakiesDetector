@@ -1,0 +1,4 @@
+aws/aws-cdk,http://github.com/aws/aws-cdk,86fcd4f20,Sun Sep  4 20:03:04 CDT 2022,1,jest
+sheinsight/shineout,https://github.com/sheinsight/shineout,04bf2e3f,Sun Sep  4 20:13:46 CDT 2022,1,cross-env NODE_ENV=test jest --config jest.config.js
+atlassian/react-beautiful-dnd,http://github.com/atlassian/react-beautiful-dnd,1a380855,Sun Sep  4 20:12:02 CDT 2022,1,jest --config ./jest.config.js
+algolia/algoliasearch-client-javascript,http://github.com/algolia/algoliasearch-client-javascript,b906cbf0,Sun Sep  4 20:01:45 CDT 2022,1,jest --env node --coverage --no-cache
