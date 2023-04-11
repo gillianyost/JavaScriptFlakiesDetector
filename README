@@ -17,7 +17,3 @@ The file Name is a csv file with the following information: github name, github 
 
 Ex: pixielabs/cavy,https://github.com/pixielabs/cavy,bd82093,Sun Sep  4 20:06:21 CDT 2022,jest,1
 
-
-To Collect Stress-ng data: TODO
-
-The compiled new jest sequencer is provided to compile it follow these directions: TODO
