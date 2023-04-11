@@ -1,0 +1,519 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 12,
+    "numPassedTests": 72,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 2,
+    "numRuntimeErrorTestSuites": 0,
+    "numTotalTestSuites": 12,
+    "numTotalTests": 74,
+    "snapshot": {
+        "added": 0,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674624267465,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns action object with correct type when no arg passed"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns action object with correct type when empty arg passed"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns action object with correct type when window-like arg passed"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "puts the argument properties onto the returned action"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "properly defaults when no arg passed"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "properly defaults when empty arg passed"
+                }
+            ],
+            "endTime": 1674624283275,
+            "message": "",
+            "name": "/home/flakie/package/src/actions/creators/calculateResponsiveState.test.js",
+            "startTime": 1674624280970,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "calculates the initial state by default"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "does not calcuate the initial state when flagged"
+                }
+            ],
+            "endTime": 1674624283571,
+            "message": "",
+            "name": "/home/flakie/package/src/util/handlers.test.js",
+            "startTime": 1674624280364,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns a function"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "is a function"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns the input state for unknown actions and state !== undefined"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "correctly orders two breakpoints"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "correctly injects initial state"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "correctly injects initialMediaType into immutable (Map) root state"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "correctly injects initialMediaType into immutable (Record) root state"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can compute the less than object"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can compute the greater than object"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can compute the is object"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "is object can refer to non-numerical values"
+                }
+            ],
+            "endTime": 1674624283776,
+            "message": "",
+            "name": "/home/flakie/package/lib/util/createReducer.test.js",
+            "startTime": 1674624281764,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "calculates the initial state by default"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "does not calcuate the initial state when flagged"
+                }
+            ],
+            "endTime": 1674624284170,
+            "message": "",
+            "name": "/home/flakie/package/lib/util/handlers.test.js",
+            "startTime": 1674624282075,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns a function when given an options object"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns a function when not given any options"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns a function"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "calls the `createStore` given to the enhancer"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "pending",
+                    "title": "could use some more tests"
+                }
+            ],
+            "endTime": 1674624284170,
+            "message": "",
+            "name": "/home/flakie/package/src/util/createEnhancer.test.js",
+            "startTime": 1674624281363,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can parse the relevant data from style patterns"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can match a browser state with a pattern"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can sort style keys in the correct order"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can transform an entire stylesheet"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can merge responsive styles into base style"
+                }
+            ],
+            "endTime": 1674624284176,
+            "message": "",
+            "name": "/home/flakie/package/lib/react/components/stylesheet.test.js",
+            "startTime": 1674624282580,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can parse the relevant data from style patterns"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can match a browser state with a pattern"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can sort style keys in the correct order"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can transform an entire stylesheet"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can merge responsive styles into base style"
+                }
+            ],
+            "endTime": 1674624284568,
+            "message": "",
+            "name": "/home/flakie/package/src/react/components/stylesheet.test.js",
+            "startTime": 1674624281880,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns a function"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "is a function"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns the input state for unknown actions and state !== undefined"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "correctly orders two breakpoints"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "correctly injects initial state"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "correctly injects initialMediaType into immutable (Map) root state"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "correctly injects initialMediaType into immutable (Record) root state"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can compute the less than object"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can compute the greater than object"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "can compute the is object"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "is object can refer to non-numerical values"
+                }
+            ],
+            "endTime": 1674624284677,
+            "message": "",
+            "name": "/home/flakie/package/src/util/createReducer.test.js",
+            "startTime": 1674624282374,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Can find reducer at root"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Can find responsive state in Immutable.js Map root state"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Can find responsive state in Immutable.js Record root state"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Can find responsive state anywhere in the state"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Can find responsive state anywhere in the ImmutableJS Map"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Can find responsive state anywhere in the ImmutableJS Record"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Complains if it cannot find a reducer at root"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Does not break if state contains 'keys' or 'getIn' key somewhere"
+                }
+            ],
+            "endTime": 1674624284978,
+            "message": "",
+            "name": "/home/flakie/package/lib/util/getBreakpoints.test.js",
+            "startTime": 1674624282173,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns action object with correct type when no arg passed"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns action object with correct type when empty arg passed"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns action object with correct type when window-like arg passed"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "puts the argument properties onto the returned action"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "properly defaults when no arg passed"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "properly defaults when empty arg passed"
+                }
+            ],
+            "endTime": 1674624285480,
+            "message": "",
+            "name": "/home/flakie/package/lib/actions/creators/calculateResponsiveState.test.js",
+            "startTime": 1674624283468,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns a function when given an options object"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns a function when not given any options"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "returns a function"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "calls the `createStore` given to the enhancer"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "pending",
+                    "title": "could use some more tests"
+                }
+            ],
+            "endTime": 1674624285978,
+            "message": "",
+            "name": "/home/flakie/package/lib/util/createEnhancer.test.js",
+            "startTime": 1674624282967,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Can find reducer at root"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Can find responsive state in Immutable.js Map root state"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Can find responsive state in Immutable.js Record root state"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Can find responsive state anywhere in the state"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Can find responsive state anywhere in the ImmutableJS Map"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Can find responsive state anywhere in the ImmutableJS Record"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Complains if it cannot find a reducer at root"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Does not break if state contains 'keys' or 'getIn' key somewhere"
+                }
+            ],
+            "endTime": 1674624286172,
+            "message": "",
+            "name": "/home/flakie/package/src/util/getBreakpoints.test.js",
+            "startTime": 1674624283482,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

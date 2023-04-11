@@ -1,0 +1,653 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 8,
+    "numPassedTests": 54,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 8,
+    "numTotalTests": 54,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674619107868,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins extends a base config",
+                    "location": null,
+                    "status": "passed",
+                    "title": "extends a base config"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins passes the current phase to the extended config",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passes the current phase to the extended config"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins extends the webpack config",
+                    "location": null,
+                    "status": "passed",
+                    "title": "extends the webpack config"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins resolves phases specific configs in the next configuration",
+                    "location": null,
+                    "status": "passed",
+                    "title": "resolves phases specific configs in the next configuration"
+                }
+            ],
+            "endTime": 1674619136575,
+            "message": "",
+            "name": "/home/flakie/package/lib/__tests__/index.test.js",
+            "startTime": 1674619122273,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/optional"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/optional marks a plugin as optional",
+                    "location": null,
+                    "status": "passed",
+                    "title": "marks a plugin as optional"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/optional"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/optional checks if a plugin is optional",
+                    "location": null,
+                    "status": "passed",
+                    "title": "checks if a plugin is optional"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/optional"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/optional resolves an optional plugin",
+                    "location": null,
+                    "status": "passed",
+                    "title": "resolves an optional plugin"
+                }
+            ],
+            "endTime": 1674619136676,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/optional.test.js",
+            "startTime": 1674619122480,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/phases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/phases checks when a plugin should get applied in the current phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "checks when a plugin should get applied in the current phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/phases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/phases checks when a plugin should not get applied in the current phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "checks when a plugin should not get applied in the current phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/phases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/phases checks when a plugin should get applied in the current phase with a negated config",
+                    "location": null,
+                    "status": "passed",
+                    "title": "checks when a plugin should get applied in the current phase with a negated config"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/phases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/phases checks when a plugin should not get applied in the current phase with a negated config",
+                    "location": null,
+                    "status": "passed",
+                    "title": "checks when a plugin should not get applied in the current phase with a negated config"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/phases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/phases merges phase specific configuration",
+                    "location": null,
+                    "status": "passed",
+                    "title": "merges phase specific configuration"
+                }
+            ],
+            "endTime": 1674619136776,
+            "message": "",
+            "name": "/home/flakie/package/lib/__tests__/phases.test.js",
+            "startTime": 1674619122264,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose parses the plugin without a configuration",
+                    "location": null,
+                    "status": "passed",
+                    "title": "parses the plugin without a configuration"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose parses the plugin with a configuration",
+                    "location": null,
+                    "status": "passed",
+                    "title": "parses the plugin with a configuration"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose parses the plugin with a phase restriction",
+                    "location": null,
+                    "status": "passed",
+                    "title": "parses the plugin with a phase restriction"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose passed down the initial configuration",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passed down the initial configuration"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose does not execute a plugin if it is not in the correct phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "does not execute a plugin if it is not in the correct phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose merges the plugin configuration",
+                    "location": null,
+                    "status": "passed",
+                    "title": "merges the plugin configuration"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose provides next-compose-plugin infos for plugins",
+                    "location": null,
+                    "status": "passed",
+                    "title": "provides next-compose-plugin infos for plugins"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose does not pass down the updated configuration if it is in the wrong phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "does not pass down the updated configuration if it is in the wrong phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose lets the user overwrite the plugins phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "lets the user overwrite the plugins phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose does not pass down the phase configuration of the previous plugin",
+                    "location": null,
+                    "status": "passed",
+                    "title": "does not pass down the phase configuration of the previous plugin"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose does not change a reference but always creates new objects",
+                    "location": null,
+                    "status": "passed",
+                    "title": "does not change a reference but always creates new objects"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose loads an optional plugin in the correct phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loads an optional plugin in the correct phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose does not load an optional plugin in the wrong phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "does not load an optional plugin in the wrong phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose handles objects as plugins",
+                    "location": null,
+                    "status": "passed",
+                    "title": "handles objects as plugins"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose throws an error for incompatible plugins",
+                    "location": null,
+                    "status": "passed",
+                    "title": "throws an error for incompatible plugins"
+                }
+            ],
+            "endTime": 1674619136866,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/compose.test.js",
+            "startTime": 1674619122380,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/optional"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/optional marks a plugin as optional",
+                    "location": null,
+                    "status": "passed",
+                    "title": "marks a plugin as optional"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/optional"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/optional checks if a plugin is optional",
+                    "location": null,
+                    "status": "passed",
+                    "title": "checks if a plugin is optional"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/optional"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/optional resolves an optional plugin",
+                    "location": null,
+                    "status": "passed",
+                    "title": "resolves an optional plugin"
+                }
+            ],
+            "endTime": 1674619136888,
+            "message": "",
+            "name": "/home/flakie/package/lib/__tests__/optional.test.js",
+            "startTime": 1674619122869,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/phases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/phases checks when a plugin should get applied in the current phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "checks when a plugin should get applied in the current phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/phases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/phases checks when a plugin should not get applied in the current phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "checks when a plugin should not get applied in the current phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/phases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/phases checks when a plugin should get applied in the current phase with a negated config",
+                    "location": null,
+                    "status": "passed",
+                    "title": "checks when a plugin should get applied in the current phase with a negated config"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/phases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/phases checks when a plugin should not get applied in the current phase with a negated config",
+                    "location": null,
+                    "status": "passed",
+                    "title": "checks when a plugin should not get applied in the current phase with a negated config"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/phases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/phases merges phase specific configuration",
+                    "location": null,
+                    "status": "passed",
+                    "title": "merges phase specific configuration"
+                }
+            ],
+            "endTime": 1674619136963,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/phases.test.js",
+            "startTime": 1674619122070,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins extends a base config",
+                    "location": null,
+                    "status": "passed",
+                    "title": "extends a base config"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins passes the current phase to the extended config",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passes the current phase to the extended config"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins extends the webpack config",
+                    "location": null,
+                    "status": "passed",
+                    "title": "extends the webpack config"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins resolves phases specific configs in the next configuration",
+                    "location": null,
+                    "status": "passed",
+                    "title": "resolves phases specific configs in the next configuration"
+                }
+            ],
+            "endTime": 1674619137364,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/index.test.js",
+            "startTime": 1674619123073,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose parses the plugin without a configuration",
+                    "location": null,
+                    "status": "passed",
+                    "title": "parses the plugin without a configuration"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose parses the plugin with a configuration",
+                    "location": null,
+                    "status": "passed",
+                    "title": "parses the plugin with a configuration"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose parses the plugin with a phase restriction",
+                    "location": null,
+                    "status": "passed",
+                    "title": "parses the plugin with a phase restriction"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose passed down the initial configuration",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passed down the initial configuration"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose does not execute a plugin if it is not in the correct phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "does not execute a plugin if it is not in the correct phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose merges the plugin configuration",
+                    "location": null,
+                    "status": "passed",
+                    "title": "merges the plugin configuration"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose provides next-compose-plugin infos for plugins",
+                    "location": null,
+                    "status": "passed",
+                    "title": "provides next-compose-plugin infos for plugins"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose does not pass down the updated configuration if it is in the wrong phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "does not pass down the updated configuration if it is in the wrong phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose lets the user overwrite the plugins phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "lets the user overwrite the plugins phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose does not pass down the phase configuration of the previous plugin",
+                    "location": null,
+                    "status": "passed",
+                    "title": "does not pass down the phase configuration of the previous plugin"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose does not change a reference but always creates new objects",
+                    "location": null,
+                    "status": "passed",
+                    "title": "does not change a reference but always creates new objects"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose loads an optional plugin in the correct phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loads an optional plugin in the correct phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose does not load an optional plugin in the wrong phase",
+                    "location": null,
+                    "status": "passed",
+                    "title": "does not load an optional plugin in the wrong phase"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose handles objects as plugins",
+                    "location": null,
+                    "status": "passed",
+                    "title": "handles objects as plugins"
+                },
+                {
+                    "ancestorTitles": [
+                        "next-compose-plugins/compose"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "next-compose-plugins/compose throws an error for incompatible plugins",
+                    "location": null,
+                    "status": "passed",
+                    "title": "throws an error for incompatible plugins"
+                }
+            ],
+            "endTime": 1674619137881,
+            "message": "",
+            "name": "/home/flakie/package/lib/__tests__/compose.test.js",
+            "startTime": 1674619123073,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

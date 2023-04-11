@@ -24,7 +24,8 @@ testSuites = {}
 ODflaky = []
 NODflaky = []
 flakiesAll = []
-update = int(sys.argv[3])
+# update = int(sys.argv[3])
+update = 1
 
 print("In PYTHON")
 flaky_file = sys.argv[1] + '_flakies.txt'
@@ -32,64 +33,18 @@ flaky_file = flaky_file.replace("/", "_")
 flaky_file = "../" + flaky_file
 testResultsFull_Old = {}
 
-
-#   Example of how testResultsFull_Old will look
-# 	suite named FileSuite1
-# 		status is passed
-# 	tests named 
-# 		test1 - passed
-# 		test2 - passed
-# 		test3 - passed
-#   suite named FileSuite2
-# 		status is failed
-# 	tests named 
-# 		test1 - passed
-# 		test2 - failed
-# 		test3 - passed
-		
-# {"FileSuite1": {"status":passed, "assertionResults": {"test1":passed,"test2":passed,"test3":passed}},
-# "FileSuite2": {"status":failed, "assertionResults": {"test1":passed,"test2":failed,"test3":passed}}}
-
 while (counter < int(sys.argv[2])):
     # os.system(sys.argv[3]) # Uses inputted command, not working would use command variable instead. May need to update to not use os
     if update == 0:
-        os.system("jest --json --outputFile=../testReport.json") # May need to update to not use os
+        os.system("jest --verbose --json --outputFile=../testReport.json") # May need to update to not use os
     else:
-        os.system("jest --json --outputFile=../testReport.json --testSequencer=/home/flakie/RandomSequencerCompiled.js") # May need to update to not use os
-    with open('../testReport.json') as f:
-        data = json.load(f)
-    if (counter > 0):
-        for testSuite_Current in data['testResults']:
-            OLD_testsuite = testResultsFull_Old[testSuite_Current['name']]
-            if testSuite_Current['status'] != OLD_testsuite['status']:
-                for testResult in testSuite_Current['assertionResults']:
-                    OLD_testResult = OLD_testsuite["assertionResults"]
-                    if testResult['status'] != OLD_testResult[testResult['title']]:
-                        flakyDetected = True
-                        print("Flakie: " + testResult['fullName'])
-                        print("Flakie: " + testSuite_Current['name'] + testResult['title'])
-                        fullName = testSuite_Current['name'] + " " + testResult['title']
-                        if fullName not in flakiesAll:
-                            flakiesAll.append(fullName)
-                            numFlakyTests = numFlakyTests + 1
-                            with open(flaky_file, 'a') as flakies:
-                                print("Writing to " + flaky_file)
-                                flakies.write(sys.argv[1]+" : "+testSuite_Current['name']+" : "+testResult['title']+" : NEW: "+testResult['status']+ " : FIRST RUN: " + OLD_testResult[testResult['title']] + "\n")
-    if (counter == 0):
-        for testSuite_Old in data['testResults']:
-            suite = {}
-            results = {}
-            suite['status'] = testSuite_Old['status']
-            for testResult in testSuite_Old['assertionResults']:
-                results[testResult['title']] = testResult['status']
-            suite["assertionResults"] = results
-            testResultsFull_Old[testSuite_Old['name']] = suite
+    #     os.system("jest --json --runInBand --outputFile=../testReport.json --testSequencer=/home/flakie/RandomSequencerCompiled.js") # Used for amzn
+        with open('../testReport.json') as f:
+            data = json.load(f)
     print("Renaming Test Reults")
     os.rename('../testReport.json', '../testReport' + str(counter) + '.json')
     counter = counter + 1
 numNODFlakyTests = numFlakyTests - numODFlakyTests
-# os.system(sys.argv[3]) # Uses command input May need to update to not use os
-# os.system("jest --json --outputFile=testReport.json") # May need to update to not use os
 numFailedTestSuites = data['numFailedTestSuites']
 numFailedTests = data['numFailedTests']
 numPassedTestSuites = data['numPassedTestSuites']
@@ -113,7 +68,3 @@ output_file = output_file.replace("/", "_")
 print(output_file)
 with open(output_file,'a') as fd:
     fd.write(row)
-
-# with open('test.json', 'w') as d:
-#     Dict = [{"seed":1234567,"flakyTestDetected":False}]
-#     json.dump(Dict, d)

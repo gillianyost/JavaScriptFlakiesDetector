@@ -1,0 +1,142 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 1,
+    "numPassedTests": 10,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTotalTestSuites": 1,
+    "numTotalTests": 10,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 2,
+        "total": 2,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1676956416180,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "AwesomeButton"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AwesomeButton should render",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render"
+                },
+                {
+                    "ancestorTitles": [
+                        "AwesomeButton"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AwesomeButton should render with a view container",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render with a view container"
+                },
+                {
+                    "ancestorTitles": [
+                        "AwesomeButton"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AwesomeButton should render a default text children",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render a default text children"
+                },
+                {
+                    "ancestorTitles": [
+                        "AwesomeButton"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AwesomeButton should render the button shadow element",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render the button shadow element"
+                },
+                {
+                    "ancestorTitles": [
+                        "AwesomeButton"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AwesomeButton should render the button bottom element",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render the button bottom element"
+                },
+                {
+                    "ancestorTitles": [
+                        "AwesomeButton"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AwesomeButton should render the button content element",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render the button content element"
+                },
+                {
+                    "ancestorTitles": [
+                        "AwesomeButton"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AwesomeButton should render the button text view",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render the button text view"
+                },
+                {
+                    "ancestorTitles": [
+                        "AwesomeButton"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AwesomeButton should render the button progress view",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render the button progress view"
+                },
+                {
+                    "ancestorTitles": [
+                        "AwesomeButton"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AwesomeButton should render the button active background",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render the button active background"
+                },
+                {
+                    "ancestorTitles": [
+                        "AwesomeButton"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AwesomeButton should render the content placeholder on empty button",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render the content placeholder on empty button"
+                }
+            ],
+            "endTime": 1676956437975,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/index.test.js",
+            "startTime": 1676956417467,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

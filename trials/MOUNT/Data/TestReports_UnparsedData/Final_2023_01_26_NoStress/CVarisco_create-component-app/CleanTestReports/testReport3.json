@@ -1,0 +1,500 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 14,
+    "numPassedTests": 66,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTotalTestSuites": 14,
+    "numTotalTests": 66,
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674712204475,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should a string"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import component for story book"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should crate describe block with component name"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should render component for test in beforeEach block"
+                }
+            ],
+            "endTime": 1674712227774,
+            "message": "",
+            "name": "/home/flakie/package/dist/defaultTemplates/js/__tests__/test.template.test.js",
+            "startTime": 1674712220177,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should a string"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should have class with component name"
+                }
+            ],
+            "endTime": 1674712227866,
+            "message": "",
+            "name": "/home/flakie/package/src/defaultTemplates/css/__tests__/style.template.test.js",
+            "startTime": 1674712220275,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should a string"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import component for story book"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should crate describe block with component name"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should render component for test in beforeEach block"
+                }
+            ],
+            "endTime": 1674712228767,
+            "message": "",
+            "name": "/home/flakie/package/src/defaultTemplates/js/__tests__/test.template.test.js",
+            "startTime": 1674712220375,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should a string"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import proptypes"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import react when stateless"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import react when class"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import react when pure"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import component methods"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should add styles import with styleFileName and cssExtension"
+                }
+            ],
+            "endTime": 1674712228969,
+            "message": "",
+            "name": "/home/flakie/package/dist/defaultTemplates/js/__tests__/common.template.test.js",
+            "startTime": 1674712220766,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should a string"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should have class with component name"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should extend component with propTypes"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should extend component with defaultProps"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should export component"
+                }
+            ],
+            "endTime": 1674712228972,
+            "message": "",
+            "name": "/home/flakie/package/src/defaultTemplates/js/__tests__/class.template.test.js",
+            "startTime": 1674712221277,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should a string"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should have class with component name"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should extend component with propTypes"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should extend component with defaultProps"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should export component"
+                }
+            ],
+            "endTime": 1674712228980,
+            "message": "",
+            "name": "/home/flakie/package/dist/defaultTemplates/js/__tests__/class.template.test.js",
+            "startTime": 1674712221372,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should call class.template when class is passed into generateComponentTemplate"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should call pure.template when pure is passed into generateComponentTemplate"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should call functional.template when stateless is passed into generateComponentTemplate"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should export generateIndexFile with correct module"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should export generateTestTemplate with correct module"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should export generateStorybookTemplate with correct module"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should export generateStyleFile with correct module"
+                }
+            ],
+            "endTime": 1674712229066,
+            "message": "",
+            "name": "/home/flakie/package/dist/defaultTemplates/__tests__/index.test.js",
+            "startTime": 1674712220375,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should call class.template when class is passed into generateComponentTemplate"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should call pure.template when pure is passed into generateComponentTemplate"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should call functional.template when stateless is passed into generateComponentTemplate"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should export generateIndexFile with correct module"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should export generateTestTemplate with correct module"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should export generateStorybookTemplate with correct module"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should export generateStyleFile with correct module"
+                }
+            ],
+            "endTime": 1674712229171,
+            "message": "",
+            "name": "/home/flakie/package/src/defaultTemplates/__tests__/index.test.js",
+            "startTime": 1674712221470,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should a string"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import component for story book"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should crate story with component name"
+                }
+            ],
+            "endTime": 1674712229186,
+            "message": "",
+            "name": "/home/flakie/package/src/defaultTemplates/js/__tests__/storybook.template.test.js",
+            "startTime": 1674712221471,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should a string"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should have class with component name"
+                }
+            ],
+            "endTime": 1674712229302,
+            "message": "",
+            "name": "/home/flakie/package/dist/defaultTemplates/css/__tests__/style.template.test.js",
+            "startTime": 1674712221672,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should a string"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should create const with component name"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should extend component with propTypes"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should extend component with defaultProps"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should export component"
+                }
+            ],
+            "endTime": 1674712229377,
+            "message": "",
+            "name": "/home/flakie/package/src/defaultTemplates/js/__tests__/functional.template.test.js",
+            "startTime": 1674712220869,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should a string"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import component for story book"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should crate story with component name"
+                }
+            ],
+            "endTime": 1674712229396,
+            "message": "",
+            "name": "/home/flakie/package/dist/defaultTemplates/js/__tests__/storybook.template.test.js",
+            "startTime": 1674712221870,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should a string"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import proptypes"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import react when stateless"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import react when class"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import react when pure"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should import component methods"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should add styles import with styleFileName and cssExtension"
+                }
+            ],
+            "endTime": 1674712229410,
+            "message": "",
+            "name": "/home/flakie/package/src/defaultTemplates/js/__tests__/common.template.test.js",
+            "startTime": 1674712221969,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should a string"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should create const with component name"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should extend component with propTypes"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should extend component with defaultProps"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "should export component"
+                }
+            ],
+            "endTime": 1674712229416,
+            "message": "",
+            "name": "/home/flakie/package/dist/defaultTemplates/js/__tests__/functional.template.test.js",
+            "startTime": 1674712221470,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

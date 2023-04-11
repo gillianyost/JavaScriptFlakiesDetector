@@ -1,0 +1,930 @@
+{
+    "numFailedTestSuites": 31,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 15,
+    "numPassedTests": 48,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 31,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 46,
+    "numTotalTests": 48,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674740353397,
+    "success": false,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "isAxis",
+                    "location": null,
+                    "status": "passed",
+                    "title": "isAxis"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "generateArrayIndex",
+                    "location": null,
+                    "status": "passed",
+                    "title": "generateArrayIndex"
+                }
+            ],
+            "endTime": 1674740391979,
+            "message": "",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/dataset/utils.test.ts",
+            "startTime": 1674740370370,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "PACK",
+                    "location": null,
+                    "status": "passed",
+                    "title": "PACK"
+                }
+            ],
+            "endTime": 1674740392270,
+            "message": "",
+            "name": "/home/flakie/package/packages/ckb/__tests__/pack.test.ts",
+            "startTime": 1674740370467,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "knowledge",
+                    "location": null,
+                    "status": "passed",
+                    "title": "knowledge"
+                }
+            ],
+            "endTime": 1674740392468,
+            "message": "",
+            "name": "/home/flakie/package/packages/ckb/__tests__/index.test.ts",
+            "startTime": 1674740370469,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "utils test"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "utils test deep-mix",
+                    "location": null,
+                    "status": "passed",
+                    "title": "deep-mix"
+                }
+            ],
+            "endTime": 1674740392571,
+            "message": "",
+            "name": "/home/flakie/package/packages/chart-advisor/__tests__/utils.test.ts",
+            "startTime": 1674740369673,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "func: isDateString"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "func: isDateString check a string is a date",
+                    "location": null,
+                    "status": "passed",
+                    "title": "check a string is a date"
+                },
+                {
+                    "ancestorTitles": [
+                        "func: isDateString"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "func: isDateString strictly recognize number as date",
+                    "location": null,
+                    "status": "passed",
+                    "title": "strictly recognize number as date"
+                }
+            ],
+            "endTime": 1674740392580,
+            "message": "",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/analyzer/is-date.test.ts",
+            "startTime": 1674740369770,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "OPTIONS",
+                    "location": null,
+                    "status": "passed",
+                    "title": "OPTIONS"
+                }
+            ],
+            "endTime": 1674740393171,
+            "message": "",
+            "name": "/home/flakie/package/packages/ckb/__tests__/options.test.ts",
+            "startTime": 1674740370468,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "i18n",
+                    "location": null,
+                    "status": "passed",
+                    "title": "i18n"
+                }
+            ],
+            "endTime": 1674740393467,
+            "message": "",
+            "name": "/home/flakie/package/packages/ckb/__tests__/i18n.test.ts",
+            "startTime": 1674740370772,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "statistics",
+                    "location": null,
+                    "status": "passed",
+                    "title": "statistics"
+                }
+            ],
+            "endTime": 1674740394363,
+            "message": "",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/statistics/index.test.ts",
+            "startTime": 1674740370269,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "extract majority insight"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "extract majority insight check majority result",
+                    "location": null,
+                    "status": "passed",
+                    "title": "check majority result"
+                }
+            ],
+            "endTime": 1674740394466,
+            "message": "",
+            "name": "/home/flakie/package/packages/lite-insight/__tests__/extractors/majority.test.ts",
+            "startTime": 1674740370968,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "isNull",
+                    "location": null,
+                    "status": "passed",
+                    "title": "isNull"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "isString",
+                    "location": null,
+                    "status": "passed",
+                    "title": "isString"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "isNumber",
+                    "location": null,
+                    "status": "passed",
+                    "title": "isNumber"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "isDigit",
+                    "location": null,
+                    "status": "passed",
+                    "title": "isDigit"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "isInteger",
+                    "location": null,
+                    "status": "passed",
+                    "title": "isInteger"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "isFloat",
+                    "location": null,
+                    "status": "passed",
+                    "title": "isFloat"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "isDate",
+                    "location": null,
+                    "status": "passed",
+                    "title": "isDate"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "isBoolean",
+                    "location": null,
+                    "status": "passed",
+                    "title": "isBoolean"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "isObject",
+                    "location": null,
+                    "status": "passed",
+                    "title": "isObject"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "isArray",
+                    "location": null,
+                    "status": "passed",
+                    "title": "isArray"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "isBasicType",
+                    "location": null,
+                    "status": "passed",
+                    "title": "isBasicType"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "unique",
+                    "location": null,
+                    "status": "passed",
+                    "title": "unique"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "range",
+                    "location": null,
+                    "status": "passed",
+                    "title": "range"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "assert",
+                    "location": null,
+                    "status": "passed",
+                    "title": "assert"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "isParentChild",
+                    "location": null,
+                    "status": "passed",
+                    "title": "isParentChild"
+                }
+            ],
+            "endTime": 1674740394665,
+            "message": "",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/utils/index.test.ts",
+            "startTime": 1674740369880,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Pettitt Test"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Pettitt Test check change point result",
+                    "location": null,
+                    "status": "passed",
+                    "title": "check change point result"
+                }
+            ],
+            "endTime": 1674740394670,
+            "message": "",
+            "name": "/home/flakie/package/packages/lite-insight/__tests__/algorithms/pettitt-test.test.ts",
+            "startTime": 1674740370272,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Series data with fillValue"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series data with fillValue 1D: basic type",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: basic type"
+                },
+                {
+                    "ancestorTitles": [
+                        "Series data with fillValue"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series data with fillValue 1D: basic type with extra indexes",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: basic type with extra indexes"
+                },
+                {
+                    "ancestorTitles": [
+                        "Series data with fillValue"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series data with fillValue 1D: object",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: object"
+                },
+                {
+                    "ancestorTitles": [
+                        "Series data with fillValue"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series data with fillValue 1D: object with extra indexes",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: object with extra indexes"
+                },
+                {
+                    "ancestorTitles": [
+                        "Series data with fillValue"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series data with fillValue 1D: array",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: array"
+                },
+                {
+                    "ancestorTitles": [
+                        "Series data with fillValue"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series data with fillValue 1D: array with extra indexes",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: array with extra indexes"
+                }
+            ],
+            "endTime": 1674740394680,
+            "message": "",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/dataset/series/fill-value.test.ts",
+            "startTime": 1674740371269,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Series data with columnTypes"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series data with columnTypes 1D: basic type",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: basic type"
+                },
+                {
+                    "ancestorTitles": [
+                        "Series data with columnTypes"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series data with columnTypes 1D: basic type with extra indexes",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: basic type with extra indexes"
+                },
+                {
+                    "ancestorTitles": [
+                        "Series data with columnTypes"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series data with columnTypes 1D: object",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: object"
+                },
+                {
+                    "ancestorTitles": [
+                        "Series data with columnTypes"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series data with columnTypes 1D: object with extra indexes",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: object with extra indexes"
+                },
+                {
+                    "ancestorTitles": [
+                        "Series data with columnTypes"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series data with columnTypes 1D: array",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: array"
+                },
+                {
+                    "ancestorTitles": [
+                        "Series data with columnTypes"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series data with columnTypes 1D: array with extra indexes",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: array with extra indexes"
+                }
+            ],
+            "endTime": 1674740395167,
+            "message": "",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/dataset/series/column-types.test.ts",
+            "startTime": 1674740370472,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Series getter"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series getter shape",
+                    "location": null,
+                    "status": "passed",
+                    "title": "shape"
+                },
+                {
+                    "ancestorTitles": [
+                        "Series get value functions"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series get value functions get",
+                    "location": null,
+                    "status": "passed",
+                    "title": "get"
+                },
+                {
+                    "ancestorTitles": [
+                        "Series get value functions"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Series get value functions getByIndex",
+                    "location": null,
+                    "status": "passed",
+                    "title": "getByIndex"
+                }
+            ],
+            "endTime": 1674740396572,
+            "message": "",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/dataset/series/get-value-functions.test.ts",
+            "startTime": 1674740370769,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "new Series"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "new Series 1D: basic type",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: basic type"
+                },
+                {
+                    "ancestorTitles": [
+                        "new Series"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "new Series 1D: basic type with extra indexes",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: basic type with extra indexes"
+                },
+                {
+                    "ancestorTitles": [
+                        "new Series"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "new Series 1D: object",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: object"
+                },
+                {
+                    "ancestorTitles": [
+                        "new Series"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "new Series 1D: object with extra indexes",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: object with extra indexes"
+                },
+                {
+                    "ancestorTitles": [
+                        "new Series"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "new Series 1D: array",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: array"
+                },
+                {
+                    "ancestorTitles": [
+                        "new Series"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "new Series 1D: array with extra indexes",
+                    "location": null,
+                    "status": "passed",
+                    "title": "1D: array with extra indexes"
+                }
+            ],
+            "endTime": 1674740397771,
+            "message": "",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/dataset/series/new-series.test.ts",
+            "startTime": 1674740372069,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/lite-insight/src/algorithms/mannkendall-test.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m31\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@stdlib/stats/base/dists/normal' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import { cdf, quantile } from '@stdlib/stats/base/dists/normal';\n    \u001b[7m \u001b[0m \u001b[91m                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/lite-insight/__tests__/algorithms/IQR.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/lite-insight/src/insights/extractors/timeSeriesOutlier.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m20\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@stdlib/stats-lowess' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import lowess from '@stdlib/stats-lowess';\n    \u001b[7m \u001b[0m \u001b[91m                   ~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\n    \u001b[96mpackages/lite-insight/src/insights/extractors/timeSeriesOutlier.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/data-wizard' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import { statistics } from '@antv/data-wizard';\n    \u001b[7m \u001b[0m \u001b[91m                           ~~~~~~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/lite-insight/__tests__/extractors/time-series-outlier.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/lite-insight/src/algorithms/mannkendall-test.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m31\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@stdlib/stats/base/dists/normal' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import { cdf, quantile } from '@stdlib/stats/base/dists/normal';\n    \u001b[7m \u001b[0m \u001b[91m                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/lite-insight/__tests__/extractors/change-point.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/smart-board/src/types.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m30\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/lite-insight' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import type { Measure } from '@antv/lite-insight';\n    \u001b[7m \u001b[0m \u001b[91m                             ~~~~~~~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/smart-board/__tests__/unit/SmartBoard/index.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/lite-insight/src/insights/extractors/categoryOutlier.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/data-wizard' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import { statistics } from '@antv/data-wizard';\n    \u001b[7m \u001b[0m \u001b[91m                           ~~~~~~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/lite-insight/__tests__/extractors/category-outlier.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/lite-insight/src/insights/extractors/trend.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m24\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'regression' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import regression from 'regression';\n    \u001b[7m \u001b[0m \u001b[91m                       ~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/lite-insight/__tests__/extractors/trend.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/lite-insight/src/insights/extractors/lowVariance.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/data-wizard' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import { statistics } from '@antv/data-wizard';\n    \u001b[7m \u001b[0m \u001b[91m                           ~~~~~~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/lite-insight/__tests__/extractors/low-variance.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/lite-insight/src/algorithms/mannkendall-test.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m31\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@stdlib/stats/base/dists/normal' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import { cdf, quantile } from '@stdlib/stats/base/dists/normal';\n    \u001b[7m \u001b[0m \u001b[91m                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/lite-insight/__tests__/algorithms/mannkendall-test.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/lite-insight/src/insights/extractors/correlation.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m23\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@stdlib/stats/pcorrtest' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import pcorrtest from '@stdlib/stats/pcorrtest';\n    \u001b[7m \u001b[0m \u001b[91m                      ~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/lite-insight/__tests__/extractors/correlation.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/lite-insight/src/utils/aggregate.ts\u001b[0m:\u001b[93m60\u001b[0m:\u001b[93m41\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type 'unknown' is not assignable to parameter of type 'Datum[]'.\n\n    \u001b[7m60\u001b[0m         const measureValue = aggregator(dataGroup, measureField);\n    \u001b[7m  \u001b[0m \u001b[91m                                        ~~~~~~~~~\u001b[0m\n    \u001b[96mpackages/lite-insight/src/utils/aggregate.ts\u001b[0m:\u001b[93m82\u001b[0m:\u001b[93m38\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2345: \u001b[0mArgument of type 'unknown' is not assignable to parameter of type 'Datum[]'.\n      Type '{}' is missing the following properties from type 'Datum[]': length, pop, push, concat, and 29 more.\n\n    \u001b[7m82\u001b[0m           [measureField]: aggregator(childDataGroup, measureField),\n    \u001b[7m  \u001b[0m \u001b[91m                                     ~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/lite-insight/__tests__/utils/aggr.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/analyzer/index.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m41\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/ckb' or its corresponding type declarations.\n\n    \u001b[7m6\u001b[0m import type { LevelOfMeasurement } from '@antv/ckb';\n    \u001b[7m \u001b[0m \u001b[91m                                        ~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/analyzer/index.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m29\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'mersenne-twister' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import MersenneTwister from 'mersenne-twister';\n    \u001b[7m \u001b[0m \u001b[91m                            ~~~~~~~~~~~~~~~~~~\u001b[0m\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m21\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'randexp' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import RandExp from 'randexp';\n    \u001b[7m \u001b[0m \u001b[91m                    ~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/random/random.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m29\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'mersenne-twister' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import MersenneTwister from 'mersenne-twister';\n    \u001b[7m \u001b[0m \u001b[91m                            ~~~~~~~~~~~~~~~~~~\u001b[0m\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m21\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'randexp' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import RandExp from 'randexp';\n    \u001b[7m \u001b[0m \u001b[91m                    ~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/random/web-random.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m29\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'mersenne-twister' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import MersenneTwister from 'mersenne-twister';\n    \u001b[7m \u001b[0m \u001b[91m                            ~~~~~~~~~~~~~~~~~~\u001b[0m\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m21\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'randexp' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import RandExp from 'randexp';\n    \u001b[7m \u001b[0m \u001b[91m                    ~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/random/date-time-random.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m29\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'mersenne-twister' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import MersenneTwister from 'mersenne-twister';\n    \u001b[7m \u001b[0m \u001b[91m                            ~~~~~~~~~~~~~~~~~~\u001b[0m\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m21\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'randexp' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import RandExp from 'randexp';\n    \u001b[7m \u001b[0m \u001b[91m                    ~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/random/color-random.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m29\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'mersenne-twister' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import MersenneTwister from 'mersenne-twister';\n    \u001b[7m \u001b[0m \u001b[91m                            ~~~~~~~~~~~~~~~~~~\u001b[0m\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m21\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'randexp' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import RandExp from 'randexp';\n    \u001b[7m \u001b[0m \u001b[91m                    ~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/random/address-random.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m29\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'mersenne-twister' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import MersenneTwister from 'mersenne-twister';\n    \u001b[7m \u001b[0m \u001b[91m                            ~~~~~~~~~~~~~~~~~~\u001b[0m\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m21\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'randexp' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import RandExp from 'randexp';\n    \u001b[7m \u001b[0m \u001b[91m                    ~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/random/text-random.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m29\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'mersenne-twister' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import MersenneTwister from 'mersenne-twister';\n    \u001b[7m \u001b[0m \u001b[91m                            ~~~~~~~~~~~~~~~~~~\u001b[0m\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m21\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'randexp' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import RandExp from 'randexp';\n    \u001b[7m \u001b[0m \u001b[91m                    ~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/random/location-random.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m29\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'mersenne-twister' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import MersenneTwister from 'mersenne-twister';\n    \u001b[7m \u001b[0m \u001b[91m                            ~~~~~~~~~~~~~~~~~~\u001b[0m\n    \u001b[96mpackages/data-wizard/src/random/basic-random.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m21\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module 'randexp' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import RandExp from 'randexp';\n    \u001b[7m \u001b[0m \u001b[91m                    ~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/random/case.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/chart-advisor/__tests__/index.test.ts\u001b[0m:\u001b[93m101\u001b[0m:\u001b[93m7\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2322: \u001b[0mType '{ id: string; name: string; alias: string[]; family: string[]; def: string; purpose: string[]; coord: string[]; category: string[]; shape: string[]; dataPres: { minQty: number; maxQty: number; fieldConditions: string[]; }[]; channel: string[]; recRate: string; toSpec: (data: DataRows, dataProps: BasicDataPropertyFor...' is not assignable to type 'CustomizedCKBJSON'.\n      Object literal may only specify known properties, and 'id' does not exist in type 'CustomizedCKBJSON'.\n\n    \u001b[7m101\u001b[0m       id: 'fufu_chart',\n    \u001b[7m   \u001b[0m \u001b[91m      ~~~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/chart-advisor/__tests__/index.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/chart-advisor/__tests__/unit/advisor/advice-pipeline/data-to-advices.test.ts\u001b[0m:\u001b[93m3\u001b[0m:\u001b[93m27\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '../../../../../data-wizard' or its corresponding type declarations.\n\n    \u001b[7m3\u001b[0m import { DataFrame } from '../../../../../data-wizard';\n    \u001b[7m \u001b[0m \u001b[91m                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/chart-advisor/__tests__/unit/advisor/advice-pipeline/data-to-advices.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/chart-advisor/__tests__/spec.test.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m27\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/data-wizard' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import { DataFrame } from '@antv/data-wizard';\n    \u001b[7m \u001b[0m \u001b[91m                          ~~~~~~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/chart-advisor/__tests__/spec.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/chart-advisor/__tests__/ckb.test.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m36\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/ckb' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import { ChartKnowledgeJSON } from '@antv/ckb';\n    \u001b[7m \u001b[0m \u001b[91m                                   ~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/chart-advisor/__tests__/ckb.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/chart-advisor/src/advisor/index.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m25\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/ckb' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import { CKBJson } from '@antv/ckb';\n    \u001b[7m \u001b[0m \u001b[91m                        ~~~~~~~~~~~\u001b[0m\n    \u001b[96mpackages/chart-advisor/src/advisor/index.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m48\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/data-wizard' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import { DataFrame, analyzer, GraphData } from '@antv/data-wizard';\n    \u001b[7m \u001b[0m \u001b[91m                                               ~~~~~~~~~~~~~~~~~~~\u001b[0m\n    \u001b[96mpackages/chart-advisor/src/advisor/index.ts\u001b[0m:\u001b[93m10\u001b[0m:\u001b[93m41\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/ckb' or its corresponding type declarations.\n\n    \u001b[7m10\u001b[0m import type { ChartKnowledgeJSON } from '@antv/ckb';\n    \u001b[7m  \u001b[0m \u001b[91m                                        ~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/chart-advisor/__tests__/rule.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/analyzer/index.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m41\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/ckb' or its corresponding type declarations.\n\n    \u001b[7m6\u001b[0m import type { LevelOfMeasurement } from '@antv/ckb';\n    \u001b[7m \u001b[0m \u001b[91m                                        ~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/dataset/data-frame/new-data-frame.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/analyzer/index.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m41\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/ckb' or its corresponding type declarations.\n\n    \u001b[7m6\u001b[0m import type { LevelOfMeasurement } from '@antv/ckb';\n    \u001b[7m \u001b[0m \u001b[91m                                        ~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/dataset/data-frame/column-types.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/analyzer/index.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m41\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/ckb' or its corresponding type declarations.\n\n    \u001b[7m6\u001b[0m import type { LevelOfMeasurement } from '@antv/ckb';\n    \u001b[7m \u001b[0m \u001b[91m                                        ~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/dataset/data-frame/info.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/analyzer/index.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m41\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/ckb' or its corresponding type declarations.\n\n    \u001b[7m6\u001b[0m import type { LevelOfMeasurement } from '@antv/ckb';\n    \u001b[7m \u001b[0m \u001b[91m                                        ~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/dataset/data-frame/fill-value.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/data-wizard/src/analyzer/index.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m41\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/ckb' or its corresponding type declarations.\n\n    \u001b[7m6\u001b[0m import type { LevelOfMeasurement } from '@antv/ckb';\n    \u001b[7m \u001b[0m \u001b[91m                                        ~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/data-wizard/__tests__/dataset/data-frame/get-value-functions.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/chart-advisor/__tests__/dataprops.test.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m26\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/antv-spec' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import { AntVSpec } from '@antv/antv-spec';\n    \u001b[7m \u001b[0m \u001b[91m                         ~~~~~~~~~~~~~~~~~\u001b[0m\n    \u001b[96mpackages/chart-advisor/__tests__/dataprops.test.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m27\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/data-wizard' or its corresponding type declarations.\n\n    \u001b[7m2\u001b[0m import { DataFrame } from '@antv/data-wizard';\n    \u001b[7m \u001b[0m \u001b[91m                          ~~~~~~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/chart-advisor/__tests__/dataprops.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674740524646,
+            "message": "  \u25cf Test suite failed to run\n\n    TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):\n    \u001b[96mpackages/chart-advisor/__tests__/log.test.ts\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m31\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2307: \u001b[0mCannot find module '@antv/data-samples' or its corresponding type declarations.\n\n    \u001b[7m1\u001b[0m import { dataByChartId } from '@antv/data-samples';\n    \u001b[7m \u001b[0m \u001b[91m                              ~~~~~~~~~~~~~~~~~~~~\u001b[0m\n",
+            "name": "/home/flakie/package/packages/chart-advisor/__tests__/log.test.ts",
+            "startTime": 1674740524646,
+            "status": "failed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

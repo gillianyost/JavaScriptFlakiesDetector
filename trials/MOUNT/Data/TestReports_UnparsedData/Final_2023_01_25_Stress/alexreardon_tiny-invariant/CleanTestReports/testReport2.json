@@ -1,0 +1,204 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 4,
+    "numPassedTests": 10,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 4,
+    "numTotalTests": 10,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674622256776,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 3,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should not throw if condition is truthy",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not throw if condition is truthy"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 93,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should throw if the condition is falsy",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should throw if the condition is falsy"
+                }
+            ],
+            "endTime": 1674622293467,
+            "message": "",
+            "name": "/home/flakie/package/test/throw-behaviour.spec.ts",
+            "startTime": 1674622260270,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 2,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should include a default message when an invariant does throw and no message is provided",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should include a default message when an invariant does throw and no message is provided"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 0,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should include a provided message when an invariant does throw",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should include a provided message when an invariant does throw"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should not execute a message function if the invariant does not throw",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not execute a message function if the invariant does not throw"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should execute a message function if the invariant does throw",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should execute a message function if the invariant does throw"
+                }
+            ],
+            "endTime": 1674622293582,
+            "message": "",
+            "name": "/home/flakie/package/test/message-behaviour.spec.ts",
+            "startTime": 1674622260276,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 1,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should correctly narrow a type (boolean)",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should correctly narrow a type (boolean)"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 0,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should correctly narrow a type (custom type)",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should correctly narrow a type (custom type)"
+                }
+            ],
+            "endTime": 1674622293974,
+            "message": "",
+            "name": "/home/flakie/package/test/type-narrowing.spec.ts",
+            "startTime": 1674622260370,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 17499,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should include the message in dev builds",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should include the message in dev builds"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 11399,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "not should include the message in prod builds",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "not should include the message in prod builds"
+                }
+            ],
+            "endTime": 1674622324577,
+            "message": "",
+            "name": "/home/flakie/package/test/bundle-behaviour.spec.ts",
+            "startTime": 1674622260274,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

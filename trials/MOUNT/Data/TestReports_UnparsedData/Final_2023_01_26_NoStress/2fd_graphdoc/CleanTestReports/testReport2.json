@@ -1,0 +1,512 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 12,
+    "numPassedTests": 37,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 12,
+    "numTotalTests": 37,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674712975846,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return empty",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return empty"
+                },
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return navigation",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return navigation"
+                }
+            ],
+            "endTime": 1674713015873,
+            "message": "",
+            "name": "/home/flakie/package/plugins/navigation.input.test.ts",
+            "startTime": 1674712996769,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return empty",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return empty"
+                },
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return navigation",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return navigation"
+                }
+            ],
+            "endTime": 1674713015972,
+            "message": "",
+            "name": "/home/flakie/package/plugins/navigation.union.test.ts",
+            "startTime": 1674712995971,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return empty",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return empty"
+                },
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return navigation",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return navigation"
+                }
+            ],
+            "endTime": 1674713016578,
+            "message": "",
+            "name": "/home/flakie/package/plugins/navigation.directive.test.ts",
+            "startTime": 1674712995877,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return empty",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return empty"
+                },
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return navigation",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return navigation"
+                }
+            ],
+            "endTime": 1674713017381,
+            "message": "",
+            "name": "/home/flakie/package/plugins/navigation.enum.test.ts",
+            "startTime": 1674712997167,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/introspection#getTypeOf",
+                    "location": null,
+                    "status": "passed",
+                    "title": "lib/utility/introspection#getTypeOf"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/introspection#getTypeOf",
+                    "location": null,
+                    "status": "passed",
+                    "title": "lib/utility/introspection#getTypeOf"
+                }
+            ],
+            "endTime": 1674713017867,
+            "message": "",
+            "name": "/home/flakie/package/lib/utility/introspection.test.ts",
+            "startTime": 1674712997380,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return empty",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return empty"
+                },
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return navigation",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return navigation"
+                }
+            ],
+            "endTime": 1674713017965,
+            "message": "",
+            "name": "/home/flakie/package/plugins/navigation.scalar.test.ts",
+            "startTime": 1674712997376,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/template#slugTemplate",
+                    "location": null,
+                    "status": "passed",
+                    "title": "lib/utility/template#slugTemplate"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/template#createData"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/template#createData prop \"title\"",
+                    "location": null,
+                    "status": "passed",
+                    "title": "prop \"title\""
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/template#createData"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/template#createData prop \"description\"",
+                    "location": null,
+                    "status": "passed",
+                    "title": "prop \"description\""
+                }
+            ],
+            "endTime": 1674713017975,
+            "message": "",
+            "name": "/home/flakie/package/lib/utility/template.test.ts",
+            "startTime": 1674712997566,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "utility/html.split",
+                    "location": null,
+                    "status": "passed",
+                    "title": "utility/html.split"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/html#HTML"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/html#HTML .code",
+                    "location": null,
+                    "status": "passed",
+                    "title": ".code"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/html#HTML"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/html#HTML .highlight",
+                    "location": null,
+                    "status": "passed",
+                    "title": ".highlight"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/html#HTML"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/html#HTML .sup",
+                    "location": null,
+                    "status": "passed",
+                    "title": ".sup"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/html#HTML"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/html#HTML .line",
+                    "location": null,
+                    "status": "passed",
+                    "title": ".line"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/html#HTML"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/html#HTML .tab",
+                    "location": null,
+                    "status": "passed",
+                    "title": ".tab"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/html#HTML"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/html#HTML .keyword",
+                    "location": null,
+                    "status": "passed",
+                    "title": ".keyword"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/html#HTML"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/html#HTML .comment",
+                    "location": null,
+                    "status": "passed",
+                    "title": ".comment"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/html#HTML"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/html#HTML .identifier",
+                    "location": null,
+                    "status": "passed",
+                    "title": ".identifier"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/html#HTML"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/html#HTML .parameter",
+                    "location": null,
+                    "status": "passed",
+                    "title": ".parameter"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/html#HTML"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/html#HTML .property",
+                    "location": null,
+                    "status": "passed",
+                    "title": ".property"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/html#HTML"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/html#HTML .useIdentifier",
+                    "location": null,
+                    "status": "passed",
+                    "title": ".useIdentifier"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/html#HTML"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/html#HTML .useIdentifierLength",
+                    "location": null,
+                    "status": "passed",
+                    "title": ".useIdentifierLength"
+                },
+                {
+                    "ancestorTitles": [
+                        "lib/utility/html#HTML"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/html#HTML .value",
+                    "location": null,
+                    "status": "passed",
+                    "title": ".value"
+                }
+            ],
+            "endTime": 1674713017975,
+            "message": "",
+            "name": "/home/flakie/package/lib/utility/html.test.ts",
+            "startTime": 1674712996873,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return empty",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return empty"
+                },
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return navigation",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return navigation"
+                }
+            ],
+            "endTime": 1674713018171,
+            "message": "",
+            "name": "/home/flakie/package/plugins/navigation.object.test.ts",
+            "startTime": 1674712997369,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.interface#NavigationInterfaces"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.interface#NavigationInterfaces plugin return empty",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return empty"
+                },
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.interface#NavigationInterfaces"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.interface#NavigationInterfaces plugin return navigation",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return navigation"
+                }
+            ],
+            "endTime": 1674713018576,
+            "message": "",
+            "name": "/home/flakie/package/plugins/navigation.interface.test.ts",
+            "startTime": 1674712996169,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/output#Output",
+                    "location": null,
+                    "status": "passed",
+                    "title": "lib/utility/output#Output"
+                },
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "lib/utility/output#Output (verbose)",
+                    "location": null,
+                    "status": "passed",
+                    "title": "lib/utility/output#Output (verbose)"
+                }
+            ],
+            "endTime": 1674713018704,
+            "message": "",
+            "name": "/home/flakie/package/lib/utility/output.test.ts",
+            "startTime": 1674712997368,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return empty",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return empty"
+                },
+                {
+                    "ancestorTitles": [
+                        "p\u013augins/navigation.directive#NavigationDirectives"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "p\u013augins/navigation.directive#NavigationDirectives plugin return navigation",
+                    "location": null,
+                    "status": "passed",
+                    "title": "plugin return navigation"
+                }
+            ],
+            "endTime": 1674713018716,
+            "message": "",
+            "name": "/home/flakie/package/plugins/navigation.schema.test.ts",
+            "startTime": 1674712996878,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

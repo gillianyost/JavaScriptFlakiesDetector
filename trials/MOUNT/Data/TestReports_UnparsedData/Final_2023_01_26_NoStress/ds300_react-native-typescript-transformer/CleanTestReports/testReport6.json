@@ -1,0 +1,150 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 2,
+    "numPassedTests": 20,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTotalTestSuites": 2,
+    "numTotalTests": 20,
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 6,
+        "total": 6,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674710707378,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "works for production mode"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "works for dev mode"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "throws errors for bad syntax"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "does not throw errors for bad types"
+                }
+            ],
+            "endTime": 1674710708388,
+            "message": "",
+            "name": "/home/flakie/package/__specs__/transformer.test.js",
+            "startTime": 1674710707432,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should contain compiler options that are only defined in top level config"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should retain compiler options defined in base config that are not overriden"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should override duplicate compiler options with values from highest level config"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should contain compiler options that are only defined in top level config"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should retain compiler options in middle config that are not overriden"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should retain compiler options defined in base config that are not overriden"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should override duplicate compiler options with values from highest level config"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should contain compiler options that are only defined in top level config"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should retain compiler options defined in base config that are not overriden"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should override duplicate compiler options with values from highest level config"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should contain compiler options that are only defined in top level config"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should retain compiler options in middle config that are not overriden"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should retain compiler options defined in base config that are not overriden"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should override duplicate compiler options with values from highest level config"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should contain compiler options that are only defined in top level config"
+                },
+                {
+                    "failureMessages": [],
+                    "status": "passed",
+                    "title": "Should override duplicate compiler options with values from highest level config"
+                }
+            ],
+            "endTime": 1674710708440,
+            "message": "",
+            "name": "/home/flakie/package/__specs__/extends.test.js",
+            "startTime": 1674710708393,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

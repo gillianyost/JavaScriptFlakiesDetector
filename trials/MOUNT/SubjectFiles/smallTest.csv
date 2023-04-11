@@ -1,5 +1,0 @@
-amzn/style-dictionary,http://github.com/amzn/style-dictionary,28787be,Sun Sep  4 20:14:14 CDT 2022,npm run test-types && npm run lint && jest --runInBand --silent --coverage,1
-alibaba/anyproxy,http://github.com/alibaba/anyproxy,b93f948,Sun Sep  4 20:02:05 CDT 2022,npx jest,1
-atlassian/react-beautiful-dnd,http://github.com/atlassian/react-beautiful-dnd,1a380855,Sun Sep  4 20:12:02 CDT 2022,jest --config ./jest.config.js,1
-CVarisco/create-component-app,https://github.com/CVarisco/create-component-app,67ae259,Sun Sep  4 20:06:37 CDT 2022,jest,0
-auth0/lock,https://github.com/auth0/lock,6ce1355b,Sun Sep  4 20:10:24 CDT 2022,jest --coverage --runInBand,0

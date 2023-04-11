@@ -1,0 +1,359 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 1,
+    "numPassedTests": 28,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 1,
+    "numTotalTests": 28,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674712029158,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of loops an Array",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loops an Array"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of Can use render-prop",
+                    "location": null,
+                    "status": "passed",
+                    "title": "Can use render-prop"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of loops an Array-like",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loops an Array-like"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of loops TypedArray",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loops TypedArray"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of loops an Iterable",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loops an Iterable"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of loops null",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loops null"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of loops with a non-element string return",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loops with a non-element string return"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of loops with a non-element Array return",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loops with a non-element Array return"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of loops an Array with metadata",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loops an Array with metadata"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of loops an IterableIterator with metadata",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loops an IterableIterator with metadata"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of",
+                        "ifEmpty"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of ifEmpty is used with an empty Array",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is used with an empty Array"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of",
+                        "ifEmpty"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of ifEmpty allows a lazy function",
+                    "location": null,
+                    "status": "passed",
+                    "title": "allows a lazy function"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of",
+                        "ifEmpty"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of ifEmpty is used with null",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is used with null"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-of",
+                        "ifEmpty"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-of ifEmpty is used with an empty iterable",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is used with an empty iterable"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-in loops an Object",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loops an Object"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-in loops an almost-array-like",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loops an almost-array-like"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-in loops null",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loops null"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-in loops an Object with metadata",
+                    "location": null,
+                    "status": "passed",
+                    "title": "loops an Object with metadata"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-in",
+                        "ifEmpty"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-in ifEmpty is used with an empty Object",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is used with an empty Object"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-in",
+                        "ifEmpty"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-in ifEmpty allows a lazy function",
+                    "location": null,
+                    "status": "passed",
+                    "title": "allows a lazy function"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "for-in",
+                        "ifEmpty"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops for-in ifEmpty is used with null",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is used with null"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "error cases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops error cases requires either of or in",
+                    "location": null,
+                    "status": "passed",
+                    "title": "requires either of or in"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "error cases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops error cases requires only one of of or in",
+                    "location": null,
+                    "status": "passed",
+                    "title": "requires only one of of or in"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "error cases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops error cases requires either as or render-prop",
+                    "location": null,
+                    "status": "passed",
+                    "title": "requires either as or render-prop"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "error cases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops error cases requires only one of as or render-prop",
+                    "location": null,
+                    "status": "passed",
+                    "title": "requires only one of as or render-prop"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "error cases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops error cases requires either as or render-prop as function",
+                    "location": null,
+                    "status": "passed",
+                    "title": "requires either as or render-prop as function"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "error cases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops error cases requires a collection in for-of loops",
+                    "location": null,
+                    "status": "passed",
+                    "title": "requires a collection in for-of loops"
+                },
+                {
+                    "ancestorTitles": [
+                        "react-loops",
+                        "error cases"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "react-loops error cases requires a non-collection object in for-in loops",
+                    "location": null,
+                    "status": "passed",
+                    "title": "requires a non-collection object in for-in loops"
+                }
+            ],
+            "endTime": 1674712029960,
+            "message": "",
+            "name": "/home/flakie/package/react-loops.test.js",
+            "startTime": 1674712029458,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

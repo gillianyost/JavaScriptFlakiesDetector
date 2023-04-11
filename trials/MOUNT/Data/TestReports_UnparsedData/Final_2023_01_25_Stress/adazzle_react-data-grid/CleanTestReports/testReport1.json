@@ -1,0 +1,2050 @@
+{
+    "numFailedTestSuites": 7,
+    "numFailedTests": 15,
+    "numPassedTestSuites": 18,
+    "numPassedTests": 108,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 1,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 25,
+    "numTotalTests": 124,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674637827677,
+    "success": false,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 492,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "basic server-side rendering (SSR) support",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "basic server-side rendering (SSR) support"
+                }
+            ],
+            "endTime": 1674637871368,
+            "message": "",
+            "name": "/home/flakie/package/test/ssr.test.tsx",
+            "startTime": 1674637834473,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 4688,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "cellClass is undefined",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "cellClass is undefined"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 601,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "cellClass is a string",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "cellClass is a string"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1395,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "cellClass returns a string",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "cellClass returns a string"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1110,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "cellClass returns undefined",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "cellClass returns undefined"
+                }
+            ],
+            "endTime": 1674637876565,
+            "message": "",
+            "name": "/home/flakie/package/test/column/cellClass.test.ts",
+            "startTime": 1674637837373,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 6207,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "frozen column have a specific class, and are stable-sorted before non-frozen columns",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "frozen column have a specific class, and are stable-sorted before non-frozen columns"
+                }
+            ],
+            "endTime": 1674637880771,
+            "message": "",
+            "name": "/home/flakie/package/test/column/frozen.test.ts",
+            "startTime": 1674637840272,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 1909,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "name is either a string or an element",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "name is either a string or an element"
+                }
+            ],
+            "endTime": 1674637881568,
+            "message": "",
+            "name": "/home/flakie/package/test/column/name.test.tsx",
+            "startTime": 1674637840567,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 1395,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "summaryFormatter",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "summaryFormatter"
+                }
+            ],
+            "endTime": 1674637883769,
+            "message": "",
+            "name": "/home/flakie/package/test/column/summaryFormatter.test.tsx",
+            "startTime": 1674637839167,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 1797,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "rowClass is undefined",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "rowClass is undefined"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1312,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "rowClass returns a string",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "rowClass returns a string"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 990,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "rowClass returns undefined",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "rowClass returns undefined"
+                }
+            ],
+            "endTime": 1674637887864,
+            "message": "",
+            "name": "/home/flakie/package/test/rowClass.test.ts",
+            "startTime": 1674637878370,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 6001,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at Object.test (/home/flakie/package/test/TextEditor.test.tsx:22:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "TextEditor",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "TextEditor"
+                }
+            ],
+            "endTime": 1674637889476,
+            "message": "  \u25cf TextEditor\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      20 | }\n      21 |\n    > 22 | test('TextEditor', async () => {\n         | ^\n      23 |   render(\n      24 |     <StrictMode>\n      25 |       <Test />\n\n      at Object.test (test/TextEditor.test.tsx:22:1)\n",
+            "name": "/home/flakie/package/test/TextEditor.test.tsx",
+            "startTime": 1674637841368,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 4505,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should not allow dragFill if onFill is undefined",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not allow dragFill if onFill is undefined"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1695,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should allow dragFill if onFill is specified",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should allow dragFill if onFill is specified"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 2204,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should update single row using mouse",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should update single row using mouse"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1986,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should update multiple rows using mouse",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should update multiple rows using mouse"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 3608,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should allow drag up using mouse",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should allow drag up using mouse"
+                }
+            ],
+            "endTime": 1674637890772,
+            "message": "",
+            "name": "/home/flakie/package/test/dragFill.test.tsx",
+            "startTime": 1674637838770,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 5502,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "headerRenderer is either undefined or a component",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "headerRenderer is either undefined or a component"
+                }
+            ],
+            "endTime": 1674637891566,
+            "message": "",
+            "name": "/home/flakie/package/test/column/headerRenderer.test.tsx",
+            "startTime": 1674637840268,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "ValueFormatter"
+                    ],
+                    "duration": 3506,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "ValueFormatter should be used by default",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should be used by default"
+                },
+                {
+                    "ancestorTitles": [
+                        "ValueFormatter"
+                    ],
+                    "duration": 1296,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "ValueFormatter should handle non-object values",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should handle non-object values"
+                },
+                {
+                    "ancestorTitles": [
+                        "Custom formatter component"
+                    ],
+                    "duration": 1602,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Custom formatter component should replace the default formatter",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should replace the default formatter"
+                },
+                {
+                    "ancestorTitles": [
+                        "Custom formatter component"
+                    ],
+                    "duration": 2795,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Custom formatter component can update rows",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "can update rows"
+                }
+            ],
+            "endTime": 1674637892966,
+            "message": "",
+            "name": "/home/flakie/package/test/column/formatter.test.tsx",
+            "startTime": 1674637841677,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 4805,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "headerCellClass is either undefined or a string",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "headerCellClass is either undefined or a string"
+                }
+            ],
+            "endTime": 1674637894280,
+            "message": "",
+            "name": "/home/flakie/package/test/column/headerCellClass.test.ts",
+            "startTime": 1674637850675,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 504,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should use left to right direction by default",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should use left to right direction by default"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 607,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should use left to right direction if direction prop is set to ltr",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should use left to right direction if direction prop is set to ltr"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 394,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should use right to left direction if direction prop is set to rtl",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should use right to left direction if direction prop is set to rtl"
+                }
+            ],
+            "endTime": 1674637896272,
+            "message": "",
+            "name": "/home/flakie/package/test/direction.test.ts",
+            "startTime": 1674637888777,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 1609,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "fallback defined using renderers prop with no rows",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "fallback defined using renderers prop with no rows"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1203,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "fallback defined using provider with no rows",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "fallback defined using provider with no rows"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 2599,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "fallback defined using both provider and renderers with no rows",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "fallback defined using both provider and renderers with no rows"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 2200,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "fallback defined using renderers prop with a row",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "fallback defined using renderers prop with a row"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 194,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "fallback defined using provider with a row",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "fallback defined using provider with a row"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 111,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "fallback defined using both provider and renderers with a row",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "fallback defined using both provider and renderers with a row"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 193,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "checkbox defined using renderers prop",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "checkbox defined using renderers prop"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 204,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "checkbox defined using provider",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "checkbox defined using provider"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 199,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "checkbox defined using both provider and renderers",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "checkbox defined using both provider and renderers"
+                }
+            ],
+            "endTime": 1674637897476,
+            "message": "",
+            "name": "/home/flakie/package/test/renderers.test.tsx",
+            "startTime": 1674637881870,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 609,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "summaryCellClass is undefined",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "summaryCellClass is undefined"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 195,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "summaryCellClass is a string",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "summaryCellClass is a string"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 214,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "summaryCellClass returns a string",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "summaryCellClass returns a string"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 296,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "summaryCellClass returns undefined",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "summaryCellClass returns undefined"
+                }
+            ],
+            "endTime": 1674637899080,
+            "message": "",
+            "name": "/home/flakie/package/test/column/summaryCellClass.test.ts",
+            "startTime": 1674637893465,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 3200,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should not resize column if resizable is not specified",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not resize column if resizable is not specified"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 309,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should not resize column if cursor offset is not within the allowed range",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not resize column if cursor offset is not within the allowed range"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 498,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should resize column if cursor offset is within the allowed range",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should resize column if cursor offset is within the allowed range"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 197,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should use the maxWidth if specified",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should use the maxWidth if specified"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 197,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should use the minWidth if specified",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should use the minWidth if specified"
+                }
+            ],
+            "endTime": 1674637899469,
+            "message": "",
+            "name": "/home/flakie/package/test/column/resizable.test.tsx",
+            "startTime": 1674637885776,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 2401,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should not allow copy/paste if onPaste & onCopy is undefined",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not allow copy/paste if onPaste & onCopy is undefined"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 2990,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should allow copy if only onCopy is specified",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should allow copy if only onCopy is specified"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 2715,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should allow copy/paste if only onPaste is specified",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should allow copy/paste if only onPaste is specified"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 5192,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at Object.test (/home/flakie/package/test/copyPaste.test.tsx:124:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "should allow copy/paste if both onPaste & onCopy is specified",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "should allow copy/paste if both onPaste & onCopy is specified"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 508,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should not allow paste on readonly cells",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not allow paste on readonly cells"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 996,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should allow copying a readonly cell, and pasting the value into a writable cell",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should allow copying a readonly cell, and pasting the value into a writable cell"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 703,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should cancel copy/paste on escape",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should cancel copy/paste on escape"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 890,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should not allow copy on header or summary cells",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not allow copy on header or summary cells"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1105,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should not allow paste on header or summary cells",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not allow paste on header or summary cells"
+                }
+            ],
+            "endTime": 1674637901469,
+            "message": "  \u25cf should allow copy/paste if both onPaste & onCopy is specified\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      122 | });\n      123 |\n    > 124 | test('should allow copy/paste if both onPaste & onCopy is specified', async () => {\n          | ^\n      125 |   setup(true, true);\n      126 |   await userEvent.click(getCellsAtRowIndex(0)[0]);\n      127 |   copySelectedCell();\n\n      at Object.test (test/copyPaste.test.tsx:124:1)\n",
+            "name": "/home/flakie/package/test/copyPaste.test.tsx",
+            "startTime": 1674637839878,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 6700,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "column order",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "column order"
+                }
+            ],
+            "endTime": 1674637902079,
+            "message": "",
+            "name": "/home/flakie/package/test/columnOrder.test.ts",
+            "startTime": 1674637883567,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 4502,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "rowHeight is number",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "rowHeight is number"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 5489,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at Object.test (/home/flakie/package/test/rowHeight.test.ts:42:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "rowHeight is function",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "rowHeight is function"
+                }
+            ],
+            "endTime": 1674637906675,
+            "message": "  \u25cf rowHeight is function\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      40 | });\n      41 |\n    > 42 | test('rowHeight is function', async () => {\n         | ^\n      43 |   setupGrid((args) => (args.type === 'ROW' ? [40, 60, 80][args.row % 3] : 40));\n      44 |\n      45 |   const rows = getRows();\n\n      at Object.test (test/rowHeight.test.ts:42:1)\n",
+            "name": "/home/flakie/package/test/rowHeight.test.ts",
+            "startTime": 1674637890178,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "colSpan"
+                    ],
+                    "duration": 12105,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "colSpan should merges cells",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should merges cells"
+                },
+                {
+                    "ancestorTitles": [
+                        "colSpan"
+                    ],
+                    "duration": 5103,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at it (/home/flakie/package/test/column/colSpan.test.ts:95:3)\n    at _dispatchDescribe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:91:26)\n    at describe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:55:5)\n    at Object.describe (/home/flakie/package/test/column/colSpan.test.ts:6:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "colSpan should navigate between merged cells",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "should navigate between merged cells"
+                },
+                {
+                    "ancestorTitles": [
+                        "colSpan"
+                    ],
+                    "duration": 5502,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at it (/home/flakie/package/test/column/colSpan.test.ts:173:3)\n    at _dispatchDescribe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:91:26)\n    at describe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:55:5)\n    at Object.describe (/home/flakie/package/test/column/colSpan.test.ts:6:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "colSpan should scroll to the merged cell when selected",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "should scroll to the merged cell when selected"
+                }
+            ],
+            "endTime": 1674637907470,
+            "message": "  \u25cf colSpan \u203a should navigate between merged cells\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      93 |   });\n      94 |\n    > 95 |   it('should navigate between merged cells', async () => {\n         |   ^\n      96 |     setupColSpanGrid();\n      97 |     // header row\n      98 |     await userEvent.click(getHeaderCells()[7]);\n\n      at it (test/column/colSpan.test.ts:95:3)\n      at Object.describe (test/column/colSpan.test.ts:6:1)\n\n  \u25cf colSpan \u203a should scroll to the merged cell when selected\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      171 |   });\n      172 |\n    > 173 |   it('should scroll to the merged cell when selected', async () => {\n          |   ^\n      174 |     setupColSpanGrid(30);\n      175 |     await userEvent.click(getCellsAtRowIndex(10)[23]); // last visible cell (1920/80)\n      176 |     const spy = jest.spyOn(window.HTMLElement.prototype, 'scrollIntoView');\n\n      at it (test/column/colSpan.test.ts:173:3)\n      at Object.describe (test/column/colSpan.test.ts:6:1)\n",
+            "name": "/home/flakie/package/test/column/colSpan.test.ts",
+            "startTime": 1674637843671,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 904,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should not sort if sortable is false",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not sort if sortable is false"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1890,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "single column sort",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "single column sort"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 3802,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "multi column sort",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "multi column sort"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 2097,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "multi column sort with metakey",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "multi column sort with metakey"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1603,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "multi column sort with keyboard",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "multi column sort with keyboard"
+                }
+            ],
+            "endTime": 1674637908275,
+            "message": "",
+            "name": "/home/flakie/package/test/sorting.test.tsx",
+            "startTime": 1674637891672,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 5593,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at Object.test (/home/flakie/package/test/rowSelection.test.tsx:61:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "toggle selection when checkbox is clicked",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "toggle selection when checkbox is clicked"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 5899,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at Object.test (/home/flakie/package/test/rowSelection.test.tsx:74:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "toggle selection using keyboard",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "toggle selection using keyboard"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 4994,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "select/deselect all rows when header checkbox is clicked",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "select/deselect all rows when header checkbox is clicked"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 9,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "header checkbox is not checked when there are no rows",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "header checkbox is not checked when there are no rows"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 191,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "header checkbox is not necessarily checked when selectedRows.size === rows.length",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "header checkbox is not necessarily checked when selectedRows.size === rows.length"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 105,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "header checkbox is not necessarily checked when selectedRows.size > rows.length",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "header checkbox is not necessarily checked when selectedRows.size > rows.length"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 4498,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "extra keys are preserved when updating the selectedRows Set",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "extra keys are preserved when updating the selectedRows Set"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 2703,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "select rows using shift click",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "select rows using shift click"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 2095,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "select rows using shift space",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "select rows using shift space"
+                }
+            ],
+            "endTime": 1674637909066,
+            "message": "  \u25cf toggle selection when checkbox is clicked\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      59 | }\n      60 |\n    > 61 | test('toggle selection when checkbox is clicked', async () => {\n         | ^\n      62 |   setup();\n      63 |   await toggleSelection(0);\n      64 |   testSelection(0, true);\n\n      at Object.test (test/rowSelection.test.tsx:61:1)\n\n  \u25cf toggle selection using keyboard\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      72 | });\n      73 |\n    > 74 | test('toggle selection using keyboard', async () => {\n         | ^\n      75 |   setup();\n      76 |   testSelection(0, false);\n      77 |   await userEvent.click(getCellsAtRowIndex(0)[0]);\n\n      at Object.test (test/rowSelection.test.tsx:74:1)\n",
+            "name": "/home/flakie/package/test/rowSelection.test.tsx",
+            "startTime": 1674637843665,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Editor"
+                    ],
+                    "duration": 2507,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor should open editor on double click",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should open editor on double click"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor"
+                    ],
+                    "duration": 1204,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor should open and commit changes on enter",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should open and commit changes on enter"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor"
+                    ],
+                    "duration": 2099,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor should open editor when user types",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should open editor when user types"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor"
+                    ],
+                    "duration": 1393,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor should close editor and discard changes on escape",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should close editor and discard changes on escape"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor"
+                    ],
+                    "duration": 2201,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor should commit changes and close editor when clicked outside",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should commit changes and close editor when clicked outside"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor"
+                    ],
+                    "duration": 1903,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor should commit quickly enough on outside clicks so click event handlers access the latest rows state",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should commit quickly enough on outside clicks so click event handlers access the latest rows state"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor"
+                    ],
+                    "duration": 1793,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor should scroll to the editor if selected cell is not in the viewport",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should scroll to the editor if selected cell is not in the viewport"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor",
+                        "editable"
+                    ],
+                    "duration": 296,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor editable should be editable if an editor is specified and editable is undefined/null",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should be editable if an editor is specified and editable is undefined/null"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor",
+                        "editable"
+                    ],
+                    "duration": 203,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor editable should be editable if an editor is specified and editable is set to true",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should be editable if an editor is specified and editable is set to true"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor",
+                        "editable"
+                    ],
+                    "duration": 202,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor editable should not be editable if editable is false",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not be editable if editable is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor",
+                        "editable"
+                    ],
+                    "duration": 303,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor editable should not be editable if editable function returns false",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not be editable if editable function returns false"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor",
+                        "editorOptions"
+                    ],
+                    "duration": 296,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor editorOptions should open editor on single click if editOnClick is true",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should open editor on single click if editOnClick is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor",
+                        "editorOptions"
+                    ],
+                    "duration": 501,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor editorOptions should detect outside click if editor is rendered in a portal",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should detect outside click if editor is rendered in a portal"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor",
+                        "editorOptions"
+                    ],
+                    "duration": 603,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor editorOptions should not commit on outside click if commitOnOutsideClick is false",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not commit on outside click if commitOnOutsideClick is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor",
+                        "editorOptions"
+                    ],
+                    "duration": 1000,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor editorOptions should not open editor if onCellKeyDown prevents the default event",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not open editor if onCellKeyDown prevents the default event"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor",
+                        "editorOptions"
+                    ],
+                    "duration": 900,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor editorOptions should prevent navigation if onNavigation returns false",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should prevent navigation if onNavigation returns false"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor",
+                        "editor focus"
+                    ],
+                    "duration": 6291,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor editor focus should not steal focus back to the cell if the editor is not in the viewport and another cell is clicked",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not steal focus back to the cell if the editor is not in the viewport and another cell is clicked"
+                },
+                {
+                    "ancestorTitles": [
+                        "Editor",
+                        "editor focus"
+                    ],
+                    "duration": null,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "Editor editor focus should not steal focus back to the cell after being closed by clicking outside the grid",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "pending",
+                    "title": "should not steal focus back to the cell after being closed by clicking outside the grid"
+                }
+            ],
+            "endTime": 1674637922068,
+            "message": "",
+            "name": "/home/flakie/package/test/column/editor.test.tsx",
+            "startTime": 1674637892672,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 8992,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at Object.test (/home/flakie/package/test/keyboardNavigation.test.tsx:25:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "keyboard navigation",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "keyboard navigation"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 4404,
+                    "failureDetails": [
+                        {
+                            "matcherResult": {
+                                "pass": false,
+                                "message": "expect(element).toHaveAttribute(\"aria-colindex\", \"1\") // element.getAttribute(\"aria-colindex\") === \"1\"\n\nExpected the element to have attribute:\n  aria-colindex=\"1\"\nReceived:\n  aria-colindex=\"2\""
+                            }
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: expect(element).toHaveAttribute(\"aria-colindex\", \"1\") // element.getAttribute(\"aria-colindex\") === \"1\"\n\nExpected the element to have attribute:\n  aria-colindex=\"1\"\nReceived:\n  aria-colindex=\"2\"\n    at toHaveAttribute (/home/flakie/package/test/utils.tsx:72:16)\n    at Object.<anonymous> (/home/flakie/package/test/keyboardNavigation.test.tsx:107:23)"
+                    ],
+                    "fullName": "cellNavigationMode=\"NONE\"",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "cellNavigationMode=\"NONE\""
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 5497,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at Object.test (/home/flakie/package/test/keyboardNavigation.test.tsx:126:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "cellNavigationMode=\"CHANGE_ROW\"",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "cellNavigationMode=\"CHANGE_ROW\""
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 5301,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at Object.test (/home/flakie/package/test/keyboardNavigation.test.tsx:149:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "cellNavigationMode=\"LOOP_OVER_ROW\"",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "cellNavigationMode=\"LOOP_OVER_ROW\""
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1405,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "grid enter/exit",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "grid enter/exit"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 494,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "navigation with focusable formatter",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "navigation with focusable formatter"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 896,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "navigation when header and summary rows have focusable elements",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "navigation when header and summary rows have focusable elements"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 7304,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at Object.test (/home/flakie/package/test/keyboardNavigation.test.tsx:293:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "navigation when selected cell not in the viewport",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "navigation when selected cell not in the viewport"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1301,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "reset selected cell when column is removed",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "reset selected cell when column is removed"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 598,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "reset selected cell when row is removed",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "reset selected cell when row is removed"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 3594,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should not change the left and right arrow behavior for right to left languages",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not change the left and right arrow behavior for right to left languages"
+                }
+            ],
+            "endTime": 1674637926268,
+            "message": "  \u25cf keyboard navigation\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      23 | ];\n      24 |\n    > 25 | test('keyboard navigation', async () => {\n         | ^\n      26 |   setup({ columns, rows, topSummaryRows, bottomSummaryRows });\n      27 |\n      28 |   // no initial selection\n\n      at Object.test (test/keyboardNavigation.test.tsx:25:1)\n\n  \u25cf cellNavigationMode=\"NONE\"\n\n    expect(element).toHaveAttribute(\"aria-colindex\", \"1\") // element.getAttribute(\"aria-colindex\") === \"1\"\n\n    Expected the element to have attribute:\n      aria-colindex=\"1\"\n    Received:\n      aria-colindex=\"2\"\n\n      70 |     throw new Error('Selected cell not found');\n      71 |   }\n    > 72 |   expect(cell).toHaveAttribute('aria-colindex', `${columnIdx + 1}`);\n         |                ^\n      73 |   expect(cell.parentNode).toHaveAttribute('aria-rowindex', `${rowIdx + 1}`);\n      74 | }\n      75 |\n\n      at toHaveAttribute (test/utils.tsx:72:16)\n      at Object.<anonymous> (test/keyboardNavigation.test.tsx:107:23)\n\n  \u25cf cellNavigationMode=\"CHANGE_ROW\"\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      124 | });\n      125 |\n    > 126 | test('cellNavigationMode=\"CHANGE_ROW\"', async () => {\n          | ^\n      127 |   setup({ columns, rows, bottomSummaryRows, cellNavigationMode: 'CHANGE_ROW' });\n      128 |\n      129 |   // pressing arrowleft on the leftmost cell navigates to the rightmost cell on the previous row\n\n      at Object.test (test/keyboardNavigation.test.tsx:126:1)\n\n  \u25cf cellNavigationMode=\"LOOP_OVER_ROW\"\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      147 | });\n      148 |\n    > 149 | test('cellNavigationMode=\"LOOP_OVER_ROW\"', async () => {\n          | ^\n      150 |   setup({ columns, rows, bottomSummaryRows, cellNavigationMode: 'LOOP_OVER_ROW' });\n      151 |\n      152 |   // pressing arrowleft on the leftmost cell navigates to the rightmost cell on the same row\n\n      at Object.test (test/keyboardNavigation.test.tsx:149:1)\n\n  \u25cf navigation when selected cell not in the viewport\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      291 | });\n      292 |\n    > 293 | test('navigation when selected cell not in the viewport', async () => {\n          | ^\n      294 |   const columns: Column<Row>[] = [SelectColumn];\n      295 |   for (let i = 0; i < 99; i++) {\n      296 |     columns.push({ key: `col${i}`, name: `col${i}`, frozen: i < 5 });\n\n      at Object.test (test/keyboardNavigation.test.tsx:293:1)\n",
+            "name": "/home/flakie/package/test/keyboardNavigation.test.tsx",
+            "startTime": 1674637842367,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 6403,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should not group if groupBy is not specified",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not group if groupBy is not specified"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 4802,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should not group if column does not exist",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should not group if column does not exist"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1492,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should group by single column",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should group by single column"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 907,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should group by multiple columns",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should group by multiple columns"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 595,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should ignore duplicate groupBy columns",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should ignore duplicate groupBy columns"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1596,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should use groupBy order while grouping",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should use groupBy order while grouping"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 5101,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at Object.test (/home/flakie/package/test/grouping.test.tsx:175:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "should toggle group when group cell is clicked",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "should toggle group when group cell is clicked"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 4594,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should toggle group using keyboard",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should toggle group using keyboard"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1792,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "should set aria-attributes",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "should set aria-attributes"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 5207,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at Object.test (/home/flakie/package/test/grouping.test.tsx:234:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "should select rows in a group",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "should select rows in a group"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 7890,
+                    "failureDetails": [
+                        {
+                            "message": "thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\""
+                        }
+                    ],
+                    "failureMessages": [
+                        "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at Object.test (/home/flakie/package/test/grouping.test.tsx:275:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                    ],
+                    "fullName": "cell navigation in a treegrid",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "failed",
+                    "title": "cell navigation in a treegrid"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1117,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "onFill is not supported when grouping is enabled",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "onFill is not supported when grouping is enabled"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 1196,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "copy/paste when grouping is enabled",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "copy/paste when grouping is enabled"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 3290,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "update row using formatter",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "update row using formatter"
+                }
+            ],
+            "endTime": 1674637932477,
+            "message": "  \u25cf should toggle group when group cell is clicked\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      173 | });\n      174 |\n    > 175 | test('should toggle group when group cell is clicked', async () => {\n          | ^\n      176 |   setup(['year']);\n      177 |   expect(getRows()).toHaveLength(3);\n      178 |   const groupCell = screen.getByRole('gridcell', { name: '2021' });\n\n      at Object.test (test/grouping.test.tsx:175:1)\n\n  \u25cf should select rows in a group\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      232 | });\n      233 |\n    > 234 | test('should select rows in a group', async () => {\n          | ^\n      235 |   setup(['year', 'country']);\n      236 |\n      237 |   // expand group\n\n      at Object.test (test/grouping.test.tsx:234:1)\n\n  \u25cf cell navigation in a treegrid\n\n    thrown: \"Exceeded timeout of 5000 ms for a test.\n    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n\n      273 | });\n      274 |\n    > 275 | test('cell navigation in a treegrid', async () => {\n          | ^\n      276 |   setup(['country', 'year']);\n      277 |   expect(getRows()).toHaveLength(2);\n      278 |   const focusSink = document.querySelector(`.${focusSinkClassname}`);\n\n      at Object.test (test/grouping.test.tsx:275:1)\n",
+            "name": "/home/flakie/package/test/grouping.test.tsx",
+            "startTime": 1674637881472,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 34309,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "virtualization is enabled",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "virtualization is enabled"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 4693,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "virtualization is enabled with 4 frozen columns",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "virtualization is enabled with 4 frozen columns"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 7900,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "virtualization is enabled with all columns frozen",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "virtualization is enabled with all columns frozen"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 985,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "virtualization is enabled with 2 summary rows",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "virtualization is enabled with 2 summary rows"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 217,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "zero columns",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "zero columns"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 196,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "zero rows",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "zero rows"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 402,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "virtualization is enable with not enough columns or rows to virtualize",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "virtualization is enable with not enough columns or rows to virtualize"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 78483,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "enableVirtualization is disabled",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "enableVirtualization is disabled"
+                }
+            ],
+            "endTime": 1674638020165,
+            "message": "",
+            "name": "/home/flakie/package/test/virtualization.test.ts",
+            "startTime": 1674637839265,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

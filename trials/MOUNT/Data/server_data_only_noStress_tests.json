@@ -1,0 +1,481 @@
+{
+    "Flakie Total Only No Stress": 23,
+    "Flakie numSubjects Only No Stress": 4,
+    "Flakie Subjects": {
+        "./Server/No_Stress/2023_01_26/algolia_algoliasearch-client-javascript": {
+            "Flakie in Project": 4,
+            "Number of Tests": 200,
+            "Length of Running": -1,
+            "Number of Flakie Failures": 15,
+            "Flake Rate for Subject": 0.375,
+            "Precentage of Flake Tests": 2.0,
+            "Only No Stress Flakie in Project": 2
+        },
+        "./Server/No_Stress/2023_01_26/atlassian_react-beautiful-dnd": {
+            "Flakie in Project": 3,
+            "Number of Tests": 1231,
+            "Length of Running": 3509,
+            "Number of Flakie Failures": 22,
+            "Flake Rate for Subject": 0.7333333333333333,
+            "Precentage of Flake Tests": 0.2437043054427295,
+            "Only No Stress Flakie in Project": 2
+        },
+        "./Server/No_Stress/2023_01_26/amzn_style-dictionary": {
+            "Flakie in Project": 24,
+            "Number of Tests": 503,
+            "Length of Running": 21009,
+            "Number of Flakie Failures": 42,
+            "Flake Rate for Subject": 0.175,
+            "Precentage of Flake Tests": 4.7713717693836974,
+            "Only No Stress Flakie in Project": 18
+        },
+        "./Server/No_Stress/2023_01_26/adazzle_react-data-grid": {
+            "Flakie in Project": 10,
+            "Number of Tests": 124,
+            "Length of Running": 854,
+            "Number of Flakie Failures": 50,
+            "Flake Rate for Subject": 0.5,
+            "Precentage of Flake Tests": 8.064516129032258,
+            "Only No Stress Flakie in Project": 1
+        }
+    },
+    "Tests": {
+        "./Server/No_Stress/2023_01_26/algolia_algoliasearch-client-javascript": {
+            "/home/flakie/package/packages/requester-fetch/src/__tests__/unit/fetch-requester.test.ts:resolves dns not found:error handling resolves dns not found": {
+                "failures": 1,
+                "Flake Rate for Test": 0.1,
+                "Failure Messages": [
+                    "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at Object.<anonymous> (/home/flakie/package/packages/requester-fetch/src/__tests__/unit/fetch-requester.test.ts:225:33)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                ],
+                "RunStatus": [
+                    "failed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ]
+            },
+            "/home/flakie/package/packages/requester-browser-xhr/src/__tests__/unit/browser-xhr-requester.test.ts:conection timeouts with the given 2 seconds connection timeout:timeout handling conection timeouts with the given 2 seconds connection timeout": {
+                "failures": 1,
+                "Failure Messages": [
+                    "Error: expect(received).toBeLessThan(expected)\n\nExpected: < 2200\nReceived:   2293\n    at Object.<anonymous> (/home/flakie/package/packages/requester-browser-xhr/src/__tests__/unit/browser-xhr-requester.test.ts:141:26)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                ],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "failed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ],
+                "Flake Rate for Test": 0.1
+            }
+        },
+        "./Server/No_Stress/2023_01_26/atlassian_react-beautiful-dnd": {
+            "/home/flakie/package/test/unit/health/drop-dev-warnings-for-prod.spec.js:should not contain warnings in production:should not contain warnings in production": {
+                "failures": 9,
+                "Failure Messages": [
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)"
+                ],
+                "RunStatus": [
+                    "passed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "failed"
+                ],
+                "Flake Rate for Test": 0.9
+            },
+            "/home/flakie/package/test/unit/health/drop-dev-warnings-for-prod.spec.js:should contain warnings in development:should contain warnings in development": {
+                "failures": 9,
+                "Failure Messages": [
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)",
+                    "Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 120000ms timeout specified by jest.setTimeout.\n    at mapper (/home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n    at /home/flakie/package/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at fn (/home/flakie/package/node_modules/jest-jasmine2/build/treeProcessor.js:43:7)\n    at Env.execute (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:296:11)\n    at jasmine2 (/home/flakie/package/node_modules/jest-jasmine2/build/index.js:231:3)\n    at runTestInternal (/home/flakie/package/node_modules/jest-runner/build/runTest.js:385:16)\n    at runTest (/home/flakie/package/node_modules/jest-runner/build/runTest.js:465:34)\n    at Object.worker (/home/flakie/package/node_modules/jest-runner/build/testWorker.js:129:12)"
+                ],
+                "RunStatus": [
+                    "passed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "failed"
+                ],
+                "Flake Rate for Test": 0.9
+            }
+        },
+        "./Server/No_Stress/2023_01_26/amzn_style-dictionary": {
+            "/home/flakie/package/__integration__/objectValues.test.js:should match snapshot:integration object values css/variables shadow should match snapshot": {
+                "failures": 2,
+                "Failure Messages": [
+                    "Error: ENOENT: no such file or directory, open '__integration__/build/shadow.css'\n    at Object.openSync (fs.js:497:3)\n    at Object.readFileSync (fs.js:393:35)\n    at Object.readFileSync (/home/flakie/package/__integration__/objectValues.test.js:233:29)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)",
+                    "Error: ENOENT: no such file or directory, open '__integration__/build/shadow.css'\n    at Object.openSync (fs.js:497:3)\n    at Object.readFileSync (fs.js:393:35)\n    at Object.readFileSync (/home/flakie/package/__integration__/objectValues.test.js:233:29)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                ],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "failed",
+                    "passed",
+                    "passed",
+                    "failed"
+                ],
+                "Flake Rate for Test": 0.2
+            },
+            "/home/flakie/package/__integration__/objectValues.test.js:should match snapshot:integration object values css/variables hex syntax should match snapshot": {
+                "failures": 0,
+                "Failure Messages": [],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ]
+            },
+            "/home/flakie/package/__tests__/cleanDirs.test.js:should delete with buildPath:cleanDirs should delete with buildPath": {
+                "failures": 1,
+                "Failure Messages": [
+                    "Error: ENOENT: no such file or directory, rmdir '__tests__/__output/extradir1/extradir2'\n    at Object.rmdirSync (fs.js:916:10)\n    at rmdirSync (/home/flakie/package/lib/cleanDir.js:45:12)\n    at cleanDir (/home/flakie/package/lib/cleanDirs.js:34:7)\n    at Array.forEach (<anonymous>)\n    at forEach (/home/flakie/package/lib/cleanDirs.js:32:18)\n    at Object.cleanDirs (/home/flakie/package/__tests__/cleanDirs.test.js:69:5)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                ],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "failed",
+                    "passed",
+                    "passed"
+                ],
+                "Flake Rate for Test": 0.1
+            },
+            "/home/flakie/package/__integration__/objectValues.test.js:should match snapshot with references:integration object values css/variables shadow should match snapshot with references": {
+                "failures": 2,
+                "Failure Messages": [
+                    "Error: ENOENT: no such file or directory, open '__integration__/build/shadowWithReferences.css'\n    at Object.openSync (fs.js:497:3)\n    at Object.readFileSync (fs.js:393:35)\n    at Object.readFileSync (/home/flakie/package/__integration__/objectValues.test.js:238:29)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)",
+                    "Error: ENOENT: no such file or directory, open '__integration__/build/shadowWithReferences.css'\n    at Object.openSync (fs.js:497:3)\n    at Object.readFileSync (fs.js:393:35)\n    at Object.readFileSync (/home/flakie/package/__integration__/objectValues.test.js:238:29)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                ],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "failed",
+                    "passed",
+                    "passed",
+                    "failed"
+                ],
+                "Flake Rate for Test": 0.2
+            },
+            "/home/flakie/package/__integration__/objectValues.test.js:should match snapshot:integration object values css/variables border with references should match snapshot": {
+                "failures": 0,
+                "Failure Messages": [],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ]
+            },
+            "/home/flakie/package/__tests__/buildPlatform.test.js:should build scss platform files:buildPlatform should build scss platform files": {
+                "failures": 2,
+                "Failure Messages": [
+                    "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at Object.toBeTruthy (/home/flakie/package/__tests__/buildPlatform.test.js:46:73)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)",
+                    "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at Object.toBeTruthy (/home/flakie/package/__tests__/buildPlatform.test.js:46:73)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                ],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "failed",
+                    "failed",
+                    "passed"
+                ],
+                "Flake Rate for Test": 0.2
+            },
+            "/home/flakie/package/__integration__/objectValues.test.js:should match snapshot:integration object values css/variables hsl syntax with references should match snapshot": {
+                "failures": 0,
+                "Failure Messages": [],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ]
+            },
+            "/home/flakie/package/__tests__/cleanPlatform.test.js:should delete android stuff:cleanPlatform should delete android stuff": {
+                "failures": 1,
+                "Failure Messages": [
+                    "Error: ENOENT: no such file or directory, open '__tests__/__output/android/font_dimen.xml'\n    at Object.openSync (fs.js:497:3)\n    at Object.writeFileSync (fs.js:1528:35)\n    at writeFileSync (/home/flakie/package/lib/buildFile.js:103:6)\n    at buildFile (/home/flakie/package/lib/buildFiles.js:33:7)\n    at Array.forEach (<anonymous>)\n    at forEach (/home/flakie/package/lib/buildFiles.js:31:18)\n    at Object.buildFiles [as buildPlatform] (/home/flakie/package/lib/buildPlatform.js:62:3)\n    at Object.buildPlatform (/home/flakie/package/__tests__/cleanPlatform.test.js:38:29)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                ],
+                "RunStatus": [
+                    "passed",
+                    "failed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ],
+                "Flake Rate for Test": 0.1
+            },
+            "/home/flakie/package/__tests__/buildPlatform.test.js:should handle comments:buildPlatform should handle comments": {
+                "failures": 1,
+                "Failure Messages": [
+                    "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at Object.toBeTruthy (/home/flakie/package/__tests__/buildPlatform.test.js:148:68)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                ],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "failed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ],
+                "Flake Rate for Test": 0.1
+            },
+            "/home/flakie/package/__tests__/cleanPlatform.test.js:should delete the proper files:cleanPlatform should delete the proper files": {
+                "failures": 1,
+                "Failure Messages": [
+                    "Error: ENOTEMPTY: directory not empty, rmdir '__tests__/__output/web'\n    at Object.rmdirSync (fs.js:916:10)\n    at rmdirSync (/home/flakie/package/lib/cleanDir.js:45:12)\n    at cleanDir (/home/flakie/package/lib/cleanDirs.js:34:7)\n    at Array.forEach (<anonymous>)\n    at forEach (/home/flakie/package/lib/cleanDirs.js:32:18)\n    at Object.cleanDirs [as cleanPlatform] (/home/flakie/package/lib/cleanPlatform.js:55:3)\n    at Object.cleanPlatform (/home/flakie/package/__tests__/cleanPlatform.test.js:31:29)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                ],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "failed",
+                    "passed",
+                    "passed"
+                ],
+                "Flake Rate for Test": 0.1
+            },
+            "/home/flakie/package/__tests__/buildFiles.test.js:should work without buildPath:buildFiles should work without buildPath": {
+                "failures": 2,
+                "Failure Messages": [
+                    "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at Object.toBeTruthy (/home/flakie/package/__tests__/buildFiles.test.js:108:66)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)",
+                    "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at Object.toBeTruthy (/home/flakie/package/__tests__/buildFiles.test.js:108:66)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                ],
+                "RunStatus": [
+                    "passed",
+                    "failed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "failed"
+                ],
+                "Flake Rate for Test": 0.2
+            },
+            "/home/flakie/package/__integration__/objectValues.test.js:should match snapshot:integration object values css/variables hsl syntax should match snapshot": {
+                "failures": 0,
+                "Failure Messages": [],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ]
+            },
+            "/home/flakie/package/__integration__/customFileHeader.test.js:registered file header should match snapshot:integration valid custom file headers file options registered file header should match snapshot": {
+                "failures": 1,
+                "Flake Rate for Test": 0.1,
+                "Failure Messages": [
+                    "Error: ENOENT: no such file or directory, open '__integration__/build/registeredFileHeader.css'\n    at Object.openSync (fs.js:497:3)\n    at Object.readFileSync (fs.js:393:35)\n    at Object.readFileSync (/home/flakie/package/__integration__/customFileHeader.test.js:105:27)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                ],
+                "RunStatus": [
+                    "failed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ]
+            },
+            "/home/flakie/package/__integration__/objectValues.test.js:should match snapshot:integration object values css/variables hex syntax with references should match snapshot": {
+                "failures": 0,
+                "Failure Messages": [],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ]
+            },
+            "/home/flakie/package/__integration__/objectValues.test.js:should match snapshot:integration object values scss/variables should match snapshot": {
+                "failures": 0,
+                "Failure Messages": [],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ]
+            },
+            "/home/flakie/package/__integration__/objectValues.test.js:should match snapshot:integration object values css/variables border should match snapshot": {
+                "failures": 0,
+                "Failure Messages": [],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ]
+            },
+            "/home/flakie/package/__integration__/objectValues.test.js:should match snapshot:integration object values scss/variables with references should match snapshot": {
+                "failures": 0,
+                "Failure Messages": [],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ]
+            },
+            "/home/flakie/package/__tests__/cleanFiles.test.js:should delete without buildPath:cleanFiles should delete without buildPath": {
+                "failures": 1,
+                "Failure Messages": [
+                    "Error: ENOENT: no such file or directory, unlink '__tests__/__output/test.json'\n    at Object.unlinkSync (fs.js:1255:3)\n    at unlinkSync (/home/flakie/package/lib/cleanFile.js:45:6)\n    at cleanFile (/home/flakie/package/lib/cleanFiles.js:34:7)\n    at Array.forEach (<anonymous>)\n    at forEach (/home/flakie/package/lib/cleanFiles.js:32:18)\n    at Object.cleanFiles (/home/flakie/package/__tests__/cleanFiles.test.js:59:5)\n    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:289:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:222:10)\n    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:86:9)\n    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:81:9)\n    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                ],
+                "RunStatus": [
+                    "passed",
+                    "passed",
+                    "passed",
+                    "failed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed",
+                    "passed"
+                ],
+                "Flake Rate for Test": 0.1
+            }
+        },
+        "./Server/No_Stress/2023_01_26/adazzle_react-data-grid": {
+            "/home/flakie/package/test/column/colSpan.test.ts:should scroll to the merged cell when selected:colSpan should scroll to the merged cell when selected": {
+                "failures": 7,
+                "Flake Rate for Test": 0.7,
+                "Failure Messages": [
+                    "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at it (/home/flakie/package/test/column/colSpan.test.ts:173:3)\n    at _dispatchDescribe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:91:26)\n    at describe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:55:5)\n    at Object.describe (/home/flakie/package/test/column/colSpan.test.ts:6:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)",
+                    "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at it (/home/flakie/package/test/column/colSpan.test.ts:173:3)\n    at _dispatchDescribe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:91:26)\n    at describe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:55:5)\n    at Object.describe (/home/flakie/package/test/column/colSpan.test.ts:6:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)",
+                    "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at it (/home/flakie/package/test/column/colSpan.test.ts:173:3)\n    at _dispatchDescribe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:91:26)\n    at describe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:55:5)\n    at Object.describe (/home/flakie/package/test/column/colSpan.test.ts:6:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)",
+                    "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at it (/home/flakie/package/test/column/colSpan.test.ts:173:3)\n    at _dispatchDescribe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:91:26)\n    at describe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:55:5)\n    at Object.describe (/home/flakie/package/test/column/colSpan.test.ts:6:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)",
+                    "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at it (/home/flakie/package/test/column/colSpan.test.ts:173:3)\n    at _dispatchDescribe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:91:26)\n    at describe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:55:5)\n    at Object.describe (/home/flakie/package/test/column/colSpan.test.ts:6:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)",
+                    "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at it (/home/flakie/package/test/column/colSpan.test.ts:173:3)\n    at _dispatchDescribe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:91:26)\n    at describe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:55:5)\n    at Object.describe (/home/flakie/package/test/column/colSpan.test.ts:6:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)",
+                    "Error: thrown: \"Exceeded timeout of 5000 ms for a test.\nUse jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.\"\n    at it (/home/flakie/package/test/column/colSpan.test.ts:173:3)\n    at _dispatchDescribe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:91:26)\n    at describe (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/index.js:55:5)\n    at Object.describe (/home/flakie/package/test/column/colSpan.test.ts:6:1)\n    at Runtime._execModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:1377:24)\n    at Runtime._loadModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:989:12)\n    at Runtime.requireModule (/usr/local/lib/node_modules/jest/node_modules/jest-runtime/build/index.js:849:12)\n    at jestAdapter (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at runTestInternal (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/runTest.js:444:34)\n    at Object.worker (/usr/local/lib/node_modules/jest/node_modules/jest-runner/build/testWorker.js:106:12)"
+                ],
+                "RunStatus": [
+                    "failed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "passed",
+                    "passed",
+                    "failed",
+                    "failed",
+                    "failed",
+                    "passed"
+                ]
+            }
+        }
+    }
+}

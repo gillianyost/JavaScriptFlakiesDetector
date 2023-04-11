@@ -1,0 +1,125 @@
+{
+    "numFailedTestSuites": 1,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 4,
+    "numPassedTests": 4,
+    "numPendingTestSuites": 1,
+    "numPendingTests": 1,
+    "numRuntimeErrorTestSuites": 1,
+    "numTotalTestSuites": 6,
+    "numTotalTests": 5,
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 5,
+        "total": 5,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674620752776,
+    "success": false,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "basic",
+                    "status": "passed",
+                    "title": "basic"
+                }
+            ],
+            "endTime": 1674620753787,
+            "message": "",
+            "name": "/home/flakie/package/packages/glam/tests/node.test.js",
+            "startTime": 1674620752876,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "basic",
+                    "status": "passed",
+                    "title": "basic"
+                }
+            ],
+            "endTime": 1674620757176,
+            "message": "",
+            "name": "/home/flakie/package/packages/glam/tests/browser.test.js",
+            "startTime": 1674620756671,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "basic",
+                    "status": "passed",
+                    "title": "basic"
+                }
+            ],
+            "endTime": 1674620757372,
+            "message": "",
+            "name": "/home/flakie/package/packages/glam/tests/parse.test.js",
+            "startTime": 1674620757270,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "basic",
+                    "status": "passed",
+                    "title": "basic"
+                }
+            ],
+            "endTime": 1674620757473,
+            "message": "",
+            "name": "/home/flakie/package/packages/glam/tests/generate.test.js",
+            "startTime": 1674620757374,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674620758368,
+            "message": "  \u25cf Test suite failed to run\n\n    Cannot find module 'glam' from 'App.test.js'\n      \n      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:191:17)\n      at Object.<anonymous> (packages/react-app/src/App.test.js:3:13)\n",
+            "name": "/home/flakie/package/packages/react-app/src/App.test.js",
+            "startTime": 1674620758368,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "",
+                    "status": "pending",
+                    "title": ""
+                }
+            ],
+            "endTime": 1674620758176,
+            "message": "",
+            "name": "/home/flakie/package/packages/glam/tests/plugins.test.js",
+            "startTime": 1674620757967,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

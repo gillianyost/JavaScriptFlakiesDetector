@@ -1,0 +1,83 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 1,
+    "numPassedTests": 3,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 1,
+    "numTotalTests": 3,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674711577515,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "duration": 5,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "throws invalid number",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "throws invalid number"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 502,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "wait 500 ms",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "wait 500 ms"
+                },
+                {
+                    "ancestorTitles": [],
+                    "duration": 196,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "test runs",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 0,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "test runs"
+                }
+            ],
+            "endTime": 1674711578413,
+            "message": "",
+            "name": "/home/flakie/package/index.test.js",
+            "startTime": 1674711577537,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

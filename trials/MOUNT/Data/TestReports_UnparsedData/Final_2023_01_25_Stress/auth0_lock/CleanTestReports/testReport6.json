@@ -1,0 +1,4404 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 61,
+    "numPassedTests": 383,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTotalTestSuites": 61,
+    "numTotalTests": 383,
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 267,
+        "total": 267,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674640380063,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "core.actions",
+                        "checkSession"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core.actions checkSession should set submitting on start",
+                    "status": "passed",
+                    "title": "should set submitting on start"
+                },
+                {
+                    "ancestorTitles": [
+                        "core.actions",
+                        "logIn"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core.actions logIn run the loggingIn hook",
+                    "status": "passed",
+                    "title": "run the loggingIn hook"
+                },
+                {
+                    "ancestorTitles": [
+                        "core.actions",
+                        "logIn"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core.actions logIn should display an error if one was thrown from the hook",
+                    "status": "passed",
+                    "title": "should display an error if one was thrown from the hook"
+                }
+            ],
+            "endTime": 1674640420466,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/core/actions.test.js",
+            "startTime": 1674640407269,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "AskVCode"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AskVCode renders correctly when logging in with email",
+                    "status": "passed",
+                    "title": "renders correctly when logging in with email"
+                },
+                {
+                    "ancestorTitles": [
+                        "AskVCode"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AskVCode renders correctly when logging in with a phone number",
+                    "status": "passed",
+                    "title": "renders correctly when logging in with a phone number"
+                }
+            ],
+            "endTime": 1674640421774,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/passwordless/ask_vcode.test.jsx",
+            "startTime": 1674640406775,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "SignUpPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpPane renders only email by default",
+                    "status": "passed",
+                    "title": "renders only email by default"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpPane shows header when instructions are available",
+                    "status": "passed",
+                    "title": "shows header when instructions are available"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpPane shows the Captcha pane",
+                    "status": "passed",
+                    "title": "shows the Captcha pane"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpPane hides the Captcha pane for SSO connections",
+                    "status": "passed",
+                    "title": "hides the Captcha pane for SSO connections"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpPane shows the Captcha pane for SSO (ADFS) connections",
+                    "status": "passed",
+                    "title": "shows the Captcha pane for SSO (ADFS) connections"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpPane",
+                        "onlyEmail is false"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpPane onlyEmail is false shows PasswordPane",
+                    "status": "passed",
+                    "title": "shows PasswordPane"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpPane",
+                        "onlyEmail is false"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpPane onlyEmail is false shows custom fields when additionalSignUpFields returns additional fields",
+                    "status": "passed",
+                    "title": "shows custom fields when additionalSignUpFields returns additional fields"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpPane",
+                        "onlyEmail is false"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpPane onlyEmail is false shows UsernamePane when databaseConnectionRequiresUsername is true and signUpHideUsernameField is false",
+                    "status": "passed",
+                    "title": "shows UsernamePane when databaseConnectionRequiresUsername is true and signUpHideUsernameField is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpPane",
+                        "onlyEmail is false"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpPane onlyEmail is false hide UsernamePane when databaseConnectionRequiresUsername is true and signUpHideUsernameField is true",
+                    "status": "passed",
+                    "title": "hide UsernamePane when databaseConnectionRequiresUsername is true and signUpHideUsernameField is true"
+                }
+            ],
+            "endTime": 1674640422271,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/engine/classic/sign_up_pane.test.jsx",
+            "startTime": 1674640409376,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "CaptchaPane",
+                        "CaptchaInput"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CaptchaPane CaptchaInput should render CaptchaInput if no provider is specified",
+                    "status": "passed",
+                    "title": "should render CaptchaInput if no provider is specified"
+                },
+                {
+                    "ancestorTitles": [
+                        "CaptchaPane",
+                        "recaptchav2"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CaptchaPane recaptchav2 should render reCaptcha if provider is recaptchav2",
+                    "status": "passed",
+                    "title": "should render reCaptcha if provider is recaptchav2"
+                },
+                {
+                    "ancestorTitles": [
+                        "CaptchaPane",
+                        "recaptchav2"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CaptchaPane recaptchav2 should pass the sitekey",
+                    "status": "passed",
+                    "title": "should pass the sitekey"
+                },
+                {
+                    "ancestorTitles": [
+                        "CaptchaPane",
+                        "recaptcha enterprise"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CaptchaPane recaptcha enterprise should render reCaptcha if provider is recaptcha_enterprise",
+                    "status": "passed",
+                    "title": "should render reCaptcha if provider is recaptcha_enterprise"
+                },
+                {
+                    "ancestorTitles": [
+                        "CaptchaPane",
+                        "recaptcha enterprise"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CaptchaPane recaptcha enterprise should pass the sitekey",
+                    "status": "passed",
+                    "title": "should pass the sitekey"
+                }
+            ],
+            "endTime": 1674640422175,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/captcha.test.jsx",
+            "startTime": 1674640406264,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "MFACodePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "MFACodePane renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "MFACodePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "MFACodePane sets isValid as true when `isFieldVisiblyInvalid` is false",
+                    "status": "passed",
+                    "title": "sets isValid as true when `isFieldVisiblyInvalid` is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "MFACodePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "MFACodePane calls `swap` onChange",
+                    "status": "passed",
+                    "title": "calls `swap` onChange"
+                }
+            ],
+            "endTime": 1674640425465,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/mfa_code_pane.test.jsx",
+            "startTime": 1674640407272,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "database/index.js",
+                        "databaseUsernameValue",
+                        "for database connection without username required"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "database/index.js databaseUsernameValue for database connection without username required should get the email",
+                    "status": "passed",
+                    "title": "should get the email"
+                },
+                {
+                    "ancestorTitles": [
+                        "database/index.js",
+                        "databaseUsernameValue",
+                        "for database connection with username required"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "database/index.js databaseUsernameValue for database connection with username required should get the username when `emailFirst` is not set",
+                    "status": "passed",
+                    "title": "should get the username when `emailFirst` is not set"
+                },
+                {
+                    "ancestorTitles": [
+                        "database/index.js",
+                        "databaseUsernameValue",
+                        "for database connection with username required"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "database/index.js databaseUsernameValue for database connection with username required should get the username when `emailFirst` is false",
+                    "status": "passed",
+                    "title": "should get the username when `emailFirst` is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "database/index.js",
+                        "databaseUsernameValue",
+                        "for database connection with username required"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "database/index.js databaseUsernameValue for database connection with username required should get the email when `emailFirst` is true",
+                    "status": "passed",
+                    "title": "should get the email when `emailFirst` is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "database/index.js",
+                        "databaseUsernameValue",
+                        "for database connection with username required",
+                        "and only email address is filled in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "database/index.js databaseUsernameValue for database connection with username required and only email address is filled in should get the email address",
+                    "status": "passed",
+                    "title": "should get the email address"
+                },
+                {
+                    "ancestorTitles": [
+                        "database/index.js",
+                        "databaseUsernameStyle"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "database/index.js databaseUsernameStyle it should resolve to \"username\" if a connectionResolver is present",
+                    "status": "passed",
+                    "title": "it should resolve to \"username\" if a connectionResolver is present"
+                }
+            ],
+            "endTime": 1674640425473,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/database/index.test.js",
+            "startTime": 1674640406969,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginPane renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginPane renders a captcha",
+                    "status": "passed",
+                    "title": "renders a captcha"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginPane hides the captcha for SSO connections",
+                    "status": "passed",
+                    "title": "hides the captcha for SSO connections"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginPane shows the captcha for SSO (ADFS) connections",
+                    "status": "passed",
+                    "title": "shows the captcha for SSO (ADFS) connections"
+                }
+            ],
+            "endTime": 1674640427880,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/database/login_pane.test.jsx",
+            "startTime": 1674640422573,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "SignedInConfirmation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignedInConfirmation renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                }
+            ],
+            "endTime": 1674640428575,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/core/signed_in_confirmation.test.jsx",
+            "startTime": 1674640425170,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "PasswordResetConfirmation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordResetConfirmation renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                }
+            ],
+            "endTime": 1674640429379,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/database/password_reset_confirmation.test.jsx",
+            "startTime": 1674640427665,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "requestPasswordlessEmail()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions requestPasswordlessEmail() calls validateAndSubmit()",
+                    "status": "passed",
+                    "title": "calls validateAndSubmit()"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "requestPasswordlessEmail()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions requestPasswordlessEmail() calls startPasswordless",
+                    "status": "passed",
+                    "title": "calls startPasswordless"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "requestPasswordlessEmail()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions requestPasswordlessEmail() calls startPasswordless with a custom email connection name",
+                    "status": "passed",
+                    "title": "calls startPasswordless with a custom email connection name"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "requestPasswordlessEmail()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions requestPasswordlessEmail() calls setPasswordlessStarted() on success",
+                    "status": "passed",
+                    "title": "calls setPasswordlessStarted() on success"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "requestPasswordlessEmail()",
+                        "normalizes the error message"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions requestPasswordlessEmail() normalizes the error message with a generic error",
+                    "status": "passed",
+                    "title": "with a generic error"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "requestPasswordlessEmail()",
+                        "normalizes the error message"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions requestPasswordlessEmail() normalizes the error message with a sms_provider_error error and description includes (Code: 21211)",
+                    "status": "passed",
+                    "title": "with a sms_provider_error error and description includes (Code: 21211)"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "resendEmail()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions resendEmail() calls setResendSuccess() on success",
+                    "status": "passed",
+                    "title": "calls setResendSuccess() on success"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "resendEmail()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions resendEmail() calls setResendFailed on error",
+                    "status": "passed",
+                    "title": "calls setResendFailed on error"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "sendSMS()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions sendSMS() calls validateAndSubmit()",
+                    "status": "passed",
+                    "title": "calls validateAndSubmit()"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "sendSMS()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions sendSMS() calls startPasswordless",
+                    "status": "passed",
+                    "title": "calls startPasswordless"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "sendSMS()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions sendSMS() calls startPasswordless with a custom SMS connection",
+                    "status": "passed",
+                    "title": "calls startPasswordless with a custom SMS connection"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "sendSMS()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions sendSMS() calls setPasswordlessStarted() on success",
+                    "status": "passed",
+                    "title": "calls setPasswordlessStarted() on success"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "sendSMS()",
+                        "normalizes the error message"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions sendSMS() normalizes the error message with a generic error",
+                    "status": "passed",
+                    "title": "with a generic error"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "sendSMS()",
+                        "normalizes the error message"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions sendSMS() normalizes the error message with a sms_provider_error error and description includes (Code: 21211)",
+                    "status": "passed",
+                    "title": "with a sms_provider_error error and description includes (Code: 21211)"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "sendSMS()",
+                        "normalizes the error message"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions sendSMS() normalizes the error message emits the \"authorization_error\" event",
+                    "status": "passed",
+                    "title": "emits the \"authorization_error\" event"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "login()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions login() sets setSubmitting to true",
+                    "status": "passed",
+                    "title": "sets setSubmitting to true"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "login()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions login() calls webApi.passwordlessVerify() with sms options",
+                    "status": "passed",
+                    "title": "calls webApi.passwordlessVerify() with sms options"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "login()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions login() calls webApi.passwordlessVerify() with email options",
+                    "status": "passed",
+                    "title": "calls webApi.passwordlessVerify() with email options"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "login()",
+                        "on webApi.passwordlessVerify() callback",
+                        "when there is an error"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions login() on webApi.passwordlessVerify() callback when there is an error formats the error",
+                    "status": "passed",
+                    "title": "formats the error"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "login()",
+                        "on webApi.passwordlessVerify() callback",
+                        "when there is an error"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions login() on webApi.passwordlessVerify() callback when there is an error emits the \"authorization_error\" event",
+                    "status": "passed",
+                    "title": "emits the \"authorization_error\" event"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "login()",
+                        "on webApi.passwordlessVerify() callback"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions login() on webApi.passwordlessVerify() callback calls logInSuccess on success",
+                    "status": "passed",
+                    "title": "calls logInSuccess on success"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions",
+                        "toggleTermsAcceptance()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions toggleTermsAcceptance() calls internalToggleTermsAcceptance()",
+                    "status": "passed",
+                    "title": "calls internalToggleTermsAcceptance()"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless actions"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless actions restart calls restartPasswordless",
+                    "status": "passed",
+                    "title": "restart calls restartPasswordless"
+                }
+            ],
+            "endTime": 1674640429367,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/passwordless/passwordless.actions.test.js",
+            "startTime": 1674640407287,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Container"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Container does not call `connectionResolver` on submit when there is no custom `connectionResolver`",
+                    "status": "passed",
+                    "title": "does not call `connectionResolver` on submit when there is no custom `connectionResolver`"
+                },
+                {
+                    "ancestorTitles": [
+                        "Container"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Container should submit the form when the form is not yet submitting",
+                    "status": "passed",
+                    "title": "should submit the form when the form is not yet submitting"
+                },
+                {
+                    "ancestorTitles": [
+                        "Container"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Container should not submit the form when the form is already submitting",
+                    "status": "passed",
+                    "title": "should not submit the form when the form is already submitting"
+                },
+                {
+                    "ancestorTitles": [
+                        "Container",
+                        "with a custom `connectionResolver`"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Container with a custom `connectionResolver` calls `connectionResolver` onSubmit",
+                    "status": "passed",
+                    "title": "calls `connectionResolver` onSubmit"
+                },
+                {
+                    "ancestorTitles": [
+                        "Container",
+                        "with a custom `connectionResolver`"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Container with a custom `connectionResolver` calls `swap` in the `connectionResolver` callback",
+                    "status": "passed",
+                    "title": "calls `swap` in the `connectionResolver` callback"
+                },
+                {
+                    "ancestorTitles": [
+                        "Container",
+                        "with a custom `connectionResolver`"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Container with a custom `connectionResolver` calls `setResolvedConnection` in the `swap` callback",
+                    "status": "passed",
+                    "title": "calls `setResolvedConnection` in the `swap` callback"
+                },
+                {
+                    "ancestorTitles": [
+                        "Container",
+                        "when suppressSubmitOverlay is true"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Container when suppressSubmitOverlay is true it does not display the overlay when submitting",
+                    "status": "passed",
+                    "title": "it does not display the overlay when submitting"
+                }
+            ],
+            "endTime": 1674640429877,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/ui/box/container.test.jsx",
+            "startTime": 1674640411275,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "with overrides"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init with overrides always uses telemetry set in the `auth0Client` query param and inside the ULP",
+                    "status": "passed",
+                    "title": "always uses telemetry set in the `auth0Client` query param and inside the ULP"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "with overrides"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init with overrides overrides telemetry when outside the ULP",
+                    "status": "passed",
+                    "title": "overrides telemetry when outside the ULP"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "with overrides"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init with overrides uses default telemetry key when outside the ULP",
+                    "status": "passed",
+                    "title": "uses default telemetry key when outside the ULP"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "with overrides"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init with overrides overrides auth0.js telemetry key",
+                    "status": "passed",
+                    "title": "overrides auth0.js telemetry key"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "with overrides"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init with overrides uses different telemetry key when inside the ULP",
+                    "status": "passed",
+                    "title": "uses different telemetry key when inside the ULP"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "with overrides"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init with overrides forwards options to WebAuth",
+                    "status": "passed",
+                    "title": "forwards options to WebAuth"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "with overrides"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init with overrides forwards options to WebAuth with a default leeway",
+                    "status": "passed",
+                    "title": "forwards options to WebAuth with a default leeway"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "should set authOpt according options"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init should set authOpt according options should set sso:true when inside the universal login page",
+                    "status": "passed",
+                    "title": "should set sso:true when inside the universal login page"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "should set authOpt according options"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init should set authOpt according options should set sso:false when inside the universal login page",
+                    "status": "passed",
+                    "title": "should set sso:false when inside the universal login page"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "should set authOpt according options"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init should set authOpt according options should set sso:undefined when outside the universal login page",
+                    "status": "passed",
+                    "title": "should set sso:undefined when outside the universal login page"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "should set authOpt according options"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init should set authOpt according options should set state from options.state",
+                    "status": "passed",
+                    "title": "should set state from options.state"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "should set authOpt according options"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init should set authOpt according options should set state from options.params.state",
+                    "status": "passed",
+                    "title": "should set state from options.params.state"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "should set authOpt according options"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init should set authOpt according options options.params.state should prevail over options.state",
+                    "status": "passed",
+                    "title": "options.params.state should prevail over options.state"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "should set authOpt according options"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init should set authOpt according options should set nonce from options.nonce",
+                    "status": "passed",
+                    "title": "should set nonce from options.nonce"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "should set authOpt according options"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init should set authOpt according options should set nonce from options.params.nonce",
+                    "status": "passed",
+                    "title": "should set nonce from options.params.nonce"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "should set authOpt according options"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init should set authOpt according options options.params.nonce should prevail over options.nonce",
+                    "status": "passed",
+                    "title": "options.params.nonce should prevail over options.nonce"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "init",
+                        "should set authOpt according options"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient init should set authOpt according options should set scope from options.params.scope",
+                    "status": "passed",
+                    "title": "should set scope from options.params.scope"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "logIn",
+                        "with social/enterprise (without username and email)"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient logIn with social/enterprise (without username and email) should call authorize when redirect===true",
+                    "status": "passed",
+                    "title": "should call authorize when redirect===true"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "logIn",
+                        "with social/enterprise (without username and email)"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient logIn with social/enterprise (without username and email) should call popup.authorize when redirect===false",
+                    "status": "passed",
+                    "title": "should call popup.authorize when redirect===false"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "logIn",
+                        "with credentials"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient logIn with credentials should call client.login",
+                    "status": "passed",
+                    "title": "should call client.login"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "logIn",
+                        "with credentials"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient logIn with credentials should use the provided login_hint",
+                    "status": "passed",
+                    "title": "should use the provided login_hint"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "logIn",
+                        "with credentials"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient logIn with credentials should call popup.loginWithCredentials when redirect is false and sso is false",
+                    "status": "passed",
+                    "title": "should call popup.loginWithCredentials when redirect is false and sso is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "logIn",
+                        "with credentials"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient logIn with credentials should call popup.loginWithCredentials when redirect is false and sso is true",
+                    "status": "passed",
+                    "title": "should call popup.loginWithCredentials when redirect is false and sso is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "logIn",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient logIn should trim spaces in the username",
+                    "status": "passed",
+                    "title": "the username"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "logIn",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient logIn should trim spaces in the username with a space",
+                    "status": "passed",
+                    "title": "the username with a space"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "logIn",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient logIn should trim spaces in the email",
+                    "status": "passed",
+                    "title": "the email"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "logIn",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient logIn should trim spaces in the mfa_code",
+                    "status": "passed",
+                    "title": "the mfa_code"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "signUp",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient signUp should trim spaces in the username",
+                    "status": "passed",
+                    "title": "the username"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "signUp",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient signUp should trim spaces in the username with a space",
+                    "status": "passed",
+                    "title": "the username with a space"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "signUp",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient signUp should trim spaces in the email",
+                    "status": "passed",
+                    "title": "the email"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "resetPassword",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient resetPassword should trim spaces in the username",
+                    "status": "passed",
+                    "title": "the username"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "resetPassword",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient resetPassword should trim spaces in the username with a space",
+                    "status": "passed",
+                    "title": "the username with a space"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "resetPassword",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient resetPassword should trim spaces in the email",
+                    "status": "passed",
+                    "title": "the email"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "passwordlessStart"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient passwordlessStart should call client.passwordlessStart",
+                    "status": "passed",
+                    "title": "should call client.passwordlessStart"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "passwordlessStart",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient passwordlessStart should trim spaces in the email",
+                    "status": "passed",
+                    "title": "the email"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "passwordlessStart",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient passwordlessStart should trim spaces in the phoneNumber",
+                    "status": "passed",
+                    "title": "the phoneNumber"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "passwordlessVerify"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient passwordlessVerify should call client.passwordlessLogin",
+                    "status": "passed",
+                    "title": "should call client.passwordlessLogin"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "passwordlessVerify",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient passwordlessVerify should trim spaces in the email",
+                    "status": "passed",
+                    "title": "the email"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "passwordlessVerify",
+                        "should trim spaces in"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient passwordlessVerify should trim spaces in the phoneNumber",
+                    "status": "passed",
+                    "title": "the phoneNumber"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient getUserCountry should call getUserCountry",
+                    "status": "passed",
+                    "title": "getUserCountry should call getUserCountry"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient getSSOData should call client.client.getSSOData",
+                    "status": "passed",
+                    "title": "getSSOData should call client.client.getSSOData"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "parseHash"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient parseHash should pass __enableIdPInitiatedLogin:false when options._enableImpersonation and options._enableIdPInitiatedLogin are not present",
+                    "status": "passed",
+                    "title": "should pass __enableIdPInitiatedLogin:false when options._enableImpersonation and options._enableIdPInitiatedLogin are not present"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "parseHash"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient parseHash should pass __enableIdPInitiatedLogin when options._enableImpersonation===true",
+                    "status": "passed",
+                    "title": "should pass __enableIdPInitiatedLogin when options._enableImpersonation===true"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0APIClient",
+                        "parseHash"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0APIClient parseHash should pass __enableIdPInitiatedLogin when options._enableIdPInitiatedLogin===true",
+                    "status": "passed",
+                    "title": "should pass __enableIdPInitiatedLogin when options._enableIdPInitiatedLogin===true"
+                }
+            ],
+            "endTime": 1674640431365,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/core/web_api/p2_api.test.js",
+            "startTime": 1674640421768,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "EmailSentConfirmation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "EmailSentConfirmation renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                }
+            ],
+            "endTime": 1674640432170,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/passwordless/email_sent_confirmation.test.jsx",
+            "startTime": 1674640431277,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "HRDScreen Component"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "HRDScreen Component renders correctly when there is an enterprise domain",
+                    "status": "passed",
+                    "title": "renders correctly when there is an enterprise domain"
+                },
+                {
+                    "ancestorTitles": [
+                        "HRDScreen Component"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "HRDScreen Component renders correctly when there is no enterprise domain",
+                    "status": "passed",
+                    "title": "renders correctly when there is no enterprise domain"
+                }
+            ],
+            "endTime": 1674640432365,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/enterprise/hrd_screen.test.js",
+            "startTime": 1674640423880,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "MFALoginScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "MFALoginScreen renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                }
+            ],
+            "endTime": 1674640432466,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/engine/classic/mfa_login_screen.test.jsx",
+            "startTime": 1674640427172,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "The quick auth screen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "The quick auth screen renders the connection using the domain",
+                    "status": "passed",
+                    "title": "renders the connection using the domain"
+                },
+                {
+                    "ancestorTitles": [
+                        "The quick auth screen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "The quick auth screen renders the connection using the display name when preferConnectionDisplayName is true",
+                    "status": "passed",
+                    "title": "renders the connection using the display name when preferConnectionDisplayName is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "The quick auth screen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "The quick auth screen renders the connection using the connection domain when preferConnectionDisplayName is true, but no display name available",
+                    "status": "passed",
+                    "title": "renders the connection using the connection domain when preferConnectionDisplayName is true, but no display name available"
+                },
+                {
+                    "ancestorTitles": [
+                        "The quick auth screen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "The quick auth screen renders the connection using the connection display name when preferConnectionDisplayName is true and there are no IdP domains configured",
+                    "status": "passed",
+                    "title": "renders the connection using the connection display name when preferConnectionDisplayName is true and there are no IdP domains configured"
+                },
+                {
+                    "ancestorTitles": [
+                        "The quick auth screen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "The quick auth screen renders the connection using the connection name when there is no domain available",
+                    "status": "passed",
+                    "title": "renders the connection using the connection name when there is no domain available"
+                }
+            ],
+            "endTime": 1674640432567,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/enterprise/quick_auth_screen.test.jsx",
+            "startTime": 1674640419374,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "i18n",
+                        "load i18n configuration"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "i18n load i18n configuration should have a defaultDictionary",
+                    "status": "passed",
+                    "title": "should have a defaultDictionary"
+                },
+                {
+                    "ancestorTitles": [
+                        "i18n",
+                        "when en language is selected"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "i18n when en language is selected should allow check for external en dictionaries",
+                    "status": "passed",
+                    "title": "should allow check for external en dictionaries"
+                },
+                {
+                    "ancestorTitles": [
+                        "i18n",
+                        "when html is called"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "i18n when html is called should sanitize the input and not allow for javascript to be passed through",
+                    "status": "passed",
+                    "title": "should sanitize the input and not allow for javascript to be passed through"
+                },
+                {
+                    "ancestorTitles": [
+                        "i18n",
+                        "when html is called"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "i18n when html is called should allow target=_blank with noopener noreferrer attributes",
+                    "status": "passed",
+                    "title": "should allow target=_blank with noopener noreferrer attributes"
+                }
+            ],
+            "endTime": 1674640432569,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/i18n.test.js",
+            "startTime": 1674640410271,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginPane renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginPane shows header when instructions is not empty",
+                    "status": "passed",
+                    "title": "shows header when instructions is not empty"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginPane shows email pane when user usernameStyle === email",
+                    "status": "passed",
+                    "title": "shows email pane when user usernameStyle === email"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginPane shows username pane when connectionResolver is specified, even if usernameStyle is email",
+                    "status": "passed",
+                    "title": "shows username pane when connectionResolver is specified, even if usernameStyle is email"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginPane shows username pane when user usernameStyle !== email",
+                    "status": "passed",
+                    "title": "shows username pane when user usernameStyle !== email"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginPane hides password pane when showPassword===false",
+                    "status": "passed",
+                    "title": "hides password pane when showPassword===false"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginPane",
+                        "hides password link"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginPane hides password link when showForgotPasswordLink === false",
+                    "status": "passed",
+                    "title": "when showForgotPasswordLink === false"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginPane",
+                        "hides password link"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginPane hides password link when lock does not have the screen `forgotPassword`",
+                    "status": "passed",
+                    "title": "when lock does not have the screen `forgotPassword`"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginPane clicking password forgot link calls showResetPasswordActivity() when forgotPasswordLink() is undefined",
+                    "status": "passed",
+                    "title": "clicking password forgot link calls showResetPasswordActivity() when forgotPasswordLink() is undefined"
+                }
+            ],
+            "endTime": 1674640432367,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/login_pane.test.jsx",
+            "startTime": 1674640409371,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "PasswordPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordPane renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "PasswordPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordPane renders correctly when `allowShowPassword` is true",
+                    "status": "passed",
+                    "title": "renders correctly when `allowShowPassword` is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "PasswordPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordPane renders correct css className when `hidden` is true",
+                    "status": "passed",
+                    "title": "renders correct css className when `hidden` is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "PasswordPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordPane disables input when submitting",
+                    "status": "passed",
+                    "title": "disables input when submitting"
+                },
+                {
+                    "ancestorTitles": [
+                        "PasswordPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordPane sets showPasswordStrengthMessage as true when `isFieldValid` is false",
+                    "status": "passed",
+                    "title": "sets showPasswordStrengthMessage as true when `isFieldValid` is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "PasswordPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordPane sets showPasswordStrengthMessage as false when `isFieldValid` is true",
+                    "status": "passed",
+                    "title": "sets showPasswordStrengthMessage as false when `isFieldValid` is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "PasswordPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordPane sets isValid as true when `isFieldVisiblyInvalid` is false",
+                    "status": "passed",
+                    "title": "sets isValid as true when `isFieldVisiblyInvalid` is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "PasswordPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordPane calls `swap` when password changes",
+                    "status": "passed",
+                    "title": "calls `swap` when password changes"
+                },
+                {
+                    "ancestorTitles": [
+                        "PasswordPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordPane calls `swap` when checkbox is clicked",
+                    "status": "passed",
+                    "title": "calls `swap` when checkbox is clicked"
+                },
+                {
+                    "ancestorTitles": [
+                        "PasswordPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordPane sets `blankErrorHint` when password is empty",
+                    "status": "passed",
+                    "title": "sets `blankErrorHint` when password is empty"
+                }
+            ],
+            "endTime": 1674640432772,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/password_pane.test.jsx",
+            "startTime": 1674640430877,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "UsernamePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "UsernamePane renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "UsernamePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "UsernamePane sets `blankErrorHint` when username is empty",
+                    "status": "passed",
+                    "title": "sets `blankErrorHint` when username is empty"
+                },
+                {
+                    "ancestorTitles": [
+                        "UsernamePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "UsernamePane sets `usernameFormatErrorHint` when usernameLooksLikeEmail() returns false and `validateFormat` is true",
+                    "status": "passed",
+                    "title": "sets `usernameFormatErrorHint` when usernameLooksLikeEmail() returns false and `validateFormat` is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "UsernamePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "UsernamePane sets isValid as true when `isFieldVisiblyInvalid` is false",
+                    "status": "passed",
+                    "title": "sets isValid as true when `isFieldVisiblyInvalid` is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "UsernamePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "UsernamePane sets autoComplete to true when `allowAutocomplete` is true",
+                    "status": "passed",
+                    "title": "sets autoComplete to true when `allowAutocomplete` is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "UsernamePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "UsernamePane fetches the avatar on componentDidMount if ui.avatar is true and there is a username",
+                    "status": "passed",
+                    "title": "fetches the avatar on componentDidMount if ui.avatar is true and there is a username"
+                },
+                {
+                    "ancestorTitles": [
+                        "UsernamePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "UsernamePane fetches the avatar onChange if ui.avatar is true",
+                    "status": "passed",
+                    "title": "fetches the avatar onChange if ui.avatar is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "UsernamePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "UsernamePane calls `swap` onChange",
+                    "status": "passed",
+                    "title": "calls `swap` onChange"
+                }
+            ],
+            "endTime": 1674640433172,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/username_pane.test.jsx",
+            "startTime": 1674640430371,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "VcodePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "VcodePane renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "VcodePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "VcodePane shows header when instructions are available",
+                    "status": "passed",
+                    "title": "shows header when instructions are available"
+                },
+                {
+                    "ancestorTitles": [
+                        "VcodePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "VcodePane disable input when submitting",
+                    "status": "passed",
+                    "title": "disable input when submitting"
+                },
+                {
+                    "ancestorTitles": [
+                        "VcodePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "VcodePane sets isValid as true when `isFieldVisiblyInvalid` is false and globalError() is false",
+                    "status": "passed",
+                    "title": "sets isValid as true when `isFieldVisiblyInvalid` is false and globalError() is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "VcodePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "VcodePane sets autoFocus as true when `isSmallScreen` is false",
+                    "status": "passed",
+                    "title": "sets autoFocus as true when `isSmallScreen` is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "VcodePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "VcodePane calls `onRestart` when alternative link is clicked",
+                    "status": "passed",
+                    "title": "calls `onRestart` when alternative link is clicked"
+                },
+                {
+                    "ancestorTitles": [
+                        "VcodePane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "VcodePane calls `swap` when VcodeInput changes",
+                    "status": "passed",
+                    "title": "calls `swap` when VcodeInput changes"
+                }
+            ],
+            "endTime": 1674640433174,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/vcode_pane.test.jsx",
+            "startTime": 1674640432064,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Chrome"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Chrome renders correctly with basic props",
+                    "status": "passed",
+                    "title": "renders correctly with basic props"
+                },
+                {
+                    "ancestorTitles": [
+                        "Chrome"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Chrome renders correctly when there is a global message",
+                    "status": "passed",
+                    "title": "renders correctly when there is a global message"
+                },
+                {
+                    "ancestorTitles": [
+                        "Chrome"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Chrome renders correctly when there is a global success message",
+                    "status": "passed",
+                    "title": "renders correctly when there is a global success message"
+                },
+                {
+                    "ancestorTitles": [
+                        "Chrome"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Chrome renders correctly when there is a global information message",
+                    "status": "passed",
+                    "title": "renders correctly when there is a global information message"
+                },
+                {
+                    "ancestorTitles": [
+                        "Chrome"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Chrome can dislay all global messages together",
+                    "status": "passed",
+                    "title": "can dislay all global messages together"
+                },
+                {
+                    "ancestorTitles": [
+                        "Chrome"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Chrome adds the auto-height class when forceAutoHeight UI prop is true",
+                    "status": "passed",
+                    "title": "adds the auto-height class when forceAutoHeight UI prop is true"
+                }
+            ],
+            "endTime": 1674640433273,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/ui/box/chrome.test.jsx",
+            "startTime": 1674640432668,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "EmailPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "EmailPane renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "EmailPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "EmailPane sets `blankErrorHint` when username is empty",
+                    "status": "passed",
+                    "title": "sets `blankErrorHint` when username is empty"
+                },
+                {
+                    "ancestorTitles": [
+                        "EmailPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "EmailPane sets isValid as true when `isFieldVisiblyInvalid` is false",
+                    "status": "passed",
+                    "title": "sets isValid as true when `isFieldVisiblyInvalid` is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "EmailPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "EmailPane sets autoComplete to true when `allowAutocomplete` is true",
+                    "status": "passed",
+                    "title": "sets autoComplete to true when `allowAutocomplete` is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "EmailPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "EmailPane fetches the avatar on componentDidMount if ui.avatar is true and there is a username",
+                    "status": "passed",
+                    "title": "fetches the avatar on componentDidMount if ui.avatar is true and there is a username"
+                },
+                {
+                    "ancestorTitles": [
+                        "EmailPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "EmailPane fetches the avatar onChange if ui.avatar is true",
+                    "status": "passed",
+                    "title": "fetches the avatar onChange if ui.avatar is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "EmailPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "EmailPane calls `swap` onChange",
+                    "status": "passed",
+                    "title": "calls `swap` onChange"
+                }
+            ],
+            "endTime": 1674640433666,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/email_pane.test.jsx",
+            "startTime": 1674640432972,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "field/index",
+                        "default validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/index default validation validates family_name",
+                    "status": "passed",
+                    "title": "validates family_name"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/index",
+                        "default validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/index default validation validates family_name",
+                    "status": "passed",
+                    "title": "validates family_name"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/index",
+                        "default validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/index default validation validates name",
+                    "status": "passed",
+                    "title": "validates name"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/index",
+                        "default validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/index default validation validates nickname",
+                    "status": "passed",
+                    "title": "validates nickname"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/index",
+                        "default validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/index default validation validates other fields",
+                    "status": "passed",
+                    "title": "validates other fields"
+                }
+            ],
+            "endTime": 1674640433675,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/field.test.js",
+            "startTime": 1674640433066,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "SignUpScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpScreen renders empty div by default",
+                    "status": "passed",
+                    "title": "renders empty div by default"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpScreen renders SocialButtonsPane when has social connections",
+                    "status": "passed",
+                    "title": "renders SocialButtonsPane when has social connections"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpScreen disables SocialButtonsPane when terms were not accepted",
+                    "status": "passed",
+                    "title": "disables SocialButtonsPane when terms were not accepted"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpScreen renders SingleSignOnNotice when SSO is enabled and has screen login",
+                    "status": "passed",
+                    "title": "renders SingleSignOnNotice when SSO is enabled and has screen login"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpScreen renders LoginSignUpTabs SSO is disabled and has screen login",
+                    "status": "passed",
+                    "title": "renders LoginSignUpTabs SSO is disabled and has screen login"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpScreen",
+                        "renders SignUpPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpScreen renders SignUpPane when has database connection",
+                    "status": "passed",
+                    "title": "when has database connection"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpScreen",
+                        "renders SignUpPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpScreen renders SignUpPane when has enterprise connection",
+                    "status": "passed",
+                    "title": "when has enterprise connection"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpScreen",
+                        "on Submit, uses `options.emailFirst=true` and"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpScreen on Submit, uses `options.emailFirst=true` and calls signup",
+                    "status": "passed",
+                    "title": "calls signup"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpScreen",
+                        "renders SignupTerms"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpScreen renders SignupTerms when showTerms() && `terms` are truthy",
+                    "status": "passed",
+                    "title": "when showTerms() && `terms` are truthy"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpScreen",
+                        "renders SignupTerms"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpScreen renders SignupTerms with a checkbox when mustAcceptTerms() is true",
+                    "status": "passed",
+                    "title": "with a checkbox when mustAcceptTerms() is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpScreen",
+                        "renders SignupTerms"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpScreen renders SignupTerms without a checkbox when mustAcceptTerms() is true",
+                    "status": "passed",
+                    "title": "without a checkbox when mustAcceptTerms() is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpScreen do not render SignupTerms when showTerms() is false",
+                    "status": "passed",
+                    "title": "do not render SignupTerms when showTerms() is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "SignUpScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignUpScreen do not render SignupTerms when `terms` is falsy",
+                    "status": "passed",
+                    "title": "do not render SignupTerms when `terms` is falsy"
+                }
+            ],
+            "endTime": 1674640433979,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/engine/classic/sign_up_screen.test.jsx",
+            "startTime": 1674640433271,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "database/actions.js"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "database/actions.js signUp splits root attributes correctly",
+                    "status": "passed",
+                    "title": "signUp splits root attributes correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "database/actions.js"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "database/actions.js runs the signingUp hook on signUp",
+                    "status": "passed",
+                    "title": "runs the signingUp hook on signUp"
+                },
+                {
+                    "ancestorTitles": [
+                        "database/actions.js"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "database/actions.js sanitizes additionalSignUp fields using dompurify",
+                    "status": "passed",
+                    "title": "sanitizes additionalSignUp fields using dompurify"
+                }
+            ],
+            "endTime": 1674640434068,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/database/actions.test.js",
+            "startTime": 1674640411772,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "passwordless connection",
+                        "initPasswordless()",
+                        "calls initNS "
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless connection initPasswordless() calls initNS  with send:code when opts.passwordlessMethod is undefined",
+                    "status": "passed",
+                    "title": "with send:code when opts.passwordlessMethod is undefined"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless connection",
+                        "initPasswordless()",
+                        "calls initNS "
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless connection initPasswordless() calls initNS  with send:code when opts.passwordlessMethod is code",
+                    "status": "passed",
+                    "title": "with send:code when opts.passwordlessMethod is code"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless connection",
+                        "initPasswordless()",
+                        "calls initNS "
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless connection initPasswordless() calls initNS  with send:link when opts.passwordlessMethod is link",
+                    "status": "passed",
+                    "title": "with send:link when opts.passwordlessMethod is link"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless connection",
+                        "initPasswordless()",
+                        "calls initNS "
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless connection initPasswordless() calls initNS  with mustAcceptTerms:true when opts.mustAcceptTerms is true",
+                    "status": "passed",
+                    "title": "with mustAcceptTerms:true when opts.mustAcceptTerms is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless connection",
+                        "initPasswordless()",
+                        "calls initNS "
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless connection initPasswordless() calls initNS  with mustAcceptTerms:false when opts.mustAcceptTerms is false",
+                    "status": "passed",
+                    "title": "with mustAcceptTerms:false when opts.mustAcceptTerms is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless connection",
+                        "initPasswordless()",
+                        "calls initNS "
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless connection initPasswordless() calls initNS  with showTerms:true when opts.showTerms is undefined",
+                    "status": "passed",
+                    "title": "with showTerms:true when opts.showTerms is undefined"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless connection",
+                        "initPasswordless()",
+                        "calls initNS "
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless connection initPasswordless() calls initNS  with showTerms:true when opts.showTerms is true",
+                    "status": "passed",
+                    "title": "with showTerms:true when opts.showTerms is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless connection",
+                        "initPasswordless()",
+                        "calls initNS "
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless connection initPasswordless() calls initNS  with showTerms:false when opts.showTerms is false",
+                    "status": "passed",
+                    "title": "with showTerms:false when opts.showTerms is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless connection",
+                        "initPasswordless()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless connection initPasswordless() should load default location via options.defaultLocation",
+                    "status": "passed",
+                    "title": "should load default location via options.defaultLocation"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless connection",
+                        "initPasswordless()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless connection initPasswordless() should call webAPI.getUserCountry when there is no default location",
+                    "status": "passed",
+                    "title": "should call webAPI.getUserCountry when there is no default location"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless connection",
+                        "mustAcceptTerms()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless connection mustAcceptTerms() should return `mustAcceptTerms`",
+                    "status": "passed",
+                    "title": "should return `mustAcceptTerms`"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless connection",
+                        "toggleTermsAcceptance()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless connection toggleTermsAcceptance() should tset `termsAccepted` to false when `termsAccepted` is true",
+                    "status": "passed",
+                    "title": "should tset `termsAccepted` to false when `termsAccepted` is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "passwordless connection",
+                        "toggleTermsAcceptance()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "passwordless connection toggleTermsAcceptance() should tset `termsAccepted` to true when `termsAccepted` is false",
+                    "status": "passed",
+                    "title": "should tset `termsAccepted` to true when `termsAccepted` is false"
+                }
+            ],
+            "endTime": 1674640434077,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/passwordless/passwordless.test.js",
+            "startTime": 1674640431666,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "core/client/index",
+                        "initClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core/client/index initClient loads password policy 'none' correctly without a password_complexity_options option",
+                    "status": "passed",
+                    "title": "loads password policy 'none' correctly without a password_complexity_options option"
+                },
+                {
+                    "ancestorTitles": [
+                        "core/client/index",
+                        "initClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core/client/index initClient loads password policy 'none' correctly with a password_complexity_options option",
+                    "status": "passed",
+                    "title": "loads password policy 'none' correctly with a password_complexity_options option"
+                },
+                {
+                    "ancestorTitles": [
+                        "core/client/index",
+                        "initClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core/client/index initClient loads password policy 'low' correctly without a password_complexity_options option",
+                    "status": "passed",
+                    "title": "loads password policy 'low' correctly without a password_complexity_options option"
+                },
+                {
+                    "ancestorTitles": [
+                        "core/client/index",
+                        "initClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core/client/index initClient loads password policy 'low' correctly with a password_complexity_options option",
+                    "status": "passed",
+                    "title": "loads password policy 'low' correctly with a password_complexity_options option"
+                },
+                {
+                    "ancestorTitles": [
+                        "core/client/index",
+                        "initClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core/client/index initClient loads password policy 'fair' correctly without a password_complexity_options option",
+                    "status": "passed",
+                    "title": "loads password policy 'fair' correctly without a password_complexity_options option"
+                },
+                {
+                    "ancestorTitles": [
+                        "core/client/index",
+                        "initClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core/client/index initClient loads password policy 'fair' correctly with a password_complexity_options option",
+                    "status": "passed",
+                    "title": "loads password policy 'fair' correctly with a password_complexity_options option"
+                },
+                {
+                    "ancestorTitles": [
+                        "core/client/index",
+                        "initClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core/client/index initClient loads password policy 'good' correctly without a password_complexity_options option",
+                    "status": "passed",
+                    "title": "loads password policy 'good' correctly without a password_complexity_options option"
+                },
+                {
+                    "ancestorTitles": [
+                        "core/client/index",
+                        "initClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core/client/index initClient loads password policy 'good' correctly with a password_complexity_options option",
+                    "status": "passed",
+                    "title": "loads password policy 'good' correctly with a password_complexity_options option"
+                },
+                {
+                    "ancestorTitles": [
+                        "core/client/index",
+                        "initClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core/client/index initClient loads password policy 'excellent' correctly without a password_complexity_options option",
+                    "status": "passed",
+                    "title": "loads password policy 'excellent' correctly without a password_complexity_options option"
+                },
+                {
+                    "ancestorTitles": [
+                        "core/client/index",
+                        "initClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core/client/index initClient loads password policy 'excellent' correctly with a password_complexity_options option",
+                    "status": "passed",
+                    "title": "loads password policy 'excellent' correctly with a password_complexity_options option"
+                }
+            ],
+            "endTime": 1674640434169,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/core/client/index.test.js",
+            "startTime": 1674640433587,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "HRDPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "HRDPane renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "HRDPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "HRDPane renders the captcha if required",
+                    "status": "passed",
+                    "title": "renders the captcha if required"
+                }
+            ],
+            "endTime": 1674640434163,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/enterprise/hrd_pane.test.js",
+            "startTime": 1674640432972,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "webAuthOverrides"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "webAuthOverrides should return overrides if any field is compatible with WebAuth",
+                    "status": "passed",
+                    "title": "should return overrides if any field is compatible with WebAuth"
+                },
+                {
+                    "ancestorTitles": [
+                        "webAuthOverrides"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "webAuthOverrides should omit overrides that are not compatible with WebAuth",
+                    "status": "passed",
+                    "title": "should omit overrides that are not compatible with WebAuth"
+                },
+                {
+                    "ancestorTitles": [
+                        "webAuthOverrides"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "webAuthOverrides should return null if no fields are compatible with WebAuth",
+                    "status": "passed",
+                    "title": "should return null if no fields are compatible with WebAuth"
+                },
+                {
+                    "ancestorTitles": [
+                        "normalizeError"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "normalizeError does nothing when there is no error",
+                    "status": "passed",
+                    "title": "does nothing when there is no error"
+                },
+                {
+                    "ancestorTitles": [
+                        "normalizeError",
+                        "access_denied to invalid_user_password mapping",
+                        "domain is undefined"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "normalizeError access_denied to invalid_user_password mapping domain is undefined should map access_denied error to invalid_user_password when error.error === access_denied",
+                    "status": "passed",
+                    "title": "should map access_denied error to invalid_user_password when error.error === access_denied"
+                },
+                {
+                    "ancestorTitles": [
+                        "normalizeError",
+                        "access_denied to invalid_user_password mapping",
+                        "domain is undefined"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "normalizeError access_denied to invalid_user_password mapping domain is undefined should map access_denied error to invalid_user_password when error.code === access_denied",
+                    "status": "passed",
+                    "title": "should map access_denied error to invalid_user_password when error.code === access_denied"
+                },
+                {
+                    "ancestorTitles": [
+                        "normalizeError",
+                        "access_denied to invalid_user_password mapping",
+                        "domain doesn't match current host"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "normalizeError access_denied to invalid_user_password mapping domain doesn't match current host should map access_denied error to invalid_user_password when error.error === access_denied",
+                    "status": "passed",
+                    "title": "should map access_denied error to invalid_user_password when error.error === access_denied"
+                },
+                {
+                    "ancestorTitles": [
+                        "normalizeError",
+                        "access_denied to invalid_user_password mapping",
+                        "domain doesn't match current host"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "normalizeError access_denied to invalid_user_password mapping domain doesn't match current host should map access_denied error to invalid_user_password when error.code === access_denied",
+                    "status": "passed",
+                    "title": "should map access_denied error to invalid_user_password when error.code === access_denied"
+                },
+                {
+                    "ancestorTitles": [
+                        "normalizeError",
+                        "access_denied to invalid_user_password mapping",
+                        "domain match current host"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "normalizeError access_denied to invalid_user_password mapping domain match current host should not map access_denied error to invalid_user_password when error.error === access_denied",
+                    "status": "passed",
+                    "title": "should not map access_denied error to invalid_user_password when error.error === access_denied"
+                },
+                {
+                    "ancestorTitles": [
+                        "normalizeError",
+                        "access_denied to invalid_user_password mapping",
+                        "domain match current host"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "normalizeError access_denied to invalid_user_password mapping domain match current host should not map access_denied error to invalid_user_password when error.code === access_denied",
+                    "status": "passed",
+                    "title": "should not map access_denied error to invalid_user_password when error.code === access_denied"
+                }
+            ],
+            "endTime": 1674640434771,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/core/web_api/helper.test.js",
+            "startTime": 1674640434563,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "AuthButton"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AuthButton renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "AuthButton"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AuthButton renders with style customizations",
+                    "status": "passed",
+                    "title": "renders with style customizations"
+                },
+                {
+                    "ancestorTitles": [
+                        "AuthButton"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "AuthButton should trigger onClick when clicked",
+                    "status": "passed",
+                    "title": "should trigger onClick when clicked"
+                }
+            ],
+            "endTime": 1674640434786,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/auth_button.test.jsx",
+            "startTime": 1674640434566,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "field/password",
+                        "validatePassword()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/password validatePassword() returns false when there is no password",
+                    "status": "passed",
+                    "title": "returns false when there is no password"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/password",
+                        "validatePassword()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/password validatePassword() returns true when there is no policy",
+                    "status": "passed",
+                    "title": "returns true when there is no policy"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/password",
+                        "validatePassword()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/password validatePassword() validates password correctly when there is a policy",
+                    "status": "passed",
+                    "title": "validates password correctly when there is a policy"
+                }
+            ],
+            "endTime": 1674640434469,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/password.test.js",
+            "startTime": 1674640433178,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Recaptcha Enterprise"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Recaptcha Enterprise should match the snapshot",
+                    "status": "passed",
+                    "title": "should match the snapshot"
+                },
+                {
+                    "ancestorTitles": [
+                        "Recaptcha Enterprise",
+                        "render"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Recaptcha Enterprise render injects the script",
+                    "status": "passed",
+                    "title": "injects the script"
+                }
+            ],
+            "endTime": 1674640434666,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/captcha/recaptcha_enterprise.test.jsx",
+            "startTime": 1674640433881,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "usernameLooksLikeEmail()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username usernameLooksLikeEmail() checks for @ and .",
+                    "status": "passed",
+                    "title": "checks for @ and ."
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "getUsernameValidation()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username getUsernameValidation() returns database connection's username validation",
+                    "status": "passed",
+                    "title": "returns database connection's username validation"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "getUsernameValidation()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username getUsernameValidation() returns null there's no db connection username validation",
+                    "status": "passed",
+                    "title": "returns null there's no db connection username validation"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() calls setField",
+                    "status": "passed",
+                    "title": "calls setField"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()",
+                        "field validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() field validation validates when usernameStyle is `email`",
+                    "status": "passed",
+                    "title": "validates when usernameStyle is `email`"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()",
+                        "field validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() field validation validates when usernameStyle is `username`",
+                    "status": "passed",
+                    "title": "validates when usernameStyle is `username`"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()",
+                        "field validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() field validation validates when username looks like an email",
+                    "status": "passed",
+                    "title": "validates when username looks like an email"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()",
+                        "field validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() field validation validates when username does not look like an email",
+                    "status": "passed",
+                    "title": "validates when username does not look like an email"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()",
+                        "field validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() field validation defaults usernameStyle to `username`",
+                    "status": "passed",
+                    "title": "defaults usernameStyle to `username`"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()",
+                        "field validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() field validation defaults validateUsernameFormat to `true`",
+                    "status": "passed",
+                    "title": "defaults validateUsernameFormat to `true`"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()",
+                        "field validation",
+                        "when in username mode",
+                        "validates if the username is not empty"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() field validation when in username mode validates if the username is not empty when `validateUsernameFormat` is true but there is no db connection validation",
+                    "status": "passed",
+                    "title": "when `validateUsernameFormat` is true but there is no db connection validation"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()",
+                        "field validation",
+                        "when in username mode",
+                        "validates if the username is not empty"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() field validation when in username mode validates if the username is not empty when `validateUsernameFormat` is false and there is db connection validation",
+                    "status": "passed",
+                    "title": "when `validateUsernameFormat` is false and there is db connection validation"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()",
+                        "field validation",
+                        "when in username mode",
+                        "with a db connection validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() field validation when in username mode with a db connection validation validates min length",
+                    "status": "passed",
+                    "title": "validates min length"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()",
+                        "field validation",
+                        "when in username mode",
+                        "with a db connection validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() field validation when in username mode with a db connection validation validates max length",
+                    "status": "passed",
+                    "title": "validates max length"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()",
+                        "field validation",
+                        "when in username mode",
+                        "with a db connection validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() field validation when in username mode with a db connection validation email is used as user name",
+                    "status": "passed",
+                    "title": "email is used as user name"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()",
+                        "field validation",
+                        "when in username mode",
+                        "with a db connection validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() field validation when in username mode with a db connection validation validates invalid chars",
+                    "status": "passed",
+                    "title": "validates invalid chars"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/username",
+                        "setUsername()",
+                        "field validation",
+                        "when in username mode",
+                        "with a db connection validation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/username setUsername() field validation when in username mode with a db connection validation accepts letters, numbers, `_`, `-`, `+` and `.`",
+                    "status": "passed",
+                    "title": "accepts letters, numbers, `_`, `-`, `+` and `.`"
+                }
+            ],
+            "endTime": 1674640435066,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/username.test.js",
+            "startTime": 1674640434066,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "LoginScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginScreen renders empty div by default",
+                    "status": "passed",
+                    "title": "renders empty div by default"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginScreen renders SocialButtonsPane when has social connections",
+                    "status": "passed",
+                    "title": "renders SocialButtonsPane when has social connections"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginScreen renders SingleSignOnNotice when SSO is enabled",
+                    "status": "passed",
+                    "title": "renders SingleSignOnNotice when SSO is enabled"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginScreen",
+                        "renders LoginSignUpTabs"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginScreen renders LoginSignUpTabs when database connection is enabled and has screen signUp",
+                    "status": "passed",
+                    "title": "when database connection is enabled and has screen signUp"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginScreen",
+                        "renders LoginSignUpTabs"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginScreen renders LoginSignUpTabs when social connection is enabled and has initial screen signUp and has screen signUp",
+                    "status": "passed",
+                    "title": "when social connection is enabled and has initial screen signUp and has screen signUp"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginScreen",
+                        "renders LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginScreen renders LoginPane when SSO is enabled",
+                    "status": "passed",
+                    "title": "when SSO is enabled"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginScreen",
+                        "renders LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginScreen renders LoginPane when has database connection",
+                    "status": "passed",
+                    "title": "when has database connection"
+                },
+                {
+                    "ancestorTitles": [
+                        "LoginScreen",
+                        "renders LoginPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LoginScreen renders LoginPane when has enterprise connection",
+                    "status": "passed",
+                    "title": "when has enterprise connection"
+                }
+            ],
+            "endTime": 1674640435075,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/engine/classic/login.test.jsx",
+            "startTime": 1674640434475,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "CustomInput",
+                        "when type === select"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CustomInput when type === select renders correctly as a SelectInput",
+                    "status": "passed",
+                    "title": "renders correctly as a SelectInput"
+                },
+                {
+                    "ancestorTitles": [
+                        "CustomInput",
+                        "when type === select"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CustomInput when type === select sets isValid as true when `isFieldVisiblyInvalid` is false",
+                    "status": "passed",
+                    "title": "sets isValid as true when `isFieldVisiblyInvalid` is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "CustomInput",
+                        "when type === select"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CustomInput when type === select calls `startOptionSelection` when clicked",
+                    "status": "passed",
+                    "title": "calls `startOptionSelection` when clicked"
+                },
+                {
+                    "ancestorTitles": [
+                        "CustomInput",
+                        "when type == input"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CustomInput when type == input renders correctly as a TextInput",
+                    "status": "passed",
+                    "title": "renders correctly as a TextInput"
+                },
+                {
+                    "ancestorTitles": [
+                        "CustomInput",
+                        "when type == input"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CustomInput when type == input sets isValid as true when `isFieldVisiblyInvalid` is false",
+                    "status": "passed",
+                    "title": "sets isValid as true when `isFieldVisiblyInvalid` is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "CustomInput",
+                        "when type == input"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CustomInput when type == input calls `changeField` when changed",
+                    "status": "passed",
+                    "title": "calls `changeField` when changed"
+                },
+                {
+                    "ancestorTitles": [
+                        "CustomInput",
+                        "when type == checkbox"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CustomInput when type == checkbox renders correctly as a CheckBoxInput",
+                    "status": "passed",
+                    "title": "renders correctly as a CheckBoxInput"
+                },
+                {
+                    "ancestorTitles": [
+                        "CustomInput",
+                        "when type == checkbox",
+                        "and when placeholderHTML is set"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CustomInput when type == checkbox and when placeholderHTML is set renders correctly as a CheckBoxInput",
+                    "status": "passed",
+                    "title": "renders correctly as a CheckBoxInput"
+                },
+                {
+                    "ancestorTitles": [
+                        "CustomInput",
+                        "when type == hidden"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "CustomInput when type == hidden renders correctly as a input[type=hidden]",
+                    "status": "passed",
+                    "title": "renders correctly as a input[type=hidden]"
+                }
+            ],
+            "endTime": 1674640435169,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/custom_input.test.jsx",
+            "startTime": 1674640434267,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "SignedUpConfirmation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SignedUpConfirmation renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                }
+            ],
+            "endTime": 1674640436070,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/database/signed_up_confirmation.test.jsx",
+            "startTime": 1674640433472,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "remote_data.syncRemoteData()",
+                        "calls getSSOData with AD information"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "remote_data.syncRemoteData() calls getSSOData with AD information when isADEnabled is true",
+                    "status": "passed",
+                    "title": "when isADEnabled is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "remote_data.syncRemoteData()",
+                        "calls getSSOData with AD information"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "remote_data.syncRemoteData() calls getSSOData with AD information when isADEnabled is false",
+                    "status": "passed",
+                    "title": "when isADEnabled is false"
+                }
+            ],
+            "endTime": 1674640437371,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/core/remote_data.test.js",
+            "startTime": 1674640436170,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "ResetPasswordScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "ResetPasswordScreen isSubmitDisabled returns true when `isEnterpriseDomain` is true",
+                    "status": "passed",
+                    "title": "isSubmitDisabled returns true when `isEnterpriseDomain` is true"
+                },
+                {
+                    "ancestorTitles": [
+                        "ResetPasswordScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "ResetPasswordScreen isSubmitDisabled returns false when `isEnterpriseDomain` is false",
+                    "status": "passed",
+                    "title": "isSubmitDisabled returns false when `isEnterpriseDomain` is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "ResetPasswordScreen",
+                        "a custom connection resolver is being used"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "ResetPasswordScreen a custom connection resolver is being used copies the username to the email field if an email address was entered",
+                    "status": "passed",
+                    "title": "copies the username to the email field if an email address was entered"
+                },
+                {
+                    "ancestorTitles": [
+                        "ResetPasswordScreen",
+                        "a custom connection resolver is being used"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "ResetPasswordScreen a custom connection resolver is being used sets the email field to a blank value if username is not an email address",
+                    "status": "passed",
+                    "title": "sets the email field to a blank value if username is not an email address"
+                }
+            ],
+            "endTime": 1674640437269,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/database/reset_password.test.jsx",
+            "startTime": 1674640411576,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "url utils",
+                        "getOriginFromUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "url utils getOriginFromUrl should return undefined if there is no url",
+                    "status": "passed",
+                    "title": "should return undefined if there is no url"
+                },
+                {
+                    "ancestorTitles": [
+                        "url utils",
+                        "getOriginFromUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "url utils getOriginFromUrl should parse the url and return the origin with https",
+                    "status": "passed",
+                    "title": "should parse the url and return the origin with https"
+                },
+                {
+                    "ancestorTitles": [
+                        "url utils",
+                        "getOriginFromUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "url utils getOriginFromUrl should parse the url and return the origin with http",
+                    "status": "passed",
+                    "title": "should parse the url and return the origin with http"
+                },
+                {
+                    "ancestorTitles": [
+                        "url utils",
+                        "getOriginFromUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "url utils getOriginFromUrl should include the `port` when available",
+                    "status": "passed",
+                    "title": "should include the `port` when available"
+                },
+                {
+                    "ancestorTitles": [
+                        "url utils",
+                        "getLocationFromUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "url utils getLocationFromUrl should return null for invalid urls",
+                    "status": "passed",
+                    "title": "should return null for invalid urls"
+                },
+                {
+                    "ancestorTitles": [
+                        "url utils",
+                        "getLocationFromUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "url utils getLocationFromUrl should map urls correctly: http://localhost:3000/foo?id=1",
+                    "status": "passed",
+                    "title": "should map urls correctly: http://localhost:3000/foo?id=1"
+                },
+                {
+                    "ancestorTitles": [
+                        "url utils",
+                        "getLocationFromUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "url utils getLocationFromUrl should map urls correctly: https://localhost:3000/foo?id=1",
+                    "status": "passed",
+                    "title": "should map urls correctly: https://localhost:3000/foo?id=1"
+                },
+                {
+                    "ancestorTitles": [
+                        "url utils",
+                        "getLocationFromUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "url utils getLocationFromUrl should map urls correctly: https://auth0.com/foo",
+                    "status": "passed",
+                    "title": "should map urls correctly: https://auth0.com/foo"
+                },
+                {
+                    "ancestorTitles": [
+                        "url utils",
+                        "getLocationFromUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "url utils getLocationFromUrl should map urls correctly: https://auth0.com/#access_token=foo",
+                    "status": "passed",
+                    "title": "should map urls correctly: https://auth0.com/#access_token=foo"
+                },
+                {
+                    "ancestorTitles": [
+                        "url utils",
+                        "getLocationFromUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "url utils getLocationFromUrl should map urls correctly: https://auth0.com/#/foo/access_token=foo",
+                    "status": "passed",
+                    "title": "should map urls correctly: https://auth0.com/#/foo/access_token=foo"
+                }
+            ],
+            "endTime": 1674640437764,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/utils/url_utils.test.js",
+            "startTime": 1674640436764,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen renders with custom connection theme",
+                    "status": "passed",
+                    "title": "renders with custom connection theme"
+                },
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen",
+                        "renders correct icon"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen renders correct icon when strategy is this-strategy-exists",
+                    "status": "passed",
+                    "title": "when strategy is this-strategy-exists"
+                },
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen",
+                        "renders correct icon"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen renders correct icon when strategy is google-apps",
+                    "status": "passed",
+                    "title": "when strategy is google-apps"
+                },
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen",
+                        "renders correct icon"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen renders correct icon when strategy is adfs",
+                    "status": "passed",
+                    "title": "when strategy is adfs"
+                },
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen",
+                        "renders correct icon"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen renders correct icon when strategy is office365",
+                    "status": "passed",
+                    "title": "when strategy is office365"
+                },
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen",
+                        "renders correct icon"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen renders correct icon when strategy is waad",
+                    "status": "passed",
+                    "title": "when strategy is waad"
+                },
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen",
+                        "renders correct icon"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen renders correct icon when strategy is some-other-strategy",
+                    "status": "passed",
+                    "title": "when strategy is some-other-strategy"
+                },
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen",
+                        "renders correct icon"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen renders correct icon when strategy is empty, use name instead",
+                    "status": "passed",
+                    "title": "when strategy is empty, use name instead"
+                },
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen",
+                        "renders correct buttonLabel"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen renders correct buttonLabel uses SOCIAL_STRATEGY mapping when there is not a lastUsedUsername",
+                    "status": "passed",
+                    "title": "uses SOCIAL_STRATEGY mapping when there is not a lastUsedUsername"
+                },
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen",
+                        "renders correct buttonLabel"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen renders correct buttonLabel uses lastUsedConnectionName when there is not a lastUsedUsername and no SOCIAL_STRATEGY mapping",
+                    "status": "passed",
+                    "title": "uses lastUsedConnectionName when there is not a lastUsedUsername and no SOCIAL_STRATEGY mapping"
+                },
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen calls checkSession in the buttonClickHandler when outside of the universal login page",
+                    "status": "passed",
+                    "title": "calls checkSession in the buttonClickHandler when outside of the universal login page"
+                },
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen calls logIn in the buttonClickHandler when inside of the universal login page",
+                    "status": "passed",
+                    "title": "calls logIn in the buttonClickHandler when inside of the universal login page"
+                },
+                {
+                    "ancestorTitles": [
+                        "LastLoginScreen"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "LastLoginScreen calls skipQuickAuth in the alternativeClickHandler",
+                    "status": "passed",
+                    "title": "calls skipQuickAuth in the alternativeClickHandler"
+                }
+            ],
+            "endTime": 1674640438279,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/core/sso/last_login_screen.test.jsx",
+            "startTime": 1674640412576,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "initTenant()",
+                        "with database connection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "initTenant() with database connection maps connection correctly with defaults",
+                    "status": "passed",
+                    "title": "maps connection correctly with defaults"
+                },
+                {
+                    "ancestorTitles": [
+                        "initTenant()",
+                        "with database connection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "initTenant() with database connection maps connection correctly with all the properties",
+                    "status": "passed",
+                    "title": "maps connection correctly with all the properties"
+                },
+                {
+                    "ancestorTitles": [
+                        "initTenant()",
+                        "with database connection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "initTenant() with database connection maps password policy correctly",
+                    "status": "passed",
+                    "title": "maps password policy correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "initTenant()",
+                        "with database connection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "initTenant() with database connection fixes validation when values are not numbers",
+                    "status": "passed",
+                    "title": "fixes validation when values are not numbers"
+                },
+                {
+                    "ancestorTitles": [
+                        "initTenant()",
+                        "with database connection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "initTenant() with database connection fixes validation when username.min > username.max",
+                    "status": "passed",
+                    "title": "fixes validation when username.min > username.max"
+                },
+                {
+                    "ancestorTitles": [
+                        "initTenant()",
+                        "with enterprise connection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "initTenant() with enterprise connection maps connection correctly",
+                    "status": "passed",
+                    "title": "maps connection correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "initTenant()",
+                        "with other connection types"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "initTenant() with other connection types maps connection correctly",
+                    "status": "passed",
+                    "title": "maps connection correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "initTenant()",
+                        "with passwordless connection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "initTenant() with passwordless connection maps connection correctly",
+                    "status": "passed",
+                    "title": "maps connection correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "initTenant()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "initTenant() filters clientConnections",
+                    "status": "passed",
+                    "title": "filters clientConnections"
+                }
+            ],
+            "endTime": 1674640438479,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/core/tenant.test.js",
+            "startTime": 1674640436975,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "EmailInput"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "EmailInput renders without issue",
+                    "status": "passed",
+                    "title": "renders without issue"
+                }
+            ],
+            "endTime": 1674640439364,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/ui/input/email_input.test.jsx",
+            "startTime": 1674640438376,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "InputWrap"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "InputWrap renders correctly with the `after` prop",
+                    "status": "passed",
+                    "title": "renders correctly with the `after` prop"
+                }
+            ],
+            "endTime": 1674640439473,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/ui/input/input_wrap.test.jsx",
+            "startTime": 1674640437870,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "quick-auth.actions"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "quick-auth.actions calls logIn with the correct parameters",
+                    "status": "passed",
+                    "title": "calls logIn with the correct parameters"
+                },
+                {
+                    "ancestorTitles": [
+                        "quick-auth.actions"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "quick-auth.actions sets display to \"popup\" when using facebook and there's no redirect",
+                    "status": "passed",
+                    "title": "sets display to \"popup\" when using facebook and there's no redirect"
+                },
+                {
+                    "ancestorTitles": [
+                        "quick-auth.actions"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "quick-auth.actions calls setSuppressSubmitOverlay with true when using Apple connection",
+                    "status": "passed",
+                    "title": "calls setSuppressSubmitOverlay with true when using Apple connection"
+                },
+                {
+                    "ancestorTitles": [
+                        "quick-auth.actions"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "quick-auth.actions calls setSuppressSubmitOverlay with false when not using Apple connection",
+                    "status": "passed",
+                    "title": "calls setSuppressSubmitOverlay with false when not using Apple connection"
+                }
+            ],
+            "endTime": 1674640439574,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/quick-auth/actions.test.js",
+            "startTime": 1674640437976,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "PhoneNumberPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PhoneNumberPane renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "PhoneNumberPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PhoneNumberPane shows header when instructions are available",
+                    "status": "passed",
+                    "title": "shows header when instructions are available"
+                },
+                {
+                    "ancestorTitles": [
+                        "PhoneNumberPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PhoneNumberPane disables input when submitting",
+                    "status": "passed",
+                    "title": "disables input when submitting"
+                },
+                {
+                    "ancestorTitles": [
+                        "PhoneNumberPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PhoneNumberPane sets isValid as true when `isFieldVisiblyInvalid` is false",
+                    "status": "passed",
+                    "title": "sets isValid as true when `isFieldVisiblyInvalid` is false"
+                },
+                {
+                    "ancestorTitles": [
+                        "PhoneNumberPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PhoneNumberPane calls `startOptionSelection` when SelectInput is clicked",
+                    "status": "passed",
+                    "title": "calls `startOptionSelection` when SelectInput is clicked"
+                },
+                {
+                    "ancestorTitles": [
+                        "PhoneNumberPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PhoneNumberPane calls `swap` when PhoneNumberInput changes",
+                    "status": "passed",
+                    "title": "calls `swap` when PhoneNumberInput changes"
+                }
+            ],
+            "endTime": 1674640439666,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/phone_number_pane.test.jsx",
+            "startTime": 1674640434767,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Login with connection scopes",
+                        "for an SSO connection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Login with connection scopes for an SSO connection passes connectionScopes to the connection",
+                    "status": "passed",
+                    "title": "passes connectionScopes to the connection"
+                },
+                {
+                    "ancestorTitles": [
+                        "Login with connection scopes",
+                        "for an SSO connection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Login with connection scopes for an SSO connection should not throw an error if the captcha was not completed",
+                    "status": "passed",
+                    "title": "should not throw an error if the captcha was not completed"
+                },
+                {
+                    "ancestorTitles": [
+                        "Login with connection scopes",
+                        "for a non-SSO connection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Login with connection scopes for a non-SSO connection passes connectionScopes to the connection",
+                    "status": "passed",
+                    "title": "passes connectionScopes to the connection"
+                }
+            ],
+            "endTime": 1674640440072,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/connection/enterprise/actions.test.js",
+            "startTime": 1674640436265,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "field/vcode",
+                        "setVcode()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/vcode setVcode() removes spaces from code",
+                    "status": "passed",
+                    "title": "removes spaces from code"
+                }
+            ],
+            "endTime": 1674640440566,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/vcode.test.js",
+            "startTime": 1674640439669,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Classic Engine"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Classic Engine willShow calls `resolveAdditionalSignUpFields`",
+                    "status": "passed",
+                    "title": "willShow calls `resolveAdditionalSignUpFields`"
+                },
+                {
+                    "ancestorTitles": [
+                        "Classic Engine"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Classic Engine willShow calls `overrideDatabaseOptions`",
+                    "status": "passed",
+                    "title": "willShow calls `overrideDatabaseOptions`"
+                }
+            ],
+            "endTime": 1674640440670,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/engine/classic.test.js",
+            "startTime": 1674640433166,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "GlobalMessage"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "GlobalMessage renders correctly given a success type",
+                    "status": "passed",
+                    "title": "renders correctly given a success type"
+                },
+                {
+                    "ancestorTitles": [
+                        "GlobalMessage"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "GlobalMessage renders correctly given an error type",
+                    "status": "passed",
+                    "title": "renders correctly given an error type"
+                },
+                {
+                    "ancestorTitles": [
+                        "GlobalMessage"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "GlobalMessage renders correctly given an info type",
+                    "status": "passed",
+                    "title": "renders correctly given an info type"
+                },
+                {
+                    "ancestorTitles": [
+                        "GlobalMessage"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "GlobalMessage should call scrollIntoView if parameter is set and top < 0",
+                    "status": "passed",
+                    "title": "should call scrollIntoView if parameter is set and top < 0"
+                },
+                {
+                    "ancestorTitles": [
+                        "GlobalMessage"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "GlobalMessage should not call scrollIntoView if parameter is set and top >= 0",
+                    "status": "passed",
+                    "title": "should not call scrollIntoView if parameter is set and top >= 0"
+                },
+                {
+                    "ancestorTitles": [
+                        "GlobalMessage"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "GlobalMessage should call scrollIntoView if parameter is not set (default is true)",
+                    "status": "passed",
+                    "title": "should call scrollIntoView if parameter is not set (default is true)"
+                },
+                {
+                    "ancestorTitles": [
+                        "GlobalMessage"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "GlobalMessage should not call scrollIntoView if parameter is set to false",
+                    "status": "passed",
+                    "title": "should not call scrollIntoView if parameter is set to false"
+                },
+                {
+                    "ancestorTitles": [
+                        "GlobalMessage"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "GlobalMessage should NOT strip out HTML tags if given a React node",
+                    "status": "passed",
+                    "title": "should NOT strip out HTML tags if given a React node"
+                },
+                {
+                    "ancestorTitles": [
+                        "GlobalMessage"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "GlobalMessage should strip out HTML tags if given a string",
+                    "status": "passed",
+                    "title": "should strip out HTML tags if given a string"
+                }
+            ],
+            "endTime": 1674640441265,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/ui/box/global_message.test.jsx",
+            "startTime": 1674640438068,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Auth0WebApi",
+                        "setupClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0WebApi setupClient sets the correct options when is on the hosted login page",
+                    "status": "passed",
+                    "title": "sets the correct options when is on the hosted login page"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0WebApi",
+                        "setupClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0WebApi setupClient sets redirect: true when on the same origin as the specified domain",
+                    "status": "passed",
+                    "title": "sets redirect: true when on the same origin as the specified domain"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0WebApi",
+                        "setupClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0WebApi setupClient sets redirect: false when on a different origin as the specified domain",
+                    "status": "passed",
+                    "title": "sets redirect: false when on a different origin as the specified domain"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0WebApi",
+                        "setupClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0WebApi setupClient forces popup and sso mode for cordova, only when not running in the hosted environment",
+                    "status": "passed",
+                    "title": "forces popup and sso mode for cordova, only when not running in the hosted environment"
+                },
+                {
+                    "ancestorTitles": [
+                        "Auth0WebApi",
+                        "setupClient"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Auth0WebApi setupClient forces popup and sso mode for electron, only when not running in the hosted environment",
+                    "status": "passed",
+                    "title": "forces popup and sso mode for electron, only when not running in the hosted environment"
+                }
+            ],
+            "endTime": 1674640441466,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/core/web_api.test.js",
+            "startTime": 1674640439168,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Recaptcha v2"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Recaptcha v2 should match the snapshot",
+                    "status": "passed",
+                    "title": "should match the snapshot"
+                },
+                {
+                    "ancestorTitles": [
+                        "Recaptcha v2",
+                        "render"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Recaptcha v2 render injects the script",
+                    "status": "passed",
+                    "title": "injects the script"
+                }
+            ],
+            "endTime": 1674640441267,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/captcha/recaptchav2.test.jsx",
+            "startTime": 1674640434670,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "format"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "format can format a string",
+                    "status": "passed",
+                    "title": "can format a string"
+                },
+                {
+                    "ancestorTitles": [
+                        "format"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "format can replace a string",
+                    "status": "passed",
+                    "title": "can replace a string"
+                },
+                {
+                    "ancestorTitles": [
+                        "format"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "format can replace a string inside a string",
+                    "status": "passed",
+                    "title": "can replace a string inside a string"
+                },
+                {
+                    "ancestorTitles": [
+                        "format"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "format can replace multiple strings",
+                    "status": "passed",
+                    "title": "can replace multiple strings"
+                },
+                {
+                    "ancestorTitles": [
+                        "format"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "format can replace with a number",
+                    "status": "passed",
+                    "title": "can replace with a number"
+                },
+                {
+                    "ancestorTitles": [
+                        "format"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "format can format an object",
+                    "status": "passed",
+                    "title": "can format an object"
+                }
+            ],
+            "endTime": 1674640442268,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/utils/format.test.js",
+            "startTime": 1674640441571,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "PasswordStrength",
+                        "validatePassword()"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordStrength validatePassword() validates password correctly with invalid password",
+                    "status": "passed",
+                    "title": "validates password correctly with invalid password"
+                }
+            ],
+            "endTime": 1674640442276,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/ui/input/password/password_strength.test.jsx",
+            "startTime": 1674640441568,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "PasswordInput"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordInput sends PasswordStrength as the `after` param",
+                    "status": "passed",
+                    "title": "sends PasswordStrength as the `after` param"
+                },
+                {
+                    "ancestorTitles": [
+                        "PasswordInput"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordInput `allowPasswordAutocomplete=true` sets `autoComplete` as on",
+                    "status": "passed",
+                    "title": "`allowPasswordAutocomplete=true` sets `autoComplete` as on"
+                },
+                {
+                    "ancestorTitles": [
+                        "PasswordInput"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordInput `allowPasswordAutocomplete=false` sets `autoComplete` as off",
+                    "status": "passed",
+                    "title": "`allowPasswordAutocomplete=false` sets `autoComplete` as off"
+                },
+                {
+                    "ancestorTitles": [
+                        "PasswordInput"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "PasswordInput shows invalid Hint",
+                    "status": "passed",
+                    "title": "shows invalid Hint"
+                }
+            ],
+            "endTime": 1674640442276,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/ui/input/password_input.test.jsx",
+            "startTime": 1674640440266,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Passwordless Engine",
+                        "didReceiveClientSettings calls setPrefill"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Passwordless Engine didReceiveClientSettings calls setPrefill when prefill options has `email` value",
+                    "status": "passed",
+                    "title": "when prefill options has `email` value"
+                },
+                {
+                    "ancestorTitles": [
+                        "Passwordless Engine",
+                        "didReceiveClientSettings calls setPrefill"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Passwordless Engine didReceiveClientSettings calls setPrefill when prefill options has `phoneNumber` value",
+                    "status": "passed",
+                    "title": "when prefill options has `phoneNumber` value"
+                }
+            ],
+            "endTime": 1674640442967,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/engine/passwordless.test.js",
+            "startTime": 1674640440971,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "OptionSelectionPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "OptionSelectionPane renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "OptionSelectionPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "OptionSelectionPane calls `selectOption` when selected",
+                    "status": "passed",
+                    "title": "calls `selectOption` when selected"
+                },
+                {
+                    "ancestorTitles": [
+                        "OptionSelectionPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "OptionSelectionPane calls `cancelOptionSelection` when cancelled",
+                    "status": "passed",
+                    "title": "calls `cancelOptionSelection` when cancelled"
+                }
+            ],
+            "endTime": 1674640442973,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/option_selection_pane.test.jsx",
+            "startTime": 1674640441576,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "SocialButtonsPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SocialButtonsPane renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "SocialButtonsPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SocialButtonsPane calls signUpError when isSignUp===true and terms were not accepted",
+                    "status": "passed",
+                    "title": "calls signUpError when isSignUp===true and terms were not accepted"
+                },
+                {
+                    "ancestorTitles": [
+                        "SocialButtonsPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SocialButtonsPane shows loading when showLoading === true",
+                    "status": "passed",
+                    "title": "shows loading when showLoading === true"
+                },
+                {
+                    "ancestorTitles": [
+                        "SocialButtonsPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SocialButtonsPane shows header when instructions are available",
+                    "status": "passed",
+                    "title": "shows header when instructions are available"
+                },
+                {
+                    "ancestorTitles": [
+                        "SocialButtonsPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SocialButtonsPane calls `logIn` with social connection 1 when first button is clicked",
+                    "status": "passed",
+                    "title": "calls `logIn` with social connection 1 when first button is clicked"
+                },
+                {
+                    "ancestorTitles": [
+                        "SocialButtonsPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SocialButtonsPane calls `logIn` with social connection 2 when second button is clicked",
+                    "status": "passed",
+                    "title": "calls `logIn` with social connection 2 when second button is clicked"
+                }
+            ],
+            "endTime": 1674640443771,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/social_buttons_pane.test.jsx",
+            "startTime": 1674640442372,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "setup"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setup default redirectUrl should not include location.hash",
+                    "status": "passed",
+                    "title": "default redirectUrl should not include location.hash"
+                },
+                {
+                    "ancestorTitles": [
+                        "setup"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setup default redirectUrl should work when `window.location.origin` is not available",
+                    "status": "passed",
+                    "title": "default redirectUrl should work when `window.location.origin` is not available"
+                },
+                {
+                    "ancestorTitles": [
+                        "setup"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setup should work with redirect:false and responseType:id_token",
+                    "status": "passed",
+                    "title": "should work with redirect:false and responseType:id_token"
+                },
+                {
+                    "ancestorTitles": [
+                        "setup",
+                        "clientBaseUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setup clientBaseUrl should default to the specified domain",
+                    "status": "passed",
+                    "title": "should default to the specified domain"
+                },
+                {
+                    "ancestorTitles": [
+                        "setup",
+                        "clientBaseUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setup clientBaseUrl should use the clientBaseUrl option if given",
+                    "status": "passed",
+                    "title": "should use the clientBaseUrl option if given"
+                },
+                {
+                    "ancestorTitles": [
+                        "setup",
+                        "clientBaseUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setup clientBaseUrl should use configurationBaseUrl if given",
+                    "status": "passed",
+                    "title": "should use configurationBaseUrl if given"
+                },
+                {
+                    "ancestorTitles": [
+                        "setup",
+                        "clientBaseUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setup clientBaseUrl should use assetsUrl if given",
+                    "status": "passed",
+                    "title": "should use assetsUrl if given"
+                },
+                {
+                    "ancestorTitles": [
+                        "setup",
+                        "tenantBaseUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setup tenantBaseUrl should default to domain URL when using auth0.com",
+                    "status": "passed",
+                    "title": "should default to domain URL when using auth0.com"
+                },
+                {
+                    "ancestorTitles": [
+                        "setup",
+                        "tenantBaseUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setup tenantBaseUrl should default to domain URL when using a custom domain",
+                    "status": "passed",
+                    "title": "should default to domain URL when using a custom domain"
+                },
+                {
+                    "ancestorTitles": [
+                        "setup",
+                        "tenantBaseUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setup tenantBaseUrl should use configurationBaseUrl if specified",
+                    "status": "passed",
+                    "title": "should use configurationBaseUrl if specified"
+                },
+                {
+                    "ancestorTitles": [
+                        "setup",
+                        "tenantBaseUrl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setup tenantBaseUrl should use configurationBaseUrl with a custom tenant if specified",
+                    "status": "passed",
+                    "title": "should use configurationBaseUrl with a custom tenant if specified"
+                },
+                {
+                    "ancestorTitles": [
+                        "setResolvedConnection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setResolvedConnection sets undefined when is called with undefined",
+                    "status": "passed",
+                    "title": "sets undefined when is called with undefined"
+                },
+                {
+                    "ancestorTitles": [
+                        "setResolvedConnection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setResolvedConnection validates format",
+                    "status": "passed",
+                    "title": "validates format"
+                },
+                {
+                    "ancestorTitles": [
+                        "setResolvedConnection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setResolvedConnection accepts only database connections",
+                    "status": "passed",
+                    "title": "accepts only database connections"
+                },
+                {
+                    "ancestorTitles": [
+                        "setResolvedConnection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setResolvedConnection sets the connection",
+                    "status": "passed",
+                    "title": "sets the connection"
+                },
+                {
+                    "ancestorTitles": [
+                        "setResolvedConnection"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "setResolvedConnection sets the connection as a Map instance",
+                    "status": "passed",
+                    "title": "sets the connection as a Map instance"
+                },
+                {
+                    "ancestorTitles": [
+                        "loginErrorMessage"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "loginErrorMessage maps `password_expired` to `password_change_required`",
+                    "status": "passed",
+                    "title": "maps `password_expired` to `password_change_required`"
+                }
+            ],
+            "endTime": 1674640444471,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/core/index.test.js",
+            "startTime": 1674640408068,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "ConfirmationPane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "ConfirmationPane renders correctly",
+                    "status": "passed",
+                    "title": "renders correctly"
+                }
+            ],
+            "endTime": 1674640445178,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/ui/box/confirmation_pane.test.jsx",
+            "startTime": 1674640442678,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "field/email",
+                        "isEmail"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/email isEmail validates correctly",
+                    "status": "passed",
+                    "title": "validates correctly"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/email",
+                        "isEmail"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/email isEmail returns false when there is a white space in the middle of the string",
+                    "status": "passed",
+                    "title": "returns false when there is a white space in the middle of the string"
+                },
+                {
+                    "ancestorTitles": [
+                        "field/email",
+                        "emailDomain"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "field/email emailDomain extracts email domain correctly",
+                    "status": "passed",
+                    "title": "extracts email domain correctly"
+                }
+            ],
+            "endTime": 1674640445965,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/field/email.test.js",
+            "startTime": 1674640439675,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

@@ -1,0 +1,687 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 13,
+    "numPassedTests": 52,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTotalTestSuites": 13,
+    "numTotalTests": 52,
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 5,
+        "total": 5,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674737705571,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "calculator"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "calculator should return 4",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return 4"
+                },
+                {
+                    "ancestorTitles": [
+                        "calculator"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "calculator should throw an error",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should throw an error"
+                }
+            ],
+            "endTime": 1674737727468,
+            "message": "",
+            "name": "/home/flakie/package/resources/plugins/calculator/calculator.spec.js",
+            "startTime": 1674737723169,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "bookmarks"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "bookmarks should return something with options supplied",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return something with options supplied"
+                },
+                {
+                    "ancestorTitles": [
+                        "bookmarks"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "bookmarks should return something with missing options",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return something with missing options"
+                },
+                {
+                    "ancestorTitles": [
+                        "bookmarks"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "bookmarks should retrieve no bookmarks",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should retrieve no bookmarks"
+                }
+            ],
+            "endTime": 1674737727472,
+            "message": "",
+            "name": "/home/flakie/package/resources/plugins/bookmarks/bookmarks.spec.js",
+            "startTime": 1674737722070,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "browser"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "browser should return google.com",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return google.com"
+                },
+                {
+                    "ancestorTitles": [
+                        "browser"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "browser should return github.com",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return github.com"
+                },
+                {
+                    "ancestorTitles": [
+                        "browser"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "browser should return http://insecure-site.com",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return http://insecure-site.com"
+                },
+                {
+                    "ancestorTitles": [
+                        "browser"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "browser should support URL's with paths",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should support URL's with paths"
+                },
+                {
+                    "ancestorTitles": [
+                        "browser"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "browser should use the top-level domain for the letter icon in subdomains",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should use the top-level domain for the letter icon in subdomains"
+                }
+            ],
+            "endTime": 1674737727380,
+            "message": "",
+            "name": "/home/flakie/package/resources/plugins/browser/browser.spec.js",
+            "startTime": 1674737722168,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "app/main/actions/open",
+                        "with arg"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "app/main/actions/open with arg should call `shell.openItem`",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should call `shell.openItem`"
+                },
+                {
+                    "ancestorTitles": [
+                        "app/main/actions/open",
+                        "with arg"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "app/main/actions/open with arg should call `shell.openItem` with `bar",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should call `shell.openItem` with `bar"
+                },
+                {
+                    "ancestorTitles": [
+                        "app/main/actions/open",
+                        "without arg"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "app/main/actions/open without arg should not call `shell.openItem`",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should not call `shell.openItem`"
+                }
+            ],
+            "endTime": 1674737727772,
+            "message": "",
+            "name": "/home/flakie/package/app/main/actions/open/open.spec.js",
+            "startTime": 1674737722079,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "calculator"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "calculator should return something",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return something"
+                },
+                {
+                    "ancestorTitles": [
+                        "calculator"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "calculator should return nothing",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return nothing"
+                }
+            ],
+            "endTime": 1674737727877,
+            "message": "",
+            "name": "/home/flakie/package/resources/plugins/about/about.spec.js",
+            "startTime": 1674737722778,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "debounce"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "debounce should debounce a function",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should debounce a function"
+                },
+                {
+                    "ancestorTitles": [
+                        "hasOwnProp"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "hasOwnProp should check for the property",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should check for the property"
+                },
+                {
+                    "ancestorTitles": [
+                        "hasOwnProp"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "hasOwnProp should check for a deeply nested property",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should check for a deeply nested property"
+                },
+                {
+                    "ancestorTitles": [
+                        "getOwnProp"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "getOwnProp should retrieve the property",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should retrieve the property"
+                },
+                {
+                    "ancestorTitles": [
+                        "getOwnProp"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "getOwnProp should retrieve a deeply nested property",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should retrieve a deeply nested property"
+                }
+            ],
+            "endTime": 1674737727979,
+            "message": "",
+            "name": "/home/flakie/package/app/main/utils/helpers/helpers.spec.js",
+            "startTime": 1674737722665,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "app/main/actions/openurl"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "app/main/actions/openurl should open the url in a new window",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should open the url in a new window"
+                }
+            ],
+            "endTime": 1674737727977,
+            "message": "",
+            "name": "/home/flakie/package/app/main/actions/openurl/openurl.spec.js",
+            "startTime": 1674737722371,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "app/main/actions"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "app/main/actions should fork an absolute script",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should fork an absolute script"
+                },
+                {
+                    "ancestorTitles": [
+                        "app/main/actions"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "app/main/actions should fork a relative URL",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should fork a relative URL"
+                }
+            ],
+            "endTime": 1674737728167,
+            "message": "",
+            "name": "/home/flakie/package/app/main/actions/exec/exec.spec.js",
+            "startTime": 1674737722870,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "app/main/actions/copy",
+                        "with arg"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "app/main/actions/copy with arg should call `writeText`",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should call `writeText`"
+                },
+                {
+                    "ancestorTitles": [
+                        "app/main/actions/copy",
+                        "with arg"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "app/main/actions/copy with arg should call `writeText` with `bar`",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should call `writeText` with `bar`"
+                },
+                {
+                    "ancestorTitles": [
+                        "app/main/actions/copy",
+                        "without arg"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "app/main/actions/copy without arg should not call `writeText`",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should not call `writeText`"
+                }
+            ],
+            "endTime": 1674737728382,
+            "message": "",
+            "name": "/home/flakie/package/app/main/actions/copy/copy.spec.js",
+            "startTime": 1674737723271,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "<QueryField /> component"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<QueryField /> component should render a query field component with no value",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render a query field component with no value"
+                },
+                {
+                    "ancestorTitles": [
+                        "<QueryField /> component"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<QueryField /> component should render a query field component with some value",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render a query field component with some value"
+                }
+            ],
+            "endTime": 1674737728466,
+            "message": "",
+            "name": "/home/flakie/package/app/renderer/src/components/query-field/query-field.spec.js",
+            "startTime": 1674737722180,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "<ResultItem /> component"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<ResultItem /> component should render a result item component with a text icon",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render a result item component with a text icon"
+                },
+                {
+                    "ancestorTitles": [
+                        "<ResultItem /> component"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<ResultItem /> component should render a result item component with a file icon",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render a result item component with a file icon"
+                },
+                {
+                    "ancestorTitles": [
+                        "<ResultItem /> component"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<ResultItem /> component should render a result item component in a selected state",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should render a result item component in a selected state"
+                }
+            ],
+            "endTime": 1674737728608,
+            "message": "",
+            "name": "/home/flakie/package/app/renderer/src/components/result-item/result-item.spec.js",
+            "startTime": 1674737722073,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "core plugins"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core plugins should retrieve a list of core plugin paths",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should retrieve a list of core plugin paths"
+                },
+                {
+                    "ancestorTitles": [
+                        "core plugins"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core plugins should be a core plugin",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should be a core plugin"
+                },
+                {
+                    "ancestorTitles": [
+                        "core plugins"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core plugins should not be a core plugin",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should not be a core plugin"
+                },
+                {
+                    "ancestorTitles": [
+                        "core plugins"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "core plugins should load all core plugins",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should load all core plugins"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin metadata"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin metadata should apply additional meta data to a items",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should apply additional meta data to a items"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin metadata"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin metadata should allow for base64 icons",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should allow for base64 icons"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin results"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin results should query for results for the given plugin",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should query for results for the given plugin"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin helper"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin helper should query for helpers for the given plugin (no helper)",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should query for helpers for the given plugin (no helper)"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin helper"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin helper should query for helpers for the given plugin (Object)",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should query for helpers for the given plugin (Object)"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin helper"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin helper should query for helpers for the given plugin (Function)",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should query for helpers for the given plugin (Function)"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin helper"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin helper should query for helpers for the given plugin (Promise)",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should query for helpers for the given plugin (Promise)"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin helper"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin helper should query for helpers for the given plugin containing multiple items (Object)",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should query for helpers for the given plugin containing multiple items (Object)"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin helper"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin helper should query for helpers for the given plugin containing multiple items (Function)",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should query for helpers for the given plugin containing multiple items (Function)"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin helper"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin helper should query for helpers for the given plugin containing multiple items (Promise)",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should query for helpers for the given plugin containing multiple items (Promise)"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin details pane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin details pane should retrieve the item's detail pane content (String)",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should retrieve the item's detail pane content (String)"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin details pane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin details pane should retrieve the item's detail pane content (Function)",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should retrieve the item's detail pane content (Function)"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin details pane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin details pane should retrieve the item's detail pane content (Promise)",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should retrieve the item's detail pane content (Promise)"
+                },
+                {
+                    "ancestorTitles": [
+                        "plugin details pane"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "plugin details pane should retrieve the item's details pane content as markdown",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should retrieve the item's details pane content as markdown"
+                }
+            ],
+            "endTime": 1674737728699,
+            "message": "",
+            "name": "/home/flakie/package/app/main/plugins/plugins.spec.js",
+            "startTime": 1674737721872,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "conf"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "conf should have nothing set",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should have nothing set"
+                },
+                {
+                    "ancestorTitles": [
+                        "conf"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "conf should set `foo` to `bar`",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should set `foo` to `bar`"
+                },
+                {
+                    "ancestorTitles": [
+                        "conf"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "conf shold clear the store",
+                    "location": null,
+                    "status": "passed",
+                    "title": "shold clear the store"
+                }
+            ],
+            "endTime": 1674737728729,
+            "message": "",
+            "name": "/home/flakie/package/app/main/utils/conf/conf.spec.js",
+            "startTime": 1674737725463,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

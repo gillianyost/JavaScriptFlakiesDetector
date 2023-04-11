@@ -1,0 +1,151 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 4,
+    "numPassedTests": 9,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTotalTestSuites": 4,
+    "numTotalTests": 9,
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 2,
+        "total": 2,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674713401900,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Spreadsheet"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Spreadsheet Renders a spreadsheet",
+                    "status": "passed",
+                    "title": "Renders a spreadsheet"
+                }
+            ],
+            "endTime": 1674713402359,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/spreadsheet-test.js",
+            "startTime": 1674713402103,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Cell"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Cell Renders a cell",
+                    "status": "passed",
+                    "title": "Renders a cell"
+                }
+            ],
+            "endTime": 1674713402383,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/cell-test.js",
+            "startTime": 1674713402364,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Row"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Row Renders a row",
+                    "status": "passed",
+                    "title": "Renders a row"
+                }
+            ],
+            "endTime": 1674713402400,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/row-test.js",
+            "startTime": 1674713402385,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Helpers"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Helpers Correctly finds the first element in an array",
+                    "status": "passed",
+                    "title": "Correctly finds the first element in an array"
+                },
+                {
+                    "ancestorTitles": [
+                        "Helpers"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Helpers Correctly finds the first element in an array",
+                    "status": "passed",
+                    "title": "Correctly finds the first element in an array"
+                },
+                {
+                    "ancestorTitles": [
+                        "Helpers"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Helpers Correctly identifies two cells as equal",
+                    "status": "passed",
+                    "title": "Correctly identifies two cells as equal"
+                },
+                {
+                    "ancestorTitles": [
+                        "Helpers"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Helpers Correctly identifies two cells as unequal",
+                    "status": "passed",
+                    "title": "Correctly identifies two cells as unequal"
+                },
+                {
+                    "ancestorTitles": [
+                        "Helpers"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Helpers Correctly counts with letters",
+                    "status": "passed",
+                    "title": "Correctly counts with letters"
+                },
+                {
+                    "ancestorTitles": [
+                        "Helpers"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Helpers Correctly makes a spreadsheet id",
+                    "status": "passed",
+                    "title": "Correctly makes a spreadsheet id"
+                }
+            ],
+            "endTime": 1674713402413,
+            "message": "",
+            "name": "/home/flakie/package/src/__tests__/helpers-test.js",
+            "startTime": 1674713402404,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

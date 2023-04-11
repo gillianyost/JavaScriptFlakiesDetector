@@ -1,0 +1,1273 @@
+{
+    "numFailedTestSuites": 5,
+    "numFailedTests": 1,
+    "numPassedTestSuites": 17,
+    "numPassedTests": 95,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 4,
+    "numTodoTests": 2,
+    "numTotalTestSuites": 22,
+    "numTotalTests": 98,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 49,
+        "total": 49,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674631973366,
+    "success": false,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "generateID"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "generateID is unique",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is unique"
+                },
+                {
+                    "ancestorTitles": [
+                        "generateID"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "generateID seed generates different ID",
+                    "location": null,
+                    "status": "passed",
+                    "title": "seed generates different ID"
+                },
+                {
+                    "ancestorTitles": [
+                        "generateID"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "generateID hardcoded seed generates same ID",
+                    "location": null,
+                    "status": "passed",
+                    "title": "hardcoded seed generates same ID"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeColorFromCSS"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeColorFromCSS works with hex colors",
+                    "location": null,
+                    "status": "passed",
+                    "title": "works with hex colors"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeColorFromCSS"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeColorFromCSS works with named colors",
+                    "location": null,
+                    "status": "passed",
+                    "title": "works with named colors"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeColorFromCSS"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeColorFromCSS is case-insensitive",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is case-insensitive"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeColorFromCSS"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeColorFromCSS works with rgb colors",
+                    "location": null,
+                    "status": "passed",
+                    "title": "works with rgb colors"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeColorFromCSS"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeColorFromCSS works with rgba colors",
+                    "location": null,
+                    "status": "passed",
+                    "title": "works with rgba colors"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeColorFromCSS"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeColorFromCSS multiplies rgba components with an alpha",
+                    "location": null,
+                    "status": "passed",
+                    "title": "multiplies rgba components with an alpha"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeColorFromCSS"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeColorFromCSS works with hsl colors",
+                    "location": null,
+                    "status": "passed",
+                    "title": "works with hsl colors"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeColorFromCSS"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeColorFromCSS works with hsla colors",
+                    "location": null,
+                    "status": "passed",
+                    "title": "works with hsla colors"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeColorFill"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeColorFill sets the correct color",
+                    "location": null,
+                    "status": "passed",
+                    "title": "sets the correct color"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeRect"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeRect is correctly constructed",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is correctly constructed"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeSymbolInstance"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeSymbolInstance is correctly constructed",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is correctly constructed"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeSymbolMaster"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeSymbolMaster is correctly constructed",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is correctly constructed"
+                }
+            ],
+            "endTime": 1674632036976,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/jsonUtils/models.ts",
+            "startTime": 1674631980276,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "makeRectPath"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeRectPath is correctly constructed",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is correctly constructed"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeShapePath"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeShapePath is correctly constructed",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is correctly constructed"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeRectShapeLayer"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeRectShapeLayer is correctly constructed",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is correctly constructed"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeShapeGroup"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeShapeGroup is correctly constructed",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is correctly constructed"
+                }
+            ],
+            "endTime": 1674632040976,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/jsonUtils/shapeLayers.ts",
+            "startTime": 1674631977476,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674632061168,
+            "message": "  \u25cf Test suite failed to run\n\n    Module did not self-register: '/home/flakie/package/node_modules/node-sketch-bridge/build/Release/node_sketch_bridge.node'.\n\n      at Runtime._loadModule (node_modules/jest-runtime/build/index.js:800:29)\n      at load (node_modules/node-gyp-build/index.js:19:10)\n      at Object.<anonymous> (node_modules/node-sketch-bridge/index.js:1:42)\n",
+            "name": "/home/flakie/package/__tests__/jest/sharedStyles/TextStyles.ts",
+            "startTime": 1674632061168,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "makeBorderOptions"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeBorderOptions makes solid borders",
+                    "location": null,
+                    "status": "passed",
+                    "title": "makes solid borders"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeBorderOptions"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeBorderOptions makes dotted borders",
+                    "location": null,
+                    "status": "passed",
+                    "title": "makes dotted borders"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeBorderOptions"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeBorderOptions makes dashed borders",
+                    "location": null,
+                    "status": "passed",
+                    "title": "makes dashed borders"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeShadow"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeShadow has sensible defaults",
+                    "location": null,
+                    "status": "passed",
+                    "title": "has sensible defaults"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeShadow"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeShadow passes through props",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passes through props"
+                },
+                {
+                    "ancestorTitles": [
+                        "makeShadow"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "makeShadow combines rgba alpha & shadowOpacity",
+                    "location": null,
+                    "status": "passed",
+                    "title": "combines rgba alpha & shadowOpacity"
+                }
+            ],
+            "endTime": 1674632044363,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/jsonUtils/style.ts",
+            "startTime": 1674631979673,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "<View />"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<View /> passes its children",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passes its children"
+                },
+                {
+                    "ancestorTitles": [
+                        "<View />",
+                        "name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<View /> name passes its name",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passes its name"
+                },
+                {
+                    "ancestorTitles": [
+                        "<View />",
+                        "name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<View /> name defaults to View",
+                    "location": null,
+                    "status": "passed",
+                    "title": "defaults to View"
+                },
+                {
+                    "ancestorTitles": [
+                        "<View />",
+                        "style"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<View /> style accepts a plain object",
+                    "location": null,
+                    "status": "passed",
+                    "title": "accepts a plain object"
+                },
+                {
+                    "ancestorTitles": [
+                        "<View />",
+                        "style"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<View /> style accepts a StyleSheet ordinal",
+                    "location": null,
+                    "status": "passed",
+                    "title": "accepts a StyleSheet ordinal"
+                },
+                {
+                    "ancestorTitles": [
+                        "<View />",
+                        "style"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<View /> style accepts an array of plain objects and/or StyleSheet ordinals",
+                    "location": null,
+                    "status": "passed",
+                    "title": "accepts an array of plain objects and/or StyleSheet ordinals"
+                }
+            ],
+            "endTime": 1674632044676,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/components/View.tsx",
+            "startTime": 1674631982872,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Compute Text Tree"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Compute Text Tree correctly handle Text nodes",
+                    "location": null,
+                    "status": "passed",
+                    "title": "correctly handle Text nodes"
+                }
+            ],
+            "endTime": 1674632045075,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/jsonUtils/computeTextTree.ts",
+            "startTime": 1674632041272,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "<Text />"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Text /> passes its children",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passes its children"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Text />",
+                        "name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Text /> name passes its name",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passes its name"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Text />",
+                        "name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Text /> name defaults to Text",
+                    "location": null,
+                    "status": "passed",
+                    "title": "defaults to Text"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Text />",
+                        "style"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Text /> style accepts a plain object",
+                    "location": null,
+                    "status": "passed",
+                    "title": "accepts a plain object"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Text />",
+                        "style"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Text /> style accepts a StyleSheet ordinal",
+                    "location": null,
+                    "status": "passed",
+                    "title": "accepts a StyleSheet ordinal"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Text />",
+                        "style"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Text /> style accepts an array of plain objects and/or StyleSheet ordinals",
+                    "location": null,
+                    "status": "passed",
+                    "title": "accepts an array of plain objects and/or StyleSheet ordinals"
+                }
+            ],
+            "endTime": 1674632045568,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/components/Text.tsx",
+            "startTime": 1674631979678,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "layer group"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "layer group is correctly constructed",
+                    "location": null,
+                    "status": "passed",
+                    "title": "is correctly constructed"
+                }
+            ],
+            "endTime": 1674632046368,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/jsonUtils/layerGroup.ts",
+            "startTime": 1674632044771,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "isNullOrUndefined"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "isNullOrUndefined correctly identify null",
+                    "location": null,
+                    "status": "passed",
+                    "title": "correctly identify null"
+                },
+                {
+                    "ancestorTitles": [
+                        "isNullOrUndefined"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "isNullOrUndefined correctly identify undefined",
+                    "location": null,
+                    "status": "passed",
+                    "title": "correctly identify undefined"
+                },
+                {
+                    "ancestorTitles": [
+                        "isNullOrUndefined"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "isNullOrUndefined correctly identify zero (0)",
+                    "location": null,
+                    "status": "passed",
+                    "title": "correctly identify zero (0)"
+                }
+            ],
+            "endTime": 1674632046865,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/utils/isDefined.ts",
+            "startTime": 1674632044368,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [],
+                    "failureMessages": [],
+                    "fullName": "simple example",
+                    "location": null,
+                    "status": "passed",
+                    "title": "simple example"
+                }
+            ],
+            "endTime": 1674632047172,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/utils/sortObjectKeys.ts",
+            "startTime": 1674632045575,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "zIndex"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "zIndex correctly resort zIndex",
+                    "location": null,
+                    "status": "passed",
+                    "title": "correctly resort zIndex"
+                },
+                {
+                    "ancestorTitles": [
+                        "zIndex"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "zIndex correctly add original index to returned objects ",
+                    "location": null,
+                    "status": "passed",
+                    "title": "correctly add original index to returned objects "
+                },
+                {
+                    "ancestorTitles": [
+                        "zIndex"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "zIndex correctly resort zIndexes that are all the same",
+                    "location": null,
+                    "status": "passed",
+                    "title": "correctly resort zIndexes that are all the same"
+                }
+            ],
+            "endTime": 1674632048268,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/utils/zIndex.ts",
+            "startTime": 1674631986063,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "<Document />"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Document /> renders children",
+                    "location": null,
+                    "status": "passed",
+                    "title": "renders children"
+                }
+            ],
+            "endTime": 1674632049180,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/components/Document.tsx",
+            "startTime": 1674632045372,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "<Page />"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Page /> renders children",
+                    "location": null,
+                    "status": "passed",
+                    "title": "renders children"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Page />",
+                        "name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Page /> name passes its name",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passes its name"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Page />",
+                        "name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Page /> name passes its name and avoids Symbol page conflict",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passes its name and avoids Symbol page conflict"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Page />",
+                        "name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Page /> name passes otherProps",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passes otherProps"
+                }
+            ],
+            "endTime": 1674632049675,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/components/Page.tsx",
+            "startTime": 1674632041677,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "<RedBox />"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<RedBox /> renders simple errors",
+                    "location": null,
+                    "status": "passed",
+                    "title": "renders simple errors"
+                },
+                {
+                    "ancestorTitles": [
+                        "<RedBox />"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<RedBox /> renders string errors",
+                    "location": null,
+                    "status": "passed",
+                    "title": "renders string errors"
+                }
+            ],
+            "endTime": 1674632050166,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/components/RedBox.tsx",
+            "startTime": 1674632037771,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "<Svg />"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Svg /> passes its children",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passes its children"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Svg />"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Svg /> also works when child is directly imported",
+                    "location": null,
+                    "status": "passed",
+                    "title": "also works when child is directly imported"
+                }
+            ],
+            "endTime": 1674632052867,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/components/Svg.tsx",
+            "startTime": 1674631978667,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "<Image />"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> renders children",
+                    "location": null,
+                    "status": "passed",
+                    "title": "renders children"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> flattens its stylesheet",
+                    "location": null,
+                    "status": "todo",
+                    "title": "flattens its stylesheet"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> name passes its name",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passes its name"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> name defaults to Image",
+                    "location": null,
+                    "status": "passed",
+                    "title": "defaults to Image"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "resizeMode"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> resizeMode translates contain",
+                    "location": null,
+                    "status": "passed",
+                    "title": "translates contain"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "resizeMode"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> resizeMode translates cover",
+                    "location": null,
+                    "status": "passed",
+                    "title": "translates cover"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "resizeMode"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> resizeMode translates stretch",
+                    "location": null,
+                    "status": "passed",
+                    "title": "translates stretch"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "resizeMode"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> resizeMode translates center",
+                    "location": null,
+                    "status": "passed",
+                    "title": "translates center"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "resizeMode"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> resizeMode translates repeat",
+                    "location": null,
+                    "status": "passed",
+                    "title": "translates repeat"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "resizeMode"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> resizeMode translates none",
+                    "location": null,
+                    "status": "passed",
+                    "title": "translates none"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "resizeMode"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> resizeMode falls back to cover",
+                    "location": null,
+                    "status": "passed",
+                    "title": "falls back to cover"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "resizeMode"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> resizeMode prefers prop to style",
+                    "location": null,
+                    "status": "passed",
+                    "title": "prefers prop to style"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "resizeMode"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> resizeMode falls back to a resizeMode from style",
+                    "location": null,
+                    "status": "passed",
+                    "title": "falls back to a resizeMode from style"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "source"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> source prefers source over defaultSource",
+                    "location": null,
+                    "status": "passed",
+                    "title": "prefers source over defaultSource"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "source"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> source falls back to defaultSource if available",
+                    "location": null,
+                    "status": "passed",
+                    "title": "falls back to defaultSource if available"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "source"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> source sets height from source",
+                    "location": null,
+                    "status": "passed",
+                    "title": "sets height from source"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "source"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> source sets width from source",
+                    "location": null,
+                    "status": "passed",
+                    "title": "sets width from source"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "source"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> source favors style over source for height",
+                    "location": null,
+                    "status": "passed",
+                    "title": "favors style over source for height"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "source"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> source favors style over source for width",
+                    "location": null,
+                    "status": "passed",
+                    "title": "favors style over source for width"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "style"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> style accepts a plain object",
+                    "location": null,
+                    "status": "passed",
+                    "title": "accepts a plain object"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "style"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> style accepts a StyleSheet ordinal",
+                    "location": null,
+                    "status": "passed",
+                    "title": "accepts a StyleSheet ordinal"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Image />",
+                        "style"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Image /> style accepts an array of plain objects and/or StyleSheet ordinals",
+                    "location": null,
+                    "status": "passed",
+                    "title": "accepts an array of plain objects and/or StyleSheet ordinals"
+                }
+            ],
+            "endTime": 1674632055065,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/components/Image.tsx",
+            "startTime": 1674631981772,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "<Artboard />"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Artboard /> renders children",
+                    "location": null,
+                    "status": "passed",
+                    "title": "renders children"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Artboard />"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Artboard /> flattens its stylesheet",
+                    "location": null,
+                    "status": "todo",
+                    "title": "flattens its stylesheet"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Artboard />",
+                        "name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Artboard /> name passes its name",
+                    "location": null,
+                    "status": "passed",
+                    "title": "passes its name"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Artboard />",
+                        "name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Artboard /> name defaults to Artboard",
+                    "location": null,
+                    "status": "passed",
+                    "title": "defaults to Artboard"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Artboard />",
+                        "style"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Artboard /> style accepts a plain object",
+                    "location": null,
+                    "status": "passed",
+                    "title": "accepts a plain object"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Artboard />",
+                        "style"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Artboard /> style accepts a StyleSheet ordinal",
+                    "location": null,
+                    "status": "passed",
+                    "title": "accepts a StyleSheet ordinal"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Artboard />",
+                        "style"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Artboard /> style accepts an array of plain objects and/or StyleSheet ordinals",
+                    "location": null,
+                    "status": "passed",
+                    "title": "accepts an array of plain objects and/or StyleSheet ordinals"
+                },
+                {
+                    "ancestorTitles": [
+                        "<Artboard />",
+                        "style"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "<Artboard /> style accepts artboard viewport preset",
+                    "location": null,
+                    "status": "passed",
+                    "title": "accepts artboard viewport preset"
+                }
+            ],
+            "endTime": 1674632055067,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/components/Artboard.tsx",
+            "startTime": 1674631982769,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674632061168,
+            "message": "  \u25cf Test suite failed to run\n\n    Module did not self-register: '/home/flakie/package/node_modules/node-sketch-bridge/build/Release/node_sketch_bridge.node'.\n\n      at Runtime._loadModule (node_modules/jest-runtime/build/index.js:800:29)\n      at load (node_modules/node-gyp-build/index.js:19:10)\n      at Object.<anonymous> (node_modules/node-sketch-bridge/index.js:1:42)\n",
+            "name": "/home/flakie/package/__tests__/jest/jsonUtils/computeYogaNode.ts",
+            "startTime": 1674632061168,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674632061168,
+            "message": "  \u25cf Test suite failed to run\n\n    Module did not self-register: '/home/flakie/package/node_modules/node-sketch-bridge/build/Release/node_sketch_bridge.node'.\n\n      at Runtime._loadModule (node_modules/jest-runtime/build/index.js:800:29)\n      at load (node_modules/node-gyp-build/index.js:19:10)\n      at Object.<anonymous> (node_modules/node-sketch-bridge/index.js:1:42)\n",
+            "name": "/home/flakie/package/__tests__/jest/reactTreeToFlexTree.ts",
+            "startTime": 1674632061168,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [],
+            "coverage": {},
+            "endTime": 1674632061168,
+            "message": "  \u25cf Test suite failed to run\n\n    Module did not self-register: '/home/flakie/package/node_modules/node-sketch-bridge/build/Release/node_sketch_bridge.node'.\n\n      at Runtime._loadModule (node_modules/jest-runtime/build/index.js:800:29)\n      at load (node_modules/node-gyp-build/index.js:19:10)\n      at Object.<anonymous> (node_modules/node-sketch-bridge/index.js:1:42)\n",
+            "name": "/home/flakie/package/__tests__/jest/jsonUtils/computeYogaTree.ts",
+            "startTime": 1674632061168,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "public API"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "public API exports render",
+                    "location": null,
+                    "status": "passed",
+                    "title": "exports render"
+                },
+                {
+                    "ancestorTitles": [
+                        "public API"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "public API exports renderToJSON",
+                    "location": null,
+                    "status": "passed",
+                    "title": "exports renderToJSON"
+                },
+                {
+                    "ancestorTitles": [
+                        "public API"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "public API exports StyleSheet",
+                    "location": null,
+                    "status": "passed",
+                    "title": "exports StyleSheet"
+                },
+                {
+                    "ancestorTitles": [
+                        "public API"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "public API exports Document",
+                    "location": null,
+                    "status": "passed",
+                    "title": "exports Document"
+                },
+                {
+                    "ancestorTitles": [
+                        "public API"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "public API exports Page",
+                    "location": null,
+                    "status": "passed",
+                    "title": "exports Page"
+                },
+                {
+                    "ancestorTitles": [
+                        "public API"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "public API exports Artboard",
+                    "location": null,
+                    "status": "passed",
+                    "title": "exports Artboard"
+                },
+                {
+                    "ancestorTitles": [
+                        "public API"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "public API exports Image",
+                    "location": null,
+                    "status": "passed",
+                    "title": "exports Image"
+                },
+                {
+                    "ancestorTitles": [
+                        "public API"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "public API exports RedBox",
+                    "location": null,
+                    "status": "passed",
+                    "title": "exports RedBox"
+                },
+                {
+                    "ancestorTitles": [
+                        "public API"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "public API exports Text",
+                    "location": null,
+                    "status": "passed",
+                    "title": "exports Text"
+                },
+                {
+                    "ancestorTitles": [
+                        "public API"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "public API exports TextStyles",
+                    "location": null,
+                    "status": "passed",
+                    "title": "exports TextStyles"
+                },
+                {
+                    "ancestorTitles": [
+                        "public API"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "public API exports View",
+                    "location": null,
+                    "status": "passed",
+                    "title": "exports View"
+                },
+                {
+                    "ancestorTitles": [
+                        "public API"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "public API exports Platform",
+                    "location": null,
+                    "status": "passed",
+                    "title": "exports Platform"
+                }
+            ],
+            "endTime": 1674632060681,
+            "message": "",
+            "name": "/home/flakie/package/__tests__/jest/index.ts",
+            "startTime": 1674631986575,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "node <Svg />"
+                    ],
+                    "failureMessages": [
+                        "Error: Module did not self-register: '/home/flakie/package/node_modules/node-sketch-bridge/build/Release/node_sketch_bridge.node'.\n    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1144:18)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:93:18)\n    at Runtime._loadModule (/home/flakie/package/node_modules/jest-runtime/build/index.js:800:29)\n    at Runtime.requireModule (/home/flakie/package/node_modules/jest-runtime/build/index.js:662:10)\n    at Runtime.requireModuleOrMock (/home/flakie/package/node_modules/jest-runtime/build/index.js:826:21)\n    at load (/home/flakie/package/node_modules/node-gyp-build/index.js:19:10)\n    at Object.<anonymous> (/home/flakie/package/node_modules/node-sketch-bridge/index.js:1:42)"
+                    ],
+                    "fullName": "node <Svg /> generates the json for an svg",
+                    "location": null,
+                    "status": "failed",
+                    "title": "generates the json for an svg"
+                }
+            ],
+            "endTime": 1674632060766,
+            "message": "  \u25cf node <Svg /> \u203a generates the json for an svg\n\n    Module did not self-register: '/home/flakie/package/node_modules/node-sketch-bridge/build/Release/node_sketch_bridge.node'.\n\n      at Runtime._loadModule (node_modules/jest-runtime/build/index.js:800:29)\n      at load (node_modules/node-gyp-build/index.js:19:10)\n      at Object.<anonymous> (node_modules/node-sketch-bridge/index.js:1:42)\n",
+            "name": "/home/flakie/package/__tests__/jest/components/nodeImpl/Svg.tsx",
+            "startTime": 1674631981676,
+            "status": "failed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}

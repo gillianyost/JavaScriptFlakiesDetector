@@ -1,0 +1,762 @@
+{
+    "numFailedTestSuites": 2,
+    "numFailedTests": 28,
+    "numPassedTestSuites": 4,
+    "numPassedTests": 33,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 6,
+    "numTotalTests": 61,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 1,
+        "total": 1,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1674629613064,
+    "success": false,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "@babel/preset-modern",
+                        "smoke test"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "@babel/preset-modern smoke test should assert Babel 7",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should assert Babel 7"
+                },
+                {
+                    "ancestorTitles": [
+                        "@babel/preset-modern",
+                        "smoke test"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "@babel/preset-modern smoke test should return a configuration object with plugins",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return a configuration object with plugins"
+                }
+            ],
+            "endTime": 1674629633473,
+            "message": "",
+            "name": "/home/flakie/package/test/smoke.test.js",
+            "startTime": 1674629620164,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "@babel/preset-modern transform-tagged-template-caching evaluation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "@babel/preset-modern transform-tagged-template-caching evaluation should pass same strings reference on repeated calls",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should pass same strings reference on repeated calls"
+                },
+                {
+                    "ancestorTitles": [
+                        "@babel/preset-modern transform-tagged-template-caching evaluation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "@babel/preset-modern transform-tagged-template-caching evaluation should pass different strings references for different callsites",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should pass different strings references for different callsites"
+                },
+                {
+                    "ancestorTitles": [
+                        "@babel/preset-modern transform-tagged-template-caching evaluation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "@babel/preset-modern transform-tagged-template-caching evaluation should pass different strings references for different callsites with same quasis",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should pass different strings references for different callsites with same quasis"
+                }
+            ],
+            "endTime": 1674629635971,
+            "message": "",
+            "name": "/home/flakie/package/test/tagged-template-eval.test.js",
+            "startTime": 1674629621172,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "Safari await negation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Safari await negation should ignore non-affected statements",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should ignore non-affected statements"
+                },
+                {
+                    "ancestorTitles": [
+                        "Safari await negation"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "Safari await negation should wrap negated await statements in parens",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should wrap negated await statements in parens"
+                }
+            ],
+            "endTime": 1674629636069,
+            "message": "",
+            "name": "/home/flakie/package/test/external/safari-await-negation.test.js",
+            "startTime": 1674629619867,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "package/transform async arrows in class"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-async-arrows-in-class/arguments/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  class Foo {\n    constructor() {\n      var _arguments = arguments;\n- \n      this.x = async function () {\n        return await _arguments[0];\n      };\n    }\n- \n  }\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform async arrows in class arguments",
+                    "location": null,
+                    "status": "failed",
+                    "title": "arguments"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform async arrows in class"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-async-arrows-in-class/async-arrow/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n@@ -2,11 +2,9 @@\n    constructor() {\n      this.x = async function () {\n        return await 1;\n      };\n    }\n- \n    bar() {\n      (async function () {})();\n    }\n- \n  }\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform async arrows in class async arrow",
+                    "location": null,
+                    "status": "failed",
+                    "title": "async arrow"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform async arrows in class"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-async-arrows-in-class/callback/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n@@ -2,7 +2,6 @@\n    foo() {\n      bar(async function () {\n        return await 1;\n      });\n    }\n- \n  }\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform async arrows in class callback",
+                    "location": null,
+                    "status": "failed",
+                    "title": "callback"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform async arrows in class"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-async-arrows-in-class/nested/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  class Foo {\n    constructor() {\n      var _this = this;\n- \n      this.x = () => async function () {\n        return await _this;\n      };\n    }\n- \n  }\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform async arrows in class nested",
+                    "location": null,
+                    "status": "failed",
+                    "title": "nested"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform async arrows in class"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-async-arrows-in-class/non-async-arrow/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  class Foo {\n    constructor() {\n      this.x = () => {};\n    }\n- \n  }\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform async arrows in class non async arrow",
+                    "location": null,
+                    "status": "failed",
+                    "title": "non async arrow"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform async arrows in class"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-async-arrows-in-class/this/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  class Foo {\n    constructor() {\n      var _this = this;\n- \n      this.x = async function () {\n        return await _this;\n      };\n    }\n- \n  }\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform async arrows in class this",
+                    "location": null,
+                    "status": "failed",
+                    "title": "this"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform edge default parameters"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform edge default parameters avoid collisions",
+                    "location": null,
+                    "status": "passed",
+                    "title": "avoid collisions"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform edge default parameters"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform edge default parameters default parameter",
+                    "location": null,
+                    "status": "passed",
+                    "title": "default parameter"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform edge default parameters"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform edge default parameters destructured default value",
+                    "location": null,
+                    "status": "passed",
+                    "title": "destructured default value"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform edge default parameters"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform edge default parameters destructured no default value",
+                    "location": null,
+                    "status": "passed",
+                    "title": "destructured no default value"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform edge default parameters"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform edge default parameters nested default value",
+                    "location": null,
+                    "status": "passed",
+                    "title": "nested default value"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform edge default parameters"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform edge default parameters non arguments",
+                    "location": null,
+                    "status": "passed",
+                    "title": "non arguments"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform edge function name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform edge function name arrows",
+                    "location": null,
+                    "status": "passed",
+                    "title": "arrows"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform edge function name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform edge function name const assignment",
+                    "location": null,
+                    "status": "passed",
+                    "title": "const assignment"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform edge function name"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform edge function name named function",
+                    "location": null,
+                    "status": "passed",
+                    "title": "named function"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform edge function name"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-edge-function-name/shadowed-reassignment/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  const a = function a() {\n    a;\n  };\n- \n  const _b = function b() {\n    _b = 1;\n  };\n- \n  const _c = function c() {\n    _c;\n  };\n- \n  _c = 1;\n- \n  const _d = function d() {\n    return function () {\n      return () => {\n        _d = 1;\n      };\n    };\n  };\n- \n  const _e = function e() {\n    _e;\n  };\n- \n  () => {\n    _e = 1;\n  };\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform edge function name shadowed reassignment",
+                    "location": null,
+                    "status": "failed",
+                    "title": "shadowed reassignment"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform jsx spread leading",
+                    "location": null,
+                    "status": "passed",
+                    "title": "leading"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform jsx spread lone",
+                    "location": null,
+                    "status": "passed",
+                    "title": "lone"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform jsx spread middle",
+                    "location": null,
+                    "status": "passed",
+                    "title": "middle"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform jsx spread multiple",
+                    "location": null,
+                    "status": "passed",
+                    "title": "multiple"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-jsx-spread/nested/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n- h(\"div\", { ...props\n- });\n+ h(\"div\", props);\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform jsx spread nested",
+                    "location": null,
+                    "status": "failed",
+                    "title": "nested"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform jsx spread none",
+                    "location": null,
+                    "status": "passed",
+                    "title": "none"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform jsx spread trailing",
+                    "location": null,
+                    "status": "passed",
+                    "title": "trailing"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread useSpread"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-jsx-spread-useSpread/leading/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n- h(\"div\", { ...props,\n+ function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n+ h(\"div\", _extends({}, props, {\n    b: \"hi\"\n- }, \"a\");\n+ }), \"a\");\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform jsx spread useSpread leading",
+                    "location": null,
+                    "status": "failed",
+                    "title": "leading"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread useSpread"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform jsx spread useSpread lone",
+                    "location": null,
+                    "status": "passed",
+                    "title": "lone"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread useSpread"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-jsx-spread-useSpread/middle/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n- h(\"div\", {\n-   a: 1,\n-   ...props,\n+ function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n+ h(\"div\", _extends({\n+   a: 1\n+ }, props, {\n    b: true\n- });\n+ }));\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform jsx spread useSpread middle",
+                    "location": null,
+                    "status": "failed",
+                    "title": "middle"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread useSpread"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-jsx-spread-useSpread/multiple/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n- h(\"div\", { ...a,\n-   ...b\n- });\n+ function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n+ h(\"div\", _extends({}, a, b));\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform jsx spread useSpread multiple",
+                    "location": null,
+                    "status": "failed",
+                    "title": "multiple"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread useSpread"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-jsx-spread-useSpread/nested/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n- h(\"div\", { ...props\n- });\n+ h(\"div\", props);\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform jsx spread useSpread nested",
+                    "location": null,
+                    "status": "failed",
+                    "title": "nested"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread useSpread"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform jsx spread useSpread none",
+                    "location": null,
+                    "status": "passed",
+                    "title": "none"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform jsx spread useSpread"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-jsx-spread-useSpread/trailing/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n- h(\"div\", {\n-   a: 1,\n-   ...props\n- });\n+ function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n+ h(\"div\", _extends({\n+   a: 1\n+ }, props));\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform jsx spread useSpread trailing",
+                    "location": null,
+                    "status": "failed",
+                    "title": "trailing"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform safari block shadowing"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-safari-block-shadowing/shadowed-block/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n@@ -5,38 +5,33 @@\n  a;\n  {\n    let _c;\n  }\n  let c;\n- \n  for (;;) {\n    let _c2;\n  }\n- \n  () => {\n    let c;\n    {\n      let _c3;\n- \n      let d;\n      {\n        let _c4;\n      }\n    }\n  };\n- \n  {\n    const {\n      a: _a2 = 1,\n      d = 2\n    } = {};\n    console.log(_a2, d);\n  }\n  {\n    let d;\n  }\n- \n  (function () {\n    try {\n      {\n        let _bar = 456;\n      }\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform safari block shadowing shadowed block",
+                    "location": null,
+                    "status": "failed",
+                    "title": "shadowed block"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform safari block shadowing"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-safari-block-shadowing/unshadowed/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  const a = 1;\n- \n  (() => {\n    const a = 2;\n    return a;\n  })();\n- \n  let c;\n- \n  () => {\n    let c;\n- \n    (() => {\n      let c;\n    })();\n  };\n- \n  (function () {\n    let c;\n  })();\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform safari block shadowing unshadowed",
+                    "location": null,
+                    "status": "failed",
+                    "title": "unshadowed"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform safari for shadowing"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-safari-for-shadowing/shadowed-for/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n@@ -1,23 +1,18 @@\n  const a = x => {\n    for (let _x of {}) _x;\n  };\n- \n  const b = x => {\n    for (const _x2 in []) _x2;\n  };\n- \n  const c = x => {\n    for (let _x3 = 0;;) _x3;\n  };\n- \n  const d = () => {\n    let x;\n- \n    for (let x of {}) x;\n  };\n- \n  const e = x => {\n    for (let _x4 of {}) {\n      let x;\n      x;\n    }\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform safari for shadowing shadowed for",
+                    "location": null,
+                    "status": "failed",
+                    "title": "shadowed for"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform safari for shadowing"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-safari-for-shadowing/unshadowed/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n@@ -1,21 +1,17 @@\n  const a = () => {\n    for (let x of {}) x;\n  };\n- \n  const b = () => {\n    for (const x in []) x;\n  };\n- \n  const c = () => {\n    for (let x = 0;;) x;\n  };\n- \n  const d = x => {\n    for (let y of {}) y;\n  };\n- \n  const e = x => {\n    for (let y of {}) {\n      let x;\n      x;\n    }\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform safari for shadowing unshadowed",
+                    "location": null,
+                    "status": "failed",
+                    "title": "unshadowed"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform tagged template caching"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/block-scoped-tag/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  let _ = t => t,\n-     _t;\n- \n+   _t;\n  for (let t of []) t(_t || (_t = _`a`));\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform tagged template caching block scoped tag",
+                    "location": null,
+                    "status": "failed",
+                    "title": "block scoped tag"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform tagged template caching"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/dynamic-expressions/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  let _ = t => t,\n-     _t;\n- \n+   _t;\n  const f = t => t(_t || (_t = _`a${0}b${0}${0}`), 1, t, [\"hello\"]);\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform tagged template caching dynamic expressions",
+                    "location": null,
+                    "status": "failed",
+                    "title": "dynamic expressions"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform tagged template caching"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/dynamic-tag/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  let _ = t => t,\n-     _t;\n- \n+   _t;\n  fn()(_t || (_t = _``));\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform tagged template caching dynamic tag",
+                    "location": null,
+                    "status": "failed",
+                    "title": "dynamic tag"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform tagged template caching"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/function-scoped-tag/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  let _ = t => t,\n-     _t;\n- \n+   _t;\n  const f = t => t(_t || (_t = _`a`));\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform tagged template caching function scoped tag",
+                    "location": null,
+                    "status": "failed",
+                    "title": "function scoped tag"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform tagged template caching"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/multiple-tags/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  let _ = t => t,\n-     _t,\n-     _t2;\n- \n+   _t,\n+   _t2;\n  t(_t || (_t = _`a`));\n  x(_t2 || (_t2 = _``));\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform tagged template caching multiple tags",
+                    "location": null,
+                    "status": "failed",
+                    "title": "multiple tags"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform tagged template caching"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/prevent-tag-collision/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  let _2 = t => t,\n-     _t;\n- \n+   _t;\n  const _ = 1;\n  t(_t || (_t = _2``));\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform tagged template caching prevent tag collision",
+                    "location": null,
+                    "status": "failed",
+                    "title": "prevent tag collision"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform tagged template caching"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/same-tag-safari-11/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  let _ = t => t,\n-     _t,\n-     _t2;\n- \n+   _t,\n+   _t2;\n  x(_t || (_t = _`a`)) === x(_t2 || (_t2 = _`a`));\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform tagged template caching same tag safari 11",
+                    "location": null,
+                    "status": "failed",
+                    "title": "same tag safari 11"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform tagged template caching"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/shared-strings-safari-11/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  let _ = t => t,\n-     _t,\n-     _t2;\n- \n+   _t,\n+   _t2;\n  x(_t || (_t = _`a`)) === y(_t2 || (_t2 = _`a`));\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform tagged template caching shared strings safari 11",
+                    "location": null,
+                    "status": "failed",
+                    "title": "shared strings safari 11"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform tagged template caching"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/single-tag/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  let _ = t => t,\n-     _t;\n- \n+   _t;\n  t(_t || (_t = _`a`));\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform tagged template caching single tag",
+                    "location": null,
+                    "status": "failed",
+                    "title": "single tag"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform tagged template caching"
+                    ],
+                    "failureMessages": [
+                        "Error: Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/single-tag-empty/output.js to match transform output.\nTo autogenerate a passing version of this file, delete the file and re-run the tests.\n\nDiff:\n\n- Expected\n+ Received\n\n  let _ = t => t,\n-     _t;\n- \n+   _t;\n  x(_t || (_t = _``));\n    at validateFile (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n    at /home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n    at _next (/home/flakie/package/node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+                    ],
+                    "fullName": "package/transform tagged template caching single tag empty",
+                    "location": null,
+                    "status": "failed",
+                    "title": "single tag empty"
+                },
+                {
+                    "ancestorTitles": [
+                        "package/transform tagged template caching"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "package/transform tagged template caching template literals",
+                    "location": null,
+                    "status": "passed",
+                    "title": "template literals"
+                }
+            ],
+            "endTime": 1674629650869,
+            "message": "  \u25cf package/transform async arrows in class \u203a arguments\n\n    Expected /home/flakie/package/test/fixtures/transform-async-arrows-in-class/arguments/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      class Foo {\n        constructor() {\n          var _arguments = arguments;\n    - \n          this.x = async function () {\n            return await _arguments[0];\n          };\n        }\n    - \n      }\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform async arrows in class \u203a async arrow\n\n    Expected /home/flakie/package/test/fixtures/transform-async-arrows-in-class/async-arrow/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n    @@ -2,11 +2,9 @@\n        constructor() {\n          this.x = async function () {\n            return await 1;\n          };\n        }\n    - \n        bar() {\n          (async function () {})();\n        }\n    - \n      }\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform async arrows in class \u203a callback\n\n    Expected /home/flakie/package/test/fixtures/transform-async-arrows-in-class/callback/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n    @@ -2,7 +2,6 @@\n        foo() {\n          bar(async function () {\n            return await 1;\n          });\n        }\n    - \n      }\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform async arrows in class \u203a nested\n\n    Expected /home/flakie/package/test/fixtures/transform-async-arrows-in-class/nested/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      class Foo {\n        constructor() {\n          var _this = this;\n    - \n          this.x = () => async function () {\n            return await _this;\n          };\n        }\n    - \n      }\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform async arrows in class \u203a non async arrow\n\n    Expected /home/flakie/package/test/fixtures/transform-async-arrows-in-class/non-async-arrow/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      class Foo {\n        constructor() {\n          this.x = () => {};\n        }\n    - \n      }\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform async arrows in class \u203a this\n\n    Expected /home/flakie/package/test/fixtures/transform-async-arrows-in-class/this/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      class Foo {\n        constructor() {\n          var _this = this;\n    - \n          this.x = async function () {\n            return await _this;\n          };\n        }\n    - \n      }\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform edge function name \u203a shadowed reassignment\n\n    Expected /home/flakie/package/test/fixtures/transform-edge-function-name/shadowed-reassignment/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      const a = function a() {\n        a;\n      };\n    - \n      const _b = function b() {\n        _b = 1;\n      };\n    - \n      const _c = function c() {\n        _c;\n      };\n    - \n      _c = 1;\n    - \n      const _d = function d() {\n        return function () {\n          return () => {\n            _d = 1;\n          };\n        };\n      };\n    - \n      const _e = function e() {\n        _e;\n      };\n    - \n      () => {\n        _e = 1;\n      };\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform jsx spread \u203a nested\n\n    Expected /home/flakie/package/test/fixtures/transform-jsx-spread/nested/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n    - h(\"div\", { ...props\n    - });\n    + h(\"div\", props);\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform jsx spread useSpread \u203a leading\n\n    Expected /home/flakie/package/test/fixtures/transform-jsx-spread-useSpread/leading/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n    - h(\"div\", { ...props,\n    + function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n    + h(\"div\", _extends({}, props, {\n        b: \"hi\"\n    - }, \"a\");\n    + }), \"a\");\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform jsx spread useSpread \u203a middle\n\n    Expected /home/flakie/package/test/fixtures/transform-jsx-spread-useSpread/middle/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n    - h(\"div\", {\n    -   a: 1,\n    -   ...props,\n    + function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n    + h(\"div\", _extends({\n    +   a: 1\n    + }, props, {\n        b: true\n    - });\n    + }));\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform jsx spread useSpread \u203a multiple\n\n    Expected /home/flakie/package/test/fixtures/transform-jsx-spread-useSpread/multiple/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n    - h(\"div\", { ...a,\n    -   ...b\n    - });\n    + function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n    + h(\"div\", _extends({}, a, b));\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform jsx spread useSpread \u203a nested\n\n    Expected /home/flakie/package/test/fixtures/transform-jsx-spread-useSpread/nested/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n    - h(\"div\", { ...props\n    - });\n    + h(\"div\", props);\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform jsx spread useSpread \u203a trailing\n\n    Expected /home/flakie/package/test/fixtures/transform-jsx-spread-useSpread/trailing/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n    - h(\"div\", {\n    -   a: 1,\n    -   ...props\n    - });\n    + function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n    + h(\"div\", _extends({\n    +   a: 1\n    + }, props));\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform safari block shadowing \u203a shadowed block\n\n    Expected /home/flakie/package/test/fixtures/transform-safari-block-shadowing/shadowed-block/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n    @@ -5,38 +5,33 @@\n      a;\n      {\n        let _c;\n      }\n      let c;\n    - \n      for (;;) {\n        let _c2;\n      }\n    - \n      () => {\n        let c;\n        {\n          let _c3;\n    - \n          let d;\n          {\n            let _c4;\n          }\n        }\n      };\n    - \n      {\n        const {\n          a: _a2 = 1,\n          d = 2\n        } = {};\n        console.log(_a2, d);\n      }\n      {\n        let d;\n      }\n    - \n      (function () {\n        try {\n          {\n            let _bar = 456;\n          }\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform safari block shadowing \u203a unshadowed\n\n    Expected /home/flakie/package/test/fixtures/transform-safari-block-shadowing/unshadowed/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      const a = 1;\n    - \n      (() => {\n        const a = 2;\n        return a;\n      })();\n    - \n      let c;\n    - \n      () => {\n        let c;\n    - \n        (() => {\n          let c;\n        })();\n      };\n    - \n      (function () {\n        let c;\n      })();\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform safari for shadowing \u203a shadowed for\n\n    Expected /home/flakie/package/test/fixtures/transform-safari-for-shadowing/shadowed-for/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n    @@ -1,23 +1,18 @@\n      const a = x => {\n        for (let _x of {}) _x;\n      };\n    - \n      const b = x => {\n        for (const _x2 in []) _x2;\n      };\n    - \n      const c = x => {\n        for (let _x3 = 0;;) _x3;\n      };\n    - \n      const d = () => {\n        let x;\n    - \n        for (let x of {}) x;\n      };\n    - \n      const e = x => {\n        for (let _x4 of {}) {\n          let x;\n          x;\n        }\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform safari for shadowing \u203a unshadowed\n\n    Expected /home/flakie/package/test/fixtures/transform-safari-for-shadowing/unshadowed/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n    @@ -1,21 +1,17 @@\n      const a = () => {\n        for (let x of {}) x;\n      };\n    - \n      const b = () => {\n        for (const x in []) x;\n      };\n    - \n      const c = () => {\n        for (let x = 0;;) x;\n      };\n    - \n      const d = x => {\n        for (let y of {}) y;\n      };\n    - \n      const e = x => {\n        for (let y of {}) {\n          let x;\n          x;\n        }\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform tagged template caching \u203a block scoped tag\n\n    Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/block-scoped-tag/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      let _ = t => t,\n    -     _t;\n    - \n    +   _t;\n      for (let t of []) t(_t || (_t = _`a`));\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform tagged template caching \u203a dynamic expressions\n\n    Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/dynamic-expressions/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      let _ = t => t,\n    -     _t;\n    - \n    +   _t;\n      const f = t => t(_t || (_t = _`a${0}b${0}${0}`), 1, t, [\"hello\"]);\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform tagged template caching \u203a dynamic tag\n\n    Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/dynamic-tag/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      let _ = t => t,\n    -     _t;\n    - \n    +   _t;\n      fn()(_t || (_t = _``));\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform tagged template caching \u203a function scoped tag\n\n    Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/function-scoped-tag/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      let _ = t => t,\n    -     _t;\n    - \n    +   _t;\n      const f = t => t(_t || (_t = _`a`));\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform tagged template caching \u203a multiple tags\n\n    Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/multiple-tags/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      let _ = t => t,\n    -     _t,\n    -     _t2;\n    - \n    +   _t,\n    +   _t2;\n      t(_t || (_t = _`a`));\n      x(_t2 || (_t2 = _``));\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform tagged template caching \u203a prevent tag collision\n\n    Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/prevent-tag-collision/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      let _2 = t => t,\n    -     _t;\n    - \n    +   _t;\n      const _ = 1;\n      t(_t || (_t = _2``));\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform tagged template caching \u203a same tag safari 11\n\n    Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/same-tag-safari-11/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      let _ = t => t,\n    -     _t,\n    -     _t2;\n    - \n    +   _t,\n    +   _t2;\n      x(_t || (_t = _`a`)) === x(_t2 || (_t2 = _`a`));\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform tagged template caching \u203a shared strings safari 11\n\n    Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/shared-strings-safari-11/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      let _ = t => t,\n    -     _t,\n    -     _t2;\n    - \n    +   _t,\n    +   _t2;\n      x(_t || (_t = _`a`)) === y(_t2 || (_t2 = _`a`));\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform tagged template caching \u203a single tag\n\n    Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/single-tag/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      let _ = t => t,\n    -     _t;\n    - \n    +   _t;\n      t(_t || (_t = _`a`));\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n\n  \u25cf package/transform tagged template caching \u203a single tag empty\n\n    Expected /home/flakie/package/test/fixtures/transform-tagged-template-caching/single-tag-empty/output.js to match transform output.\n    To autogenerate a passing version of this file, delete the file and re-run the tests.\n\n    Diff:\n\n    - Expected\n    + Received\n\n      let _ = t => t,\n    -     _t;\n    - \n    +   _t;\n      x(_t || (_t = _``));\n\n      at validateFile (node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:399:24)\n      at node_modules/@babel/helper-transform-fixture-test-runner/src/index.ts:350:9\n      at asyncGeneratorStep (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:33:103)\n      at _next (node_modules/@babel/helper-transform-fixture-test-runner/lib/index.js:35:194)\n",
+            "name": "/home/flakie/package/test/fixtures.test.js",
+            "startTime": 1674629620771,
+            "status": "failed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "@babel/preset-modules"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "@babel/preset-modules should assert Babel 7",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should assert Babel 7"
+                },
+                {
+                    "ancestorTitles": [
+                        "@babel/preset-modules"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "@babel/preset-modules should return a configuration object with plugins",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return a configuration object with plugins"
+                },
+                {
+                    "ancestorTitles": [
+                        "@babel/preset-modules"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "@babel/preset-modules should pass a smoke test",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should pass a smoke test"
+                },
+                {
+                    "ancestorTitles": [
+                        "@babel/preset-modules"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "@babel/preset-modules should produce minimal output",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should produce minimal output"
+                },
+                {
+                    "ancestorTitles": [
+                        "@babel/preset-modules"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "@babel/preset-modules should be smaller than preset-env default",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should be smaller than preset-env default"
+                },
+                {
+                    "ancestorTitles": [
+                        "@babel/preset-modules"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "@babel/preset-modules should be smaller than preset-env targets.esmodules",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should be smaller than preset-env targets.esmodules"
+                },
+                {
+                    "ancestorTitles": [
+                        "@babel/preset-modules"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "@babel/preset-modules should be smaller than preset-env targets.esmodules in loose mode",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should be smaller than preset-env targets.esmodules in loose mode"
+                }
+            ],
+            "endTime": 1674629659175,
+            "message": "",
+            "name": "/home/flakie/package/test/index.test.js",
+            "startTime": 1674629620077,
+            "status": "passed",
+            "summary": ""
+        },
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "integration"
+                    ],
+                    "failureMessages": [
+                        ": Timeout - Async callback was not invoked within the 30000ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 30000ms timeout specified by jest.setTimeout.Error: \n    at new Spec (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)\n    at new Spec (/home/flakie/package/node_modules/jest-jasmine2/build/setup_jest_globals.js:80:9)\n    at specFactory (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:575:24)\n    at Env.it (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:644:24)\n    at Env.it (/home/flakie/package/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:132:23)\n    at it (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:93:21)\n    at Suite.<anonymous> (/home/flakie/package/test/integration.test.js:68:5)\n    at addSpecsToSuite (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:496:51)\n    at Env.describe (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/Env.js:466:11)\n    at describe (/home/flakie/package/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:81:18)"
+                    ],
+                    "fullName": "integration should compile react-hooks-demo to less code than preset-env",
+                    "location": null,
+                    "status": "failed",
+                    "title": "should compile react-hooks-demo to less code than preset-env"
+                },
+                {
+                    "ancestorTitles": [
+                        "integration"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "integration should compile redux-todos to less code than preset-env",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should compile redux-todos to less code than preset-env"
+                }
+            ],
+            "endTime": 1674629690771,
+            "message": "  \u25cf integration \u203a should compile react-hooks-demo to less code than preset-env\n\n    : Timeout - Async callback was not invoked within the 30000ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 30000ms timeout specified by jest.setTimeout.Error:\n\n      66 |   for (const f of readdirSync(FIXTURES)) {\n      67 |     if (f[0] === \".\") continue;\n    > 68 |     it(\"should compile \" + f + \" to less code than preset-env\", async () => {\n         |     ^\n      69 |       const context = path.resolve(FIXTURES, f);\n      70 |       const before = await compile(context, {\n      71 |         presets: [\"@babel/preset-env\"],\n\n      at new Spec (node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)\n      at Suite.<anonymous> (test/integration.test.js:68:5)\n",
+            "name": "/home/flakie/package/test/integration.test.js",
+            "startTime": 1674629619878,
+            "status": "failed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}
